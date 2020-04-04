@@ -1,5 +1,6 @@
 #include <iostream>
 #include "sliding-window.h"
+#include "tree.h"
 
 using std::cout;
 using std::endl;
