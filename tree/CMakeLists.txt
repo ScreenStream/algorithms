@@ -4,6 +4,8 @@
  add_library(${TARGET_NAME}
          STATIC
          src/same-tree.cpp
-         src/symmetric-tree.cpp)
+         src/symmetric-tree.cpp
+         src/invert-binary-tree.cpp
+         src/subtree-another-tree.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

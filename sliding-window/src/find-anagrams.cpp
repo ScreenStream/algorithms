@@ -2,9 +2,7 @@
 #include <vector>
 
 /*
-https://leetcode.com/problems/find-all-anagrams-in-a-string/
-
-Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
+ * Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
 
 Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.
 
@@ -33,8 +31,7 @@ Explanation:
 The substring with start index = 0 is "ab", which is an anagram of "ab".
 The substring with start index = 1 is "ba", which is an anagram of "ab".
 The substring with start index = 2 is "ab", which is an anagram of "ab".
-
-*/
+ */
 
 std::vector<int> findAnagrams(const std::string& s, const std::string& p) {
     std::vector<int> res;
