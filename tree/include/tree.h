@@ -13,4 +13,10 @@ struct TreeNode
 };
 
 bool isSameTree(TreeNode* p, TreeNode* q);
+bool isSubtree(TreeNode* s, TreeNode* t);
 bool isSymmetric(TreeNode* root);
+TreeNode* invertTree(TreeNode* root);
+bool isValidBSTIterative(TreeNode* root);
+bool isValidBSTRecursive(TreeNode* root);
+std::vector<int> inorderTraversalIterative(TreeNode* root);
+std::vector<int> inorderTraversalRecursive(TreeNode* root);
