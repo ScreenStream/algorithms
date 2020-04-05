@@ -1,5 +1,4 @@
 #include "tree.h"
-#include <stack>
 
 bool isSymmetricHelper(TreeNode* p, TreeNode* q)
 {
@@ -17,7 +16,7 @@ bool isSymmetric(TreeNode* root) {
     return isSymmetricHelper(root->left, root->right);
 }
 
-bool isSymmetricIterative(TreeNode* root) {
+bool isSymmetricIterativeStack(TreeNode* root) {
     if(!root) return true;
 
     std::stack<TreeNode*> nodes;
@@ -40,5 +39,36 @@ bool isSymmetricIterative(TreeNode* root) {
     }
 
     return true;
+}
+
+bool isSymmetricIterativeQueue(TreeNode* root) {
+    if (!root) return true;
+    std::queue<TreeNode*> nodes;
+
+    nodes.push(root->left);
+    nodes.push(root->right);
+
+    while (!nodes.empty()) {
+        TreeNode* p = nodes.front();
+        nodes.pop();
+        TreeNode* q = nodes.front();
+        nodes.pop();
+
+        if (!p && q) return false;
+        if (!q && p) return false;
+
+        if (p && q) {
+            if (p->val != q->val)
+                return false;
+            
+            nodes.push(p->left);
+            nodes.push(q->right);
+            nodes.push(p->right);
+            nodes.push(q->left);
+        }
+    }
+
+    return true;
+
 }
 

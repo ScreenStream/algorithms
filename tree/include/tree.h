@@ -1,5 +1,9 @@
 #pragma once
 
+#include <stack>
+#include <queue>
+#include <vector>
+
 struct TreeNode
 {
     int val;
