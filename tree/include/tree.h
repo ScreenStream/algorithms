@@ -9,3 +9,4 @@ struct TreeNode
 };
 
 bool isSameTree(TreeNode* p, TreeNode* q);
+bool isSymmetric(TreeNode* root);

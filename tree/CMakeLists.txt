@@ -3,6 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/same-tree.cpp)
+         src/same-tree.cpp
+         src/symmetric-tree.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
