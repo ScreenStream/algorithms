@@ -58,7 +58,7 @@ std::vector<int> postorderTraversalIterative(TreeNode* root)
 
 /*
  * Note that code for preorder and postorder traversal is really similar. In postorder, instead popping left pointers first we will pop right pointers first from
- * the stack. That would make preorder traversal modified such that traversal would be: Root->R->L. However what we want is L->R->Root. This implies that we have
+ * the stack. That would make preorder traversal modified such that traversal would be: Root->R->L. However, what we want is L->R->Root. This implies that we have
  * to reverse the output to reach the final output.
  */
 
