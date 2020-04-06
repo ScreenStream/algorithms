@@ -12,6 +12,10 @@ add_subdirectory(design)
 add_subdirectory(dp)
 add_subdirectory(graph)
 add_subdirectory(heap)
+add_subdirectory(interval)
+add_subdirectory(line-sweep)
+add_subdirectory(linked-list)
+add_subdirectory(maths)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -29,7 +33,11 @@ target_include_directories(${PROJECT_NAME}
         design/include
         dp/include
         graph/include
-        heap/include)
+        heap/include
+        interval/include
+        line-sweep/include
+        linked-list/include
+        maths/include)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -42,6 +50,10 @@ target_link_libraries(${PROJECT_NAME}
         design
         dp
         graph
-        heap)
+        heap
+        interval
+        line-sweep
+        linked-list
+        maths)
 
 
