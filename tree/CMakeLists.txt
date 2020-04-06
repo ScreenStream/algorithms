@@ -9,6 +9,7 @@
          src/subtree-another-tree.cpp
          src/inorder-traversal.cpp
          src/validate-bst.cpp
-         src/preorder-traversal.cpp)
+         src/preorder-traversal.cpp
+         src/postorder-traversal.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
