@@ -10,6 +10,10 @@
          src/inorder-traversal.cpp
          src/validate-bst.cpp
          src/preorder-traversal.cpp
-         src/postorder-traversal.cpp)
+         src/postorder-traversal.cpp
+         src/create-binary-tree.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME}
+         PUBLIC
+         include
+         ${CMAKE_SOURCE_DIR}/string/include)
