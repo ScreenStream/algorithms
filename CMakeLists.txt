@@ -8,6 +8,10 @@ add_subdirectory(bfs)
 add_subdirectory(dfs)
 add_subdirectory(backtracking)
 add_subdirectory(bitwise)
+add_subdirectory(design)
+add_subdirectory(dp)
+add_subdirectory(graph)
+add_subdirectory(heap)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -21,7 +25,11 @@ target_include_directories(${PROJECT_NAME}
         bfs/include
         dfs/include
         backtracking/include
-        bitwise/include)
+        bitwise/include
+        design/include
+        dp/include
+        graph/include
+        heap/include)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -30,6 +38,10 @@ target_link_libraries(${PROJECT_NAME}
         bfs
         dfs
         backtracking
-        bitwise)
+        bitwise
+        design
+        dp
+        graph
+        heap)
 
 
