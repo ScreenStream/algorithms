@@ -19,6 +19,8 @@ add_subdirectory(maths)
 add_subdirectory(union-find)
 add_subdirectory(topological-sort)
 add_subdirectory(string)
+add_subdirectory(segment-tree)
+add_subdirectory(two-pointers)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -43,7 +45,9 @@ target_include_directories(${PROJECT_NAME}
         maths/include
         union-find/include
         topological-sort/include
-        string/include)
+        string/include
+        segment-tree/include
+        two-pointers/include)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -63,6 +67,8 @@ target_link_libraries(${PROJECT_NAME}
         maths
         union-find
         topological-sort
-        strings)
+        strings
+        segment-tree
+        two-pointers)
 
 
