@@ -20,3 +20,5 @@ bool isValidBSTIterative(TreeNode* root);
 bool isValidBSTRecursive(TreeNode* root);
 std::vector<int> inorderTraversalIterative(TreeNode* root);
 std::vector<int> inorderTraversalRecursive(TreeNode* root);
+std::vector<int> preorderTraversalIterative(TreeNode* root);
+std::vector<int> preorderTraversalRecursive(TreeNode* root);

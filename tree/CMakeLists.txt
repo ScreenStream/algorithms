@@ -6,6 +6,9 @@
          src/same-tree.cpp
          src/symmetric-tree.cpp
          src/invert-binary-tree.cpp
-         src/subtree-another-tree.cpp src/inorder-traversal.cpp src/validate-bst.cpp)
+         src/subtree-another-tree.cpp
+         src/inorder-traversal.cpp
+         src/validate-bst.cpp
+         src/preorder-traversal.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
