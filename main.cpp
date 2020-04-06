@@ -2,6 +2,10 @@
 #include "sliding-window.h"
 #include "tree.h"
 #include "greedy.h"
+#include "bitwise.h"
+#include "backtracking.h"
+#include "dfs.h"
+#include "bfs.h"
 
 using std::cout;
 using std::endl;
