@@ -4,12 +4,14 @@ project(algorithms CXX)
 add_subdirectory(sliding-window)
 add_subdirectory(tree)
 add_subdirectory(greedy)
+add_subdirectory(bfs)
+add_subdirectory(dfs)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
 target_compile_options(${PROJECT_NAME} PUBLIC -Wall -Wextra -pedantic -Werror)
 
-target_include_directories(${PROJECT_NAME} PUBLIC sliding-window/include tree/include greedy/include)
-target_link_libraries(${PROJECT_NAME} sliding-window tree greedy)
+target_include_directories(${PROJECT_NAME} PUBLIC sliding-window/include tree/include greedy/include bfs/include dfs/include)
+target_link_libraries(${PROJECT_NAME} sliding-window tree greedy bfs dfs)
 
 
