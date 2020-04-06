@@ -16,6 +16,9 @@ add_subdirectory(interval)
 add_subdirectory(line-sweep)
 add_subdirectory(linked-list)
 add_subdirectory(maths)
+add_subdirectory(union-find)
+add_subdirectory(topological-sort)
+add_subdirectory(string)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -37,7 +40,10 @@ target_include_directories(${PROJECT_NAME}
         interval/include
         line-sweep/include
         linked-list/include
-        maths/include)
+        maths/include
+        union-find/include
+        topological-sort/include
+        string/include)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -54,6 +60,9 @@ target_link_libraries(${PROJECT_NAME}
         interval
         line-sweep
         linked-list
-        maths)
+        maths
+        union-find
+        topological-sort
+        strings)
 
 
