@@ -3,6 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/longest-substring-without-repeating-characters.cpp)
+         src/longest-substring-without-repeating-characters.cpp
+         src/reverse-string.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

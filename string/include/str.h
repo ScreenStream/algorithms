@@ -5,6 +5,7 @@
 #include <sstream>
 
 int lengthOfLongestSubstring(std::string s);
+void reverseString(std::vector<char>& s);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {

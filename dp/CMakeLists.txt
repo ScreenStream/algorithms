@@ -3,6 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/fib.cpp)
+         src/fib.cpp
+         src/two-sum.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
