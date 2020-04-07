@@ -3,4 +3,4 @@
 #include <vector>
 #include <queue>
 
-int orangesRotting(const std::vector<std::vector<int>>& grid);
+int orangesRotting(std::vector<std::vector<int>>& grid);
