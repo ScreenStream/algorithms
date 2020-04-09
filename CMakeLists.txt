@@ -21,6 +21,7 @@ add_subdirectory(topological-sort)
 add_subdirectory(string)
 add_subdirectory(segment-tree)
 add_subdirectory(two-pointers)
+add_subdirectory(array)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -47,7 +48,8 @@ target_include_directories(${PROJECT_NAME}
         topological-sort/include
         string/include
         segment-tree/include
-        two-pointers/include)
+        two-pointers/include
+        array/include)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -69,6 +71,7 @@ target_link_libraries(${PROJECT_NAME}
         topological-sort
         strings
         segment-tree
-        two-pointers)
+        two-pointers
+        array)
 
 
