@@ -61,17 +61,18 @@ std::vector<std::string> letterCombinationsDFS(const std::string& digits) {
     return res;
 }
 
-void letterCombinationsBacktrackingHelper(const std::vector<std::string>& table, std::vector<std::string>& res,
-                                          std::string& local, int index, const std::string& digits) {
+/// Index parameter is important here. Algorithm would know where to start searching solution space from.
+void letterCombinationsBacktrackingHelper(const std::vector<std::string>& texts, std::vector<std::string>& res,
+                                          std::string& temp, int index, const std::string& digits) {
     if(index==digits.size()) {
-        res.push_back(local);
+        res.push_back(temp);
         return;
     }
 
-    for(int i=0;i<table[digits[index]-'0'].size();i++) {
-        local.push_back(table[digits[index]-'0'][i]);
-        letterCombinationsBacktrackingHelper(table, res, local, index+1, digits);
-        local.pop_back();
+    for(int i=0; i < texts[digits[index]-'0'].size();i++) {
+        temp.push_back(texts[digits[index]-'0'][i]);
+        letterCombinationsBacktrackingHelper(texts, res, temp, index + 1, digits);
+        temp.pop_back();
     }
 }
 
@@ -81,8 +82,8 @@ std::vector<std::string> letterCombinationsBacktracking(const std::string& digit
 
     std::vector<std::string> combinations;
     std::vector<std::string> texts {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-    std::string local;
-    letterCombinationsBacktrackingHelper(texts, combinations, local, 0, digits);
+    std::string temp;
+    letterCombinationsBacktrackingHelper(texts, combinations, temp, 0, digits);
 
     return combinations;
 }
