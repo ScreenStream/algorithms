@@ -3,6 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/lru-cache.cpp)
+         src/lru-cache.cpp
+         src/min-stack.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

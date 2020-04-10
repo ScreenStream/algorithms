@@ -3,6 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/find-first-and-last-position-of-element-in-sorted-array.cpp)
+         src/find-first-and-last-position-of-element-in-sorted-array.cpp
+         src/find-the-duplicate-number.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
