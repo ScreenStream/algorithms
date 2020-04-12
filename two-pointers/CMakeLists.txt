@@ -4,6 +4,7 @@
  add_library(${TARGET_NAME}
          STATIC
          src/container-with-most-water.cpp
-         src/intersectionf-of-two-arrays-ii.cpp)
+         src/intersectionf-of-two-arrays-ii.cpp
+         src/three-sum.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

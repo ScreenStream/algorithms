@@ -6,6 +6,7 @@
          src/happy-number.cpp
          src/plus-one.cpp
          src/rotate-image.cpp
-         src/reverse-integer.cpp)
+         src/reverse-integer.cpp
+         src/set-matrix-zeroes.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

@@ -3,6 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/top-k-frequent-elements.cpp)
+         src/top-k-frequent-elements.cpp
+         src/last-stone-weight.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

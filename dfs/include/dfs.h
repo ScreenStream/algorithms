@@ -2,5 +2,7 @@
 
 #include <vector>
 #include <stack>
+#include <string>
 
 int numIslands(std::vector<std::vector<char>>& grid);
+bool exist(std::vector<std::vector<char>>& board, std::string word);
