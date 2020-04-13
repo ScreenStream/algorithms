@@ -11,7 +11,8 @@
          src/validate-bst.cpp
          src/preorder-traversal.cpp
          src/postorder-traversal.cpp
-         src/create-binary-tree.cpp)
+         src/create-binary-tree.cpp
+         src/diameter-of-binary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -28,3 +28,4 @@ std::vector<int> preorderTraversalIterative2(TreeNode* root);
 std::vector<int> preorderTraversalRecursive(TreeNode* root);
 std::vector<int> postorderTraversalIterative(TreeNode* root);
 std::vector<int> postorderTraversalRecursive(TreeNode* root);
+int diameterOfBinaryTree(TreeNode* root);
