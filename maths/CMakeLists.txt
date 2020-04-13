@@ -7,6 +7,8 @@
          src/plus-one.cpp
          src/rotate-image.cpp
          src/reverse-integer.cpp
-         src/set-matrix-zeroes.cpp)
+         src/set-matrix-zeroes.cpp
+         src/count-primes.cpp
+         src/ugly-number.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

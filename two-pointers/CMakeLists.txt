@@ -5,6 +5,7 @@
          STATIC
          src/container-with-most-water.cpp
          src/intersectionf-of-two-arrays-ii.cpp
-         src/three-sum.cpp)
+         src/three-sum.cpp
+         src/valid-palindrome.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
