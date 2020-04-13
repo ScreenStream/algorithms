@@ -6,6 +6,7 @@
          src/longest-substring-without-repeating-characters.cpp
          src/reverse-string.cpp
          src/letter-combinations-of-a-phone-number.cpp
-         src/backspace-string-compare.cpp)
+         src/backspace-string-compare.cpp
+         src/remove-duplicate-letters.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

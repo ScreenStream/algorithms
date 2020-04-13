@@ -13,7 +13,7 @@ std::vector<std::string> letterCombinationsDFS(const std::string& digits);
 std::vector<std::string> letterCombinationsBacktracking(const std::string& digits);
 bool backspaceCompare(std::string S, std::string T);
 bool backspaceCompare2(std::string S, std::string T);
-
+std::string removeDuplicateLetters(std::string s);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {
