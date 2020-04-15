@@ -4,6 +4,9 @@
  add_library(${TARGET_NAME}
          STATIC
          src/fib.cpp
-         src/two-sum.cpp)
+         src/two-sum.cpp
+         src/coin-change.cpp
+         src/minimum-path-sum.cpp
+         src/house-robber.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
