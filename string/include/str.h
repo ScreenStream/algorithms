@@ -4,6 +4,7 @@
 #include <string>
 #include <sstream>
 #include <unordered_set>
+#include <unordered_map>
 
 int lengthOfLongestSubstring1(const std::string& s);
 int lengthOfLongestSubstring2(const std::string& s);
@@ -14,6 +15,7 @@ std::vector<std::string> letterCombinationsBacktracking(const std::string& digit
 bool backspaceCompare(std::string S, std::string T);
 bool backspaceCompare2(std::string S, std::string T);
 std::string removeDuplicateLetters(std::string s);
+int firstUniqChar(std::string s);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {

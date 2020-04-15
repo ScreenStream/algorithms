@@ -7,6 +7,7 @@
          src/reverse-string.cpp
          src/letter-combinations-of-a-phone-number.cpp
          src/backspace-string-compare.cpp
-         src/remove-duplicate-letters.cpp)
+         src/remove-duplicate-letters.cpp
+         src/first-unique-char-in-string.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

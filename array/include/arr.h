@@ -11,3 +11,4 @@ int findDuplicate(const std::vector<int>& nums);
 int findMaxLength(std::vector<int>& nums);
 int removeDuplicates(std::vector<int>& nums);
 std::vector<int> dailyTemperatures(std::vector<int>& T);
+std::vector<int> productExceptSelf(std::vector<int>& nums);

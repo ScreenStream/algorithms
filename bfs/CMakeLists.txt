@@ -4,6 +4,7 @@
  add_library(${TARGET_NAME}
          STATIC
          src/oranges-rotting.cpp
-         src/island-perimeter.cpp)
+         src/island-perimeter.cpp
+         src/word-ladder.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

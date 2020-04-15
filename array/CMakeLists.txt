@@ -7,6 +7,7 @@
          src/find-the-duplicate-number.cpp
          src/contiguous-array.cpp
          src/remove-duplicates-from-sorted-array.cpp
-         src/daily-temperatures.cpp)
+         src/daily-temperatures.cpp
+         src/product-of-array-except-self.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
