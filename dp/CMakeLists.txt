@@ -7,6 +7,9 @@
          src/two-sum.cpp
          src/coin-change.cpp
          src/minimum-path-sum.cpp
-         src/house-robber.cpp)
+         src/house-robber.cpp
+         src/min-cost-climbing-stairs.cpp
+         src/climbing-stairs.cpp
+         src/unique-paths.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
