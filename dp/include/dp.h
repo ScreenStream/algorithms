@@ -12,3 +12,4 @@ int robRecursive(std::vector<int>& nums);
 int minCostClimbingStairs(std::vector<int>& cost);
 int climbStairs(int n);
 int uniquePaths(int m, int n);
+int numDecodings(std::string s);
