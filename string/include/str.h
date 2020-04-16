@@ -16,6 +16,7 @@ bool backspaceCompare(std::string S, std::string T);
 bool backspaceCompare2(std::string S, std::string T);
 std::string removeDuplicateLetters(std::string s);
 int firstUniqChar(std::string s);
+bool checkValidString(std::string s);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {

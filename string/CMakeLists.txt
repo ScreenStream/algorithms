@@ -8,6 +8,7 @@
          src/letter-combinations-of-a-phone-number.cpp
          src/backspace-string-compare.cpp
          src/remove-duplicate-letters.cpp
-         src/first-unique-char-in-string.cpp)
+         src/first-unique-char-in-string.cpp
+         src/valid-parenthesis-string.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

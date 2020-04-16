@@ -11,6 +11,8 @@
          src/min-cost-climbing-stairs.cpp
          src/climbing-stairs.cpp
          src/unique-paths.cpp
-         src/decode-ways.cpp)
+         src/decode-ways.cpp
+         src/minimum-falling-path-sum.cpp
+         src/minimum-costs-for-tickets.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
