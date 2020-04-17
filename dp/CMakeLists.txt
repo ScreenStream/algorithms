@@ -13,6 +13,10 @@
          src/unique-paths.cpp
          src/decode-ways.cpp
          src/minimum-falling-path-sum.cpp
-         src/minimum-costs-for-tickets.cpp)
+         src/minimum-costs-for-tickets.cpp
+         src/2-keys-keyboard.cpp
+         src/perfect-squares.cpp
+         src/triangle.cpp
+         src/maximal-square.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

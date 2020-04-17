@@ -8,17 +8,13 @@
 #include "bfs.h"
 #include "arr.h"
 #include "str.h"
+#include "dp.h"
 
 using std::cout;
 using std::endl;
 
 int main()
 {
-    lengthOfLongestSubstring1("abaa");
-
-    checkInclusion("", "");
-    findAnagrams("", "dsf");
-    cout << "Hello World!" << endl;
-    cout << minCostConnectRopes({8, 4, 6, 12});
+    numSquares(12);
     return 0;
 }

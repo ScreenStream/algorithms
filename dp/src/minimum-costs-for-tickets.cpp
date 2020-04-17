@@ -49,13 +49,13 @@ int mincostTickets(std::vector<int>& days, std::vector<int>& costs) {
     std::vector<int> dp(366);
     std::unordered_set<int> travelDays(days.begin(), days.end());
 
-    for(int i = 1; i < dp.size(); ++i) {
+    for(int i = 0; i < dp.size(); ++i) {
         if(!travelDays.count(i)) {
-            dp[i] = dp[i - 1];
+            dp[i] = dp[std::max(0, i - 1)];
         } else {
             dp[i] = std::min({dp[std::max(0, i - 1)] + costs[0],
-                                dp[std::max(0, i - 7)] + costs[1],
-                                dp[std::max(0, i - 30)] + costs[2]});
+                              dp[std::max(0, i - 7)] + costs[1],
+                              dp[std::max(0, i - 30)] + costs[2]});
         }
     }
 
@@ -87,6 +87,11 @@ int mincostTickets2(std::vector<int>& days, std::vector<int>& costs) {
 }
 
 /// Tracks travel days. Most optimal.
+/*
+ * We track the minimum cost for each travel day. We process only travel days and store {day, cost} for 7-and 30-day passes in the last7 and last30 queues.
+ * After a pass 'expires', we remove it from the queue.
+ * This way, our queues only contains travel days for the last 7 and 30 days, and the cheapest pass prices are in the front of the queues.
+ */
 /*
  * Time Complexity: O(n), where n is the number of travel days.
    Space Complexity: O(38). Stricter, it's a sum of duration for all pass types (1 + 7 + 30 in our case).
