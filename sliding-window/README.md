@@ -1,0 +1,1 @@
+sliding window + bitwise = rolling hash

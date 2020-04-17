@@ -1,24 +1,15 @@
 #include <iostream>
-#include "sliding-window.h"
-#include "tree.h"
-#include "greedy.h"
-#include "bitwise.h"
-#include "backtracking.h"
-#include "dfs.h"
-#include "bfs.h"
-#include "arr.h"
-#include "str.h"
+
+#include "methods.h"
+#include "utility.h"
 
 using std::cout;
 using std::endl;
 
 int main()
 {
-    lengthOfLongestSubstring1("abaa");
+    auto list1 = createList({-1,-1,-1});
+    auto list2 = createList({-2,-2,-1});
 
-    checkInclusion("", "");
-    findAnagrams("", "dsf");
-    cout << "Hello World!" << endl;
-    cout << minCostConnectRopes({8, 4, 6, 12});
-    return 0;
+    printList(mergeKLists({list1, list2}));
 }

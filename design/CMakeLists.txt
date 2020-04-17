@@ -3,7 +3,21 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/lru-cache.cpp
-         src/min-stack.cpp)
+         lru-cache.cpp
+         min-stack.cpp
+         implement-queue-using-stacks.cpp
+         implement-stack-using-queues.cpp
+         insert-delete-getrandom-o1.cpp
+         implement-trie-prefix-tree.cpp
+         snapshot-array.cpp
+         encode-and-decode-tinyurl.cpp
+         design-circular-queue.cpp
+         design-hashset.cpp
+         max-stack.cpp
+         design-twitter.cpp
+         lfu-cache.cpp
+         maximum-frequency-stack.cpp
+         my-calendar-i.cpp
+         design-tic-tac-toe.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

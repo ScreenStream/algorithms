@@ -3,12 +3,68 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/longest-substring-without-repeating-characters.cpp
-         src/reverse-string.cpp
-         src/letter-combinations-of-a-phone-number.cpp
-         src/backspace-string-compare.cpp
-         src/remove-duplicate-letters.cpp
-         src/first-unique-char-in-string.cpp
-         src/valid-parenthesis-string.cpp)
+         reverse-string.cpp
+         backspace-string-compare.cpp
+         remove-duplicate-letters.cpp
+         first-unique-character-in-a-string.cpp
+         valid-parenthesis-string.cpp
+         most-common-word.cpp
+         partition-labels.cpp
+         longest-palindromic-substring.cpp
+         isomorphic-strings.cpp
+         reorganize-string.cpp
+         sort-characters-by-frequency.cpp
+         verifying-an-alien-dictionary.cpp
+         jewels-and-stones.cpp
+         ransom-note.cpp
+         add-strings.cpp
+         remove-k-digits.cpp
+         reorder-data-in-log-files.cpp
+         number-of-steps-to-reduce-a-number-in-binary-representation-to-one.cpp
+         zigzag-conversion.cpp
+         string-to-integer.cpp
+         longest-common-prefix.cpp
+         KMP/implement-strstr.cpp
+         unique-email-addresses.cpp
+         group-shifted-strings.cpp
+         compare-version-numbers.cpp
+         KMP/repeated-substring-pattern.cpp
+         license-key-formatting.cpp
+         reverse-words-in-a-string.cpp
+         reverse-string-ii.cpp
+         reverse-words-in-a-string-iii.cpp
+         find-words-that-can-be-formed-by-characters.cpp
+         KMP/shortest-palindrome.cpp
+         count-and-say.cpp
+         min-moves-to-obtain-string-without-3-identical-consecutive-letters.cpp
+         min-adj-swaps-to-make-palindrome.cpp
+         string-without-3-identical-consecutive-letters.cpp
+         max-inserts-to-obtain-string-without-3-consecutive-a.cpp
+         crop-words.cpp
+         min-cost-to-get-string-without-2-identical-consecutive-letters.cpp
+         riddle.cpp
+         largest-alphabetic-character.cpp
+         longest-string-made-up-of-only-vowels.cpp
+         battleship.cpp
+         min-amplitude.cpp
+         ways-to-split-string.cpp
+         palindrome-permutation.cpp
+         one-edit-distance.cpp
+         encode-and-decode-strings.cpp
+         string-transforms-into-another-string.cpp
+         construct-k-palindrome-strings.cpp
+         check-if-a-string-can-break-another-string.cpp
+         count-the-repetitions.cpp
+         occurrences-after-bigram.cpp
+         shortest-completing-word.cpp
+         validate-ip-address.cpp
+         longest-uncommon-subsequence-ii.cpp
+         minimum-time-difference.cpp
+         optimal-division.cpp
+         custom-sort-string.cpp
+         find-and-replace-in-string.cpp
+         groups-of-special-equivalent-strings.cpp excel-sheet-column-number.cpp excel-sheet-column-title.cpp split-evenly-into-three-parts.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME}
+         PUBLIC
+         ${CMAKE_CURRENT_SOURCE_DIR})
