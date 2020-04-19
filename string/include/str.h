@@ -17,6 +17,9 @@ bool backspaceCompare2(std::string S, std::string T);
 std::string removeDuplicateLetters(std::string s);
 int firstUniqChar(std::string s);
 bool checkValidString(std::string s);
+std::string mostCommonWord(std::string paragraph, std::vector<std::string>& banned);
+std::vector<int> partitionLabels(std::string S);
+std::string longestPalindrome(std::string s);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {

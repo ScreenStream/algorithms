@@ -9,6 +9,9 @@
          src/backspace-string-compare.cpp
          src/remove-duplicate-letters.cpp
          src/first-unique-char-in-string.cpp
-         src/valid-parenthesis-string.cpp)
+         src/valid-parenthesis-string.cpp
+         src/most-common-word.cpp
+         src/partition-labels.cpp
+         src/longest-palindromic-substring.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

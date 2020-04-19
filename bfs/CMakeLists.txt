@@ -3,7 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/oranges-rotting.cpp
+         src/rotting-oranges.cpp
          src/island-perimeter.cpp
          src/word-ladder.cpp)
 
