@@ -22,7 +22,7 @@ void extend(const std::string& s, int i, int j, int& pos, int& maxLen)
         ++j;
     }
 
-    /// Go back one step back and right index and one step further on left index to satisfy palindrome property again.
+    /// Go back one step back on right index and one step further on left index to satisfy palindrome property again.
     ++i;
     --j;
 

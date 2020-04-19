@@ -29,3 +29,5 @@ std::vector<int> preorderTraversalRecursive(TreeNode* root);
 std::vector<int> postorderTraversalIterative(TreeNode* root);
 std::vector<int> postorderTraversalRecursive(TreeNode* root);
 int diameterOfBinaryTree(TreeNode* root);
+TreeNode* lowestCommonAncestorBST(TreeNode* root, TreeNode* p, TreeNode* q);
+TreeNode* lowestCommonAncestorBinaryTree(TreeNode* root, TreeNode* p, TreeNode* q);

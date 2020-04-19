@@ -12,6 +12,7 @@
          src/valid-parenthesis-string.cpp
          src/most-common-word.cpp
          src/partition-labels.cpp
-         src/longest-palindromic-substring.cpp)
+         src/longest-palindromic-substring.cpp
+         src/isomorphic-strings.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
