@@ -8,6 +8,7 @@
          src/contiguous-array.cpp
          src/remove-duplicates-from-sorted-array.cpp
          src/daily-temperatures.cpp
-         src/product-of-array-except-self.cpp)
+         src/product-of-array-except-self.cpp
+         src/search-in-rotated-sorted-array.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

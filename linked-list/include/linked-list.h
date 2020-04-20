@@ -7,3 +7,4 @@ struct ListNode {
 };
 
 ListNode* reverseList(ListNode* head);
+ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
