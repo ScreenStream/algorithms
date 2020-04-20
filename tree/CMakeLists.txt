@@ -14,7 +14,8 @@
          src/create-binary-tree.cpp
          src/diameter-of-binary-tree.cpp
          src/lowest-common-ancestor-of-bst.cpp
-         src/lowest-common-ancestor-of-binary-tree.cpp)
+         src/lowest-common-ancestor-of-binary-tree.cpp
+         src/level-order-traversal.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
