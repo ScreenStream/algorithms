@@ -43,7 +43,7 @@ std::vector<std::vector<int>> kClosest(std::vector<std::vector<int>>& points, in
     for(const auto& point : points) {
         pq.push(point);
         if (pq.size() > K) {
-            pq.pop(); /// pop has log complexity.
+            pq.pop(); /// pop has log complexity, since popping will require heap to be reorganized.
         }
     }
 
@@ -73,7 +73,7 @@ std::vector<std::vector<int>> kClosest1(std::vector<std::vector<int>>& points, i
     std::vector<std::vector<int>> res;
     while(K--) {
         res.push_back(pq.top()); /// top has constant complexity.
-        pq.pop(); /// pop has log complexity.
+        pq.pop(); /// pop has log complexity, since popping will require heap to be reorganized.
     }
 
     return res;
