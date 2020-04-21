@@ -13,6 +13,7 @@
          src/most-common-word.cpp
          src/partition-labels.cpp
          src/longest-palindromic-substring.cpp
-         src/isomorphic-strings.cpp)
+         src/isomorphic-strings.cpp
+         src/reorganize-string.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

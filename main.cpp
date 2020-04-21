@@ -15,6 +15,7 @@ using std::endl;
 
 int main()
 {
-    numSquares(12);
+    std::string m{"bfrbs"};
+    cout << reorganizeString(m) << endl;
     return 0;
 }

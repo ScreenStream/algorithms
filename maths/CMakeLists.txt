@@ -9,6 +9,7 @@
          src/reverse-integer.cpp
          src/set-matrix-zeroes.cpp
          src/count-primes.cpp
-         src/ugly-number.cpp)
+         src/ugly-number.cpp
+         src/add-binary.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
