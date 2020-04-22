@@ -14,6 +14,7 @@
          src/partition-labels.cpp
          src/longest-palindromic-substring.cpp
          src/isomorphic-strings.cpp
-         src/reorganize-string.cpp)
+         src/reorganize-string.cpp
+         src/sort-characters-by-frequency.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

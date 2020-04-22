@@ -9,13 +9,13 @@
 #include "arr.h"
 #include "str.h"
 #include "dp.h"
+#include "heap.h"
 
 using std::cout;
 using std::endl;
 
 int main()
 {
-    std::string m{"bfrbs"};
-    cout << reorganizeString(m) << endl;
+    topKFrequent({"i", "love", "leetcode", "i", "love", "coding"}, 2);
     return 0;
 }

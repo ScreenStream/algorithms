@@ -9,6 +9,7 @@
          src/remove-duplicates-from-sorted-array.cpp
          src/daily-temperatures.cpp
          src/product-of-array-except-self.cpp
-         src/search-in-rotated-sorted-array.cpp)
+         src/search-in-rotated-sorted-array.cpp
+         src/subarray-sum-equals-k.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

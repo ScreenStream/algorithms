@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <sstream>
+#include <algorithm>
 #include <unordered_set>
 #include <unordered_map>
 
@@ -22,6 +23,7 @@ std::vector<int> partitionLabels(std::string S);
 std::string longestPalindrome(std::string s);
 bool isIsomorphic(std::string s, std::string t);
 std::string reorganizeString(std::string S);
+std::string frequencySort(std::string s);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {

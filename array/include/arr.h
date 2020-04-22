@@ -13,3 +13,4 @@ int removeDuplicates(std::vector<int>& nums);
 std::vector<int> dailyTemperatures(std::vector<int>& T);
 std::vector<int> productExceptSelf(std::vector<int>& nums);
 int searchInRotatedSortedArray(std::vector<int>& nums, int target);
+int subarraySum(std::vector<int>& nums, int k);
