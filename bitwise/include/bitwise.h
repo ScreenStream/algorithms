@@ -4,3 +4,4 @@
 #include <string>
 
 int singleNumber(std::vector<int>& nums);
+int rangeBitwiseAnd(int m, int n);

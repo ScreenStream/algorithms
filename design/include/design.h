@@ -6,6 +6,9 @@
 #include <unordered_map>
 
 class LRUCache {
+    std::unordered_map<int, std::pair<int, std::list<int>::iterator>> map;
+    std::list<int> q;
+    int cap_;
 public:
     explicit LRUCache(int capacity);
     int get(int key);

@@ -3,6 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/single-number.cpp)
+         src/single-number.cpp
+         src/bitwise-and-of-numbers-range.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
