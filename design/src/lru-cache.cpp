@@ -14,7 +14,7 @@ int LRUCache::get(int key) {
     auto it = map.find(key);
 
     if(it != map.end()) {
-        q.splice(q.end(), q, it->second.second, std::next(it->second.second));
+        q.splice(q.end(), q, it->second.second);
         return map[key].first;
     } else {
         return -1;
@@ -32,7 +32,7 @@ void LRUCache::put(int key, int value) {
         q.push_back(key);
         map.insert({key, {value, std::prev(q.end())}});
     } else {
-        q.splice(q.end(), q, map[key].second, std::next(map[key].second));
+        q.splice(q.end(), q, map[key].second);
         map[key].first = value;
     }
 }
