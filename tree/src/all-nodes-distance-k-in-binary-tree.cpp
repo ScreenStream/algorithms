@@ -91,3 +91,99 @@ vector<int> distanceK(TreeNode* root, TreeNode* target, int K) {
 
     return res;
 }
+
+
+
+/// SOLUTION 2:
+/*
+ * DFS to build the back edges ( backEdge[child] = parent )
+BFS from the target as a center until the distance is K.
+ */
+
+void dfs(TreeNode* root, unordered_map<TreeNode*, TreeNode*> &backEdge, TreeNode* target){
+    if(!root || (root == target)) return;
+
+    if(root->left){
+        backEdge[root->left] = root;
+        dfs(root->left, backEdge, target);
+    }
+    if(root->right){
+        backEdge[root->right] = root;
+        dfs(root->right, backEdge, target);
+    }
+}
+
+vector<int> distanceK2(TreeNode* root, TreeNode* target, int K) {
+    unordered_map<TreeNode*, TreeNode*> backEdge;
+    unordered_set<TreeNode*> visited;
+    vector<int> res;
+    dfs(root, backEdge, target);
+    queue<TreeNode*> que;
+    que.push(target);
+    while(!que.empty() && K >= 0){
+        int s = que.size();
+        while(s--){
+            TreeNode* cur = que.front();
+            int val = cur->val; que.pop();
+            visited.insert(cur);
+            if(K == 0) res.push_back(val);
+            if(!visited.count(backEdge[cur]) && backEdge[cur]) que.push(backEdge[cur]);
+            if(!visited.count(cur->left) && cur->left) que.push(cur->left);
+            if(!visited.count(cur->right) && cur->right) que.push(cur->right);
+        }
+        K--;
+    }
+    return res;
+}
+
+/// SOLUTION 3:
+/*
+ * Explanation
+A recursive dfs function connect help to build up a map conn.
+The key of map is node's val and the value of map is node's connected nodes' vals.
+Then we do N times bfs search loop to find all nodes of distance K.
+
+ So we basically converted the tree into a graph using adjacency list representation.
+ */
+
+void preorder(TreeNode* p, TreeNode* parent, unordered_map<int,unordered_set<int>>& dict) {
+    if (!p) {
+        return;
+    }
+
+    if (parent) {
+        dict[p->val].insert(parent->val);
+        dict[parent->val].insert(p->val);
+    }
+
+    if (p->left) {
+        preorder(p->left, p, dict);
+    }
+    if (p->right) {
+        preorder(p->right, p, dict);
+    }
+}
+
+vector<int> distanceK3(TreeNode* root, TreeNode* target, int K) {
+    unordered_map<int,unordered_set<int>> dict;
+    preorder(root, nullptr, dict);
+    vector<int> res, aux;
+    res.push_back(target->val);
+    unordered_set<int> vis;
+    vis.insert(target->val);
+
+    for (int d = 0; d < K; d++) {
+        for (auto u : res) {
+            for (auto v : dict[u]) {
+                if (vis.count(v)) {
+                    continue;
+                }
+                vis.insert(v);
+                aux.push_back(v);
+            }
+        }
+        res.clear();
+        swap(res, aux);
+    }
+    return res;
+}

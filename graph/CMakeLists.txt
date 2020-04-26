@@ -3,6 +3,8 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/minimum-height-trees.cpp)
+         src/minimum-height-trees.cpp
+         src/find-the-town-judge.cpp
+         src/find-the-celebrity.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
