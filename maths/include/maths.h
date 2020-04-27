@@ -13,3 +13,5 @@ void setZeroes(std::vector<std::vector<int>>& matrix);
 int countPrimes(int n);
 bool isUgly(int num);
 std::string addBinary(std::string a, std::string b);
+int gcd(int a,int b); /// Greatest common divisor.
+int lcm(int a,int b); /// Least common multiple.

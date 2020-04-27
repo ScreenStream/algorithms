@@ -11,6 +11,7 @@
 #include "dp.h"
 #include "heap.h"
 #include "design.h"
+#include "maths.h"
 
 #include <list>
 
@@ -43,7 +44,8 @@ int main()
 ////        cout << i << endl;
 ////    }
 
-    longestPalindromeSubseq("bbbab");
-
+//    longestPalindromeSubseq("bbbab");
+    cout << gcd(36, 60) << endl;
+    cout << lcm(36, 60) << endl;
     return 0;
 }

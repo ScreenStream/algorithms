@@ -10,6 +10,7 @@
          src/set-matrix-zeroes.cpp
          src/count-primes.cpp
          src/ugly-number.cpp
-         src/add-binary.cpp)
+         src/add-binary.cpp
+         src/gcd-lcm.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
