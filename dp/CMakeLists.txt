@@ -17,6 +17,8 @@
          src/2-keys-keyboard.cpp
          src/perfect-squares.cpp
          src/triangle.cpp
-         src/maximal-square.cpp)
+         src/maximal-square.cpp
+         src/longest-common-subsequence.cpp
+         src/longest-palindromic-subsequence.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

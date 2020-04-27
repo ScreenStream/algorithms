@@ -23,3 +23,5 @@ int minSteps(int n);
 int numSquares(int n);
 int minimumTotal(std::vector<std::vector<int>>& triangle); // Triangle question.
 int maximalSquare(std::vector<std::vector<char>>& matrix);
+int longestCommonSubsequence(std::string text1, std::string text2);
+int longestPalindromeSubseq(std::string s);
