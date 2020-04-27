@@ -19,6 +19,7 @@
          src/triangle.cpp
          src/maximal-square.cpp
          src/longest-common-subsequence.cpp
-         src/longest-palindromic-subsequence.cpp)
+         src/longest-palindromic-subsequence.cpp
+         src/shortest-common-supersequence.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
