@@ -26,3 +26,4 @@ int maximalSquare(std::vector<std::vector<char>>& matrix);
 int longestCommonSubsequence(std::string text1, std::string text2);
 std::string shortestCommonSupersequence(std::string& A, std::string& B);
 int longestPalindromeSubseq(std::string s);
+int longestIncreasingPath(const std::vector<std::vector<int>>& matrix);

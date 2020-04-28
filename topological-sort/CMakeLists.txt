@@ -5,6 +5,7 @@
          STATIC
          src/course-schedule.cpp
          src/course-schedule-ii.cpp
-         src/alien-dictionary.cpp)
+         src/alien-dictionary.cpp
+         src/longest-increasing-path-in-matrix.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
