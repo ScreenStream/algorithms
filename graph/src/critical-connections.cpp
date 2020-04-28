@@ -20,7 +20,8 @@ void dfs(int at, int from, int id, vector<int>& lowLinks, vector<int>& ids, vect
     id++;
 
     for(int to : adjList[at]) {
-        if(to == from) {
+        if(to == from) { /// This early continue is crucial. This line will prevent dfs going back and forth between two visited adjacent nodes.
+                         /// 0 --> 1 --> 0; 1 must not go back to 0 in the last step. This line ensures that. Otherwise, lowLink value would be updated below in else statement.
             continue;
         }
 
@@ -31,13 +32,17 @@ void dfs(int at, int from, int id, vector<int>& lowLinks, vector<int>& ids, vect
             if(ids[at] < lowLinks[to]) {
                 res.push_back({at, to});
             }
-        } else {
+        } else { /// Backedge encountered.
             lowLinks[at] = min(lowLinks[at], ids[to]);
         }
-
     }
 }
 
+/*
+ * Time Complexity: O(E + V) –> One pass, linear time solution
+ *
+ * Space Complexity: O(N)
+ */
 vector<vector<int>> criticalConnections(int n, const vector<vector<int>>& connections)
 {
     vector<vector<int>> res;
@@ -54,7 +59,7 @@ vector<vector<int>> criticalConnections(int n, const vector<vector<int>>& connec
         int to = connection[1];
 
         adjList[from].push_back(to);
-        adjList[to].push_back(from);
+        adjList[to].push_back(from); /// For UNDIRECTED graphs, both from-to and to-from is included in the adjacency list.
     }
 
     for(int i = 0; i < n; ++i) {
