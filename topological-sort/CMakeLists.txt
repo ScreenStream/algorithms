@@ -3,6 +3,8 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/course-schedule.cpp)
+         src/course-schedule.cpp
+         src/course-schedule-ii.cpp
+         src/alien-dictionary.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

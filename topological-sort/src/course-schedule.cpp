@@ -54,9 +54,9 @@ bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         q.pop();
         --numCourses;
 
-        for(auto& next : adjList[current]) {
-            if(--inDegrees[next] == 0) {
-                q.push(next);
+        for(auto& to : adjList[current]) {
+            if(--inDegrees[to] == 0) {
+                q.push(to);
             }
         }
     }
