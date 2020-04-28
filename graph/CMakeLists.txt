@@ -5,6 +5,7 @@
          STATIC
          src/minimum-height-trees.cpp
          src/find-the-town-judge.cpp
-         src/find-the-celebrity.cpp)
+         src/find-the-celebrity.cpp
+         src/critical-connections.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

@@ -12,6 +12,7 @@
 #include "heap.h"
 #include "design.h"
 #include "maths.h"
+#include "graph.h"
 
 #include <list>
 
@@ -45,7 +46,12 @@ int main()
 ////    }
 
 //    longestPalindromeSubseq("bbbab");
-    cout << gcd(36, 60) << endl;
-    cout << lcm(36, 60) << endl;
+//    cout << gcd(36, 60) << endl;
+//    cout << lcm(36, 60) << endl;
+    auto m = criticalConnections(4, {{0,1},{1,2},{2,0},{1,3}});
+    for(auto i : m) {
+        for(auto j : i)
+            cout << j << endl;
+    }
     return 0;
 }
