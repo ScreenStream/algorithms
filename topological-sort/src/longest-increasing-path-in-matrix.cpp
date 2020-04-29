@@ -89,7 +89,11 @@ int longestIncreasingPathTopo(vector<vector<int>>& matrix) {
                     continue;
                 }
 
-                if(matrix[nx][ny] < matrix[x][y] && --inDegrees[nx][ny] == 0) { /// It is important to check for in-degree of the jumped cell being 0.
+                if(matrix[nx][ny] < matrix[x][y] && --inDegrees[nx][ny] == 0) {
+                    /// It is important to check for in-degree of the jumped cell being 0.
+                    /// If it is not 0, it means that there is still an adjacent cell bigger than the cell we are processing,
+                    /// so we do not want to disrupt that path. We always start from the origin (nodes who do not have any incoming edges.)
+                    /// Path of the adjacent large node is still being processed by the queue in the algorithm, so it will be handled.
                     q.push({nx, ny});
                 }
             }
