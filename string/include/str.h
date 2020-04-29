@@ -39,3 +39,13 @@ inline std::vector<std::string> split(const std::string& s, char delimiter)
 
     return tokens;
 }
+
+inline bool isPalindrome(const std::string& s, int i, int j) {
+    while(i < j) {
+        if(s[i++] != s[j--]) {
+            return false;
+        }
+    }
+
+    return true;
+}

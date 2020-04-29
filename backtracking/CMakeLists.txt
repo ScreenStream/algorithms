@@ -3,6 +3,10 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/generate-parenthesis.cpp)
+         src/generate-parenthesis.cpp
+         src/palindrome-partitioning.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME}
+         PUBLIC
+         include
+         ${CMAKE_SOURCE_DIR}/string/include)
