@@ -5,7 +5,8 @@ using namespace std;
 /*
  * Given an integer matrix, find the length of the longest increasing path.
 
-From each cell, you can either move to four directions: left, right, up or down. You may NOT move diagonally or move outside of the boundary (i.e. wrap-around is not allowed).
+From each cell, you can either move to four directions: left, right, up or down.
+ You may NOT move diagonally or move outside of the boundary (i.e. wrap-around is not allowed).
 
 Example 1:
 
@@ -88,7 +89,7 @@ int longestIncreasingPathTopo(vector<vector<int>>& matrix) {
                     continue;
                 }
 
-                if(matrix[nx][ny] < matrix[x][y] && --inDegrees[nx][ny] == 0) { /// It is important to check for in-degree of the cell being 0.
+                if(matrix[nx][ny] < matrix[x][y] && --inDegrees[nx][ny] == 0) { /// It is important to check for in-degree of the jumped cell being 0.
                     q.push({nx, ny});
                 }
             }
@@ -96,7 +97,6 @@ int longestIncreasingPathTopo(vector<vector<int>>& matrix) {
 
         ++res;
     }
-
 
     return res;
 }
