@@ -40,4 +40,3 @@ vector<vector<string>> partition(string s) {
     helper(temp, res, s, 0);
     return res;
 }
-
