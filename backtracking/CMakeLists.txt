@@ -6,7 +6,8 @@
          src/generate-parenthesis.cpp
          src/palindrome-partitioning.cpp
          src/subsets.cpp
-         src/subsets-ii.cpp)
+         src/subsets-ii.cpp
+         src/permutations.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

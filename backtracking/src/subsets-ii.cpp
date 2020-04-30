@@ -34,7 +34,7 @@ void helper(vector<int>& temp, vector<vector<int>>& res, const vector<int>& nums
     }
 }
 
-vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+vector<vector<int>> subsetsWithDup(const vector<int>& nums) {
     vector<vector<int>> res;
     vector<int> temp;
     sort(nums.begin(), nums.end()); /// Sorting beforehand is useful to solve questions that deals with duplicates.
