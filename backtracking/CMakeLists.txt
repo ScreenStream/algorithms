@@ -4,7 +4,9 @@
  add_library(${TARGET_NAME}
          STATIC
          src/generate-parenthesis.cpp
-         src/palindrome-partitioning.cpp)
+         src/palindrome-partitioning.cpp
+         src/subsets.cpp
+         src/subsets-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
