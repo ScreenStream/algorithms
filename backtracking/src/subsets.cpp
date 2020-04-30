@@ -27,7 +27,7 @@ void helper(vector<int>& temp, vector<vector<int>>& res, const vector<int>& nums
 {
     res.push_back(temp); /// We do not need to prune solution space like we do in most of the backtracking questions
                          /// (with if else at the top of the helper function to end recursion with return statement).
-                         /// We want to explore all the solution space.
+                         /// We want to explore all of the solution space.
 
     for(int i = start; i < nums.size(); ++i) {
         temp.push_back(nums[i]);

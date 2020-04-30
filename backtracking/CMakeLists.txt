@@ -7,7 +7,9 @@
          src/palindrome-partitioning.cpp
          src/subsets.cpp
          src/subsets-ii.cpp
-         src/permutations.cpp)
+         src/permutations.cpp
+         src/permutations-ii.cpp
+         src/combination-sum.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

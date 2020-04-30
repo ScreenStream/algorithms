@@ -4,6 +4,7 @@
  add_library(${TARGET_NAME}
          STATIC
          src/num-islands.cpp
-         src/word-search.cpp)
+         src/word-search.cpp
+         src/flood-fill.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
