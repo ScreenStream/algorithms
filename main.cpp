@@ -48,10 +48,24 @@ int main()
 //    longestPalindromeSubseq("bbbab");
 //    cout << gcd(36, 60) << endl;
 //    cout << lcm(36, 60) << endl;
-    auto m = criticalConnections(4, {{0,1},{1,2},{2,0},{1,3}});
-    for(auto i : m) {
-        for(auto j : i)
-            cout << j << endl;
-    }
+//    auto m = criticalConnections(4, {{0,1},{1,2},{2,0},{1,3}});
+//    for(auto i : m) {
+//        for(auto j : i)
+//            cout << j << endl;
+//    }
+    //    auto n3 = new TreeNode(3);
+    auto n1 = new TreeNode(1);
+    auto n2 = new TreeNode(2);
+    auto n3 = new TreeNode(3);
+    auto n5 = new TreeNode(5);
+
+    n1->left = n2;
+    n1->right = n3;
+    n2->right = n5;
+
+    std::cout << isValidSequence(n1, {1,2,5});
+//std::vector<int> m{1, 2,3};
+//    std::vector<int> n{1, 2,3};
+//    std::cout << std::boolalpha << (m == n) << std::endl;
     return 0;
 }

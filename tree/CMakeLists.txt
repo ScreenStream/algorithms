@@ -17,7 +17,9 @@
          src/lowest-common-ancestor-of-binary-tree.cpp
          src/level-order-traversal.cpp
          src/all-nodes-distance-k-in-binary-tree.cpp
-         src/binary-tree-maximum-path-sum.cpp)
+         src/binary-tree-maximum-path-sum.cpp
+         src/binary-tree-paths.cpp
+         src/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

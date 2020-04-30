@@ -23,21 +23,21 @@ Output:
 
 void helper(vector<int>& temp, vector<vector<int>>& res, const vector<int>& nums, int start)
 {
-    res.push_back(temp);
-
-    for(int i = start; i < nums.size(); ++i) {
-        if(i > start && nums[i] == nums[i-1]) continue;
-
-        temp.push_back(nums[i]);
-        helper(temp, res, nums, i + 1);
-        temp.pop_back();
-    }
+//    res.push_back(temp);
+//
+//    for(int i = start; i < nums.size(); ++i) {
+//        if(i > start && nums[i] == nums[i-1]) continue;
+//
+//        temp.push_back(nums[i]);
+//        helper(temp, res, nums, i + 1);
+//        temp.pop_back();
+//    }
 }
 
 vector<vector<int>> subsetsWithDup(const vector<int>& nums) {
     vector<vector<int>> res;
-    vector<int> temp;
-    sort(nums.begin(), nums.end()); /// Sorting beforehand is useful to solve questions that deals with duplicates.
-    helper(temp, res, nums, 0);
+//    vector<int> temp;
+//    sort(nums.begin(), nums.end()); /// Sorting beforehand is useful to solve questions that deals with duplicates.
+//    helper(temp, res, nums, 0);
     return res;
 }

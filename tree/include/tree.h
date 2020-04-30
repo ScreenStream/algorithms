@@ -36,3 +36,5 @@ TreeNode* lowestCommonAncestorBinaryTree(TreeNode* root, TreeNode* p, TreeNode* 
 std::vector<std::vector<int>> levelOrder(TreeNode* root);
 std::vector<int> distanceK(TreeNode* root, TreeNode* target, int K);
 int maxPathSum(TreeNode* root);
+std::vector<std::string> binaryTreePaths(TreeNode* root);
+bool isValidSequence(TreeNode* root, const std::vector<int>& arr);
