@@ -23,6 +23,7 @@ add_subdirectory(segment-tree)
 add_subdirectory(two-pointers)
 add_subdirectory(array)
 add_subdirectory(stack)
+add_subdirectory(binary-search)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -51,7 +52,8 @@ target_include_directories(${PROJECT_NAME}
         segment-tree/include
         two-pointers/include
         array/include
-        stack/include)
+        stack/include
+        binary-search/include)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -75,6 +77,7 @@ target_link_libraries(${PROJECT_NAME}
         segment-tree
         two-pointers
         array
-        stack)
+        stack
+        binary-search)
 
 

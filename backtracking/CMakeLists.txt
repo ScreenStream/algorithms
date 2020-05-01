@@ -9,9 +9,11 @@
          src/subsets-ii.cpp
          src/permutations.cpp
          src/permutations-ii.cpp
-         src/combination-sum.cpp)
+         src/combination-sum.cpp
+         src/path-sum-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
          include
-         ${CMAKE_SOURCE_DIR}/string/include)
+         ${CMAKE_SOURCE_DIR}/string/include
+         ${CMAKE_SOURCE_DIR}/tree/include)

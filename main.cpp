@@ -13,8 +13,7 @@
 #include "design.h"
 #include "maths.h"
 #include "graph.h"
-
-#include <list>
+#include "binary-search.h"
 
 using std::cout;
 using std::endl;
