@@ -21,6 +21,21 @@ call isBadVersion(4) -> true
 Then 4 is the first bad version.
  */
 
+bool isBadVersion(int version);
+
 int firstBadVersion(int n) {
-    return {};
+    int l = 1;
+    int r = n;
+
+    while(l < r) {
+        int mid = l + (r - l)/2;
+
+        if(!isBadVersion(mid)) {
+            l = mid + 1;
+        } else {
+            r = mid;
+        }
+    }
+
+    return r;
 }

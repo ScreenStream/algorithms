@@ -39,6 +39,9 @@ int maxPathSum(TreeNode* root);
 std::vector<std::string> binaryTreePaths(TreeNode* root);
 bool isValidSequence(TreeNode* root, const std::vector<int>& arr);
 bool hasPathSum(TreeNode* root, int sum);
+int deepestLeavesSum(TreeNode* root);
+int sumOfLeftLeaves(TreeNode* root);
+int pathSum(TreeNode* root, int sum);
 
 inline bool isLeafNode(TreeNode* root)
 {
@@ -47,4 +50,13 @@ inline bool isLeafNode(TreeNode* root)
     }
 
     return !root->left && !root->right;
+}
+
+inline int maxDepth(TreeNode* root)
+{
+    if(!root) {
+        return 0;
+    }
+
+    return 1 + std::max(maxDepth(root->left), maxDepth(root->right));
 }
