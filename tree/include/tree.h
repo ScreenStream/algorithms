@@ -42,6 +42,8 @@ bool hasPathSum(TreeNode* root, int sum);
 int deepestLeavesSum(TreeNode* root);
 int sumOfLeftLeaves(TreeNode* root);
 int pathSum(TreeNode* root, int sum);
+std::vector<int> rightSideView(TreeNode* root);
+int rangeSumBST(TreeNode* root, int L, int R);
 
 inline bool isLeafNode(TreeNode* root)
 {

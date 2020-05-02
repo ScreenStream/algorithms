@@ -16,6 +16,7 @@
          src/isomorphic-strings.cpp
          src/reorganize-string.cpp
          src/sort-characters-by-frequency.cpp
-         src/verifying-an-alien-dictionary.cpp)
+         src/verifying-an-alien-dictionary.cpp
+         src/jewels-and-stones.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

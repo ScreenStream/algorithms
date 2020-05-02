@@ -25,6 +25,7 @@ bool isIsomorphic(std::string s, std::string t);
 std::string reorganizeString(std::string S);
 std::string frequencySort(std::string s);
 bool isAlienSorted(std::vector<std::string>& words, std::string order);
+int numJewelsInStones(std::string J, std::string S);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {
