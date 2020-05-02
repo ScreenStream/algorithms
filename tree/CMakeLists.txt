@@ -25,7 +25,8 @@
          src/sum-of-left-leaves.cpp
          src/path-sum-iii.cpp
          src/binary-tree-right-side-view.cpp
-         src/range-sum-of-bst.cpp)
+         src/range-sum-of-bst.cpp
+         src/maximum-depth-of-n-ary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

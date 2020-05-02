@@ -8,12 +8,30 @@
 #include <unordered_map>
 #include <unordered_set>
 
+/// Binary tree node.
 struct TreeNode
 {
     int val;
     TreeNode *left;
     TreeNode *right;
     explicit TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+};
+
+/// N-ary tree node.
+class Node {
+public:
+    int val;
+    std::vector<Node*> children;
+
+    explicit Node() = default;
+    explicit Node(int val_) {
+        val = val_;
+    }
+
+    explicit Node(int val_, const std::vector<Node*>& children_) {
+        val = val_;
+        children = children_;
+    }
 };
 
 TreeNode* createBinaryTree(const std::string& input);
@@ -44,6 +62,7 @@ int sumOfLeftLeaves(TreeNode* root);
 int pathSum(TreeNode* root, int sum);
 std::vector<int> rightSideView(TreeNode* root);
 int rangeSumBST(TreeNode* root, int L, int R);
+int maxDepth(Node* root);
 
 inline bool isLeafNode(TreeNode* root)
 {
