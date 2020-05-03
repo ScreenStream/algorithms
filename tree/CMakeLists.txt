@@ -26,7 +26,8 @@
          src/path-sum-iii.cpp
          src/binary-tree-right-side-view.cpp
          src/range-sum-of-bst.cpp
-         src/maximum-depth-of-n-ary-tree.cpp)
+         src/maximum-depth-of-n-ary-tree.cpp
+         src/find-largest-value-in-each-tree-row.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

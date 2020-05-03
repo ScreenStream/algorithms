@@ -63,6 +63,7 @@ int pathSum(TreeNode* root, int sum);
 std::vector<int> rightSideView(TreeNode* root);
 int rangeSumBST(TreeNode* root, int L, int R);
 int maxDepth(Node* root);
+std::vector<int> largestValues(TreeNode* root);
 
 inline bool isLeafNode(TreeNode* root)
 {
