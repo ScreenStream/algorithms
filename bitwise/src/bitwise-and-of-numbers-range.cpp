@@ -20,8 +20,9 @@ Output: 0
 last bit of (odd number & even number) is 0.
 when m != n, There is at least an odd number and an even number, so the last bit position result is 0.
 Move m and n right a position.
-Keep doing step 1,2,3 until m equal to n, use a factor to record the iteration time.
+Keep doing step 1,2,3 until m equal to n, use a variable to record the shifting count.
  */
+
 int rangeBitwiseAnd(int m, int n) {
     int shift = 0;
     while(m != n) {

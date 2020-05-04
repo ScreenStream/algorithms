@@ -64,6 +64,7 @@ std::vector<int> rightSideView(TreeNode* root);
 int rangeSumBST(TreeNode* root, int L, int R);
 int maxDepth(Node* root);
 std::vector<int> largestValues(TreeNode* root);
+bool isCompleteTree(TreeNode* root);
 
 inline bool isLeafNode(TreeNode* root)
 {
@@ -81,4 +82,12 @@ inline int maxDepth(TreeNode* root)
     }
 
     return 1 + std::max(maxDepth(root->left), maxDepth(root->right));
+}
+
+inline int totalNodeCount(TreeNode* root) {
+    if (!root) {
+        return 0;
+    }
+
+    return 1 + totalNodeCount(root->left) + totalNodeCount(root->right);
 }

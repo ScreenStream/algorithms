@@ -5,3 +5,4 @@
 
 int singleNumber(std::vector<int>& nums);
 int rangeBitwiseAnd(int m, int n);
+int bitwiseComplement(int N);
