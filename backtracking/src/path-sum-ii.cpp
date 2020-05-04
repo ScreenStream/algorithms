@@ -30,7 +30,7 @@ void helper(vector<int>& temp, vector<vector<int>>& res, TreeNode* root, int sum
     temp.pop_back();
 }
 
-vector<vector<int>> pathSum(TreeNode* root, int sum) {
+vector<vector<int>> pathSumII(TreeNode* root, int sum) {
     if(!root) {
         return {};
     }
