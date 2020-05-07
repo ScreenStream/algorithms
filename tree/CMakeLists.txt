@@ -28,7 +28,8 @@
          src/range-sum-of-bst.cpp
          src/maximum-depth-of-n-ary-tree.cpp
          src/find-largest-value-in-each-tree-row.cpp
-         src/check-completeness-of-a-binary-tree.cpp)
+         src/check-completeness-of-a-binary-tree.cpp
+         src/cousins-in-binary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

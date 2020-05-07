@@ -65,6 +65,7 @@ int rangeSumBST(TreeNode* root, int L, int R);
 int maxDepth(Node* root);
 std::vector<int> largestValues(TreeNode* root);
 bool isCompleteTree(TreeNode* root);
+bool isCousins(TreeNode* root, int x, int y);
 
 inline bool isLeafNode(TreeNode* root)
 {
