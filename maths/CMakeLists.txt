@@ -11,6 +11,7 @@
          src/count-primes.cpp
          src/ugly-number.cpp
          src/add-binary.cpp
-         src/gcd-lcm.cpp)
+         src/gcd-lcm.cpp
+         src/check-if-it-is-a-straight-line.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
