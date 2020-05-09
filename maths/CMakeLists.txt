@@ -13,6 +13,8 @@
          src/add-binary.cpp
          src/gcd-lcm.cpp
          src/check-if-it-is-a-straight-line.cpp
-         src/valid-perfect-square.cpp src/find-n-unique-integers-sum-up-to-zero.cpp)
+         src/valid-perfect-square.cpp
+         src/find-n-unique-integers-sum-up-to-zero.cpp
+         src/valid-triangle-number.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
