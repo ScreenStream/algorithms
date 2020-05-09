@@ -17,6 +17,8 @@
          src/reorganize-string.cpp
          src/sort-characters-by-frequency.cpp
          src/verifying-an-alien-dictionary.cpp
-         src/jewels-and-stones.cpp src/ransom-note.cpp)
+         src/jewels-and-stones.cpp
+         src/ransom-note.cpp
+         src/add-strings.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

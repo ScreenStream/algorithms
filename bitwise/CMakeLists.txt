@@ -6,6 +6,7 @@
          src/single-number.cpp
          src/bitwise-and-of-numbers-range.cpp
          src/complement-of-base-10-integer.cpp
-         src/divide-two-integers.cpp)
+         src/divide-two-integers.cpp
+         src/sum-of-two-integers.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

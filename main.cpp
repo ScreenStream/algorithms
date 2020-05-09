@@ -20,5 +20,9 @@ using std::endl;
 
 int main()
 {
-    cout << divide(-2147483648, 1);
+//    int i = 6;
+//    char c = '0' + i;
+//    cout << c << endl;
+
+    cout << addStrings("0", "9") << endl;
 }
