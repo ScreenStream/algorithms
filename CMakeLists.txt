@@ -24,6 +24,7 @@ add_subdirectory(two-pointers)
 add_subdirectory(array)
 add_subdirectory(stack)
 add_subdirectory(binary-search)
+add_subdirectory(reservoir-sampling)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -53,7 +54,8 @@ target_include_directories(${PROJECT_NAME}
         two-pointers/include
         array/include
         stack/include
-        binary-search/include)
+        binary-search/include
+        reservoir-sampling/include)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -78,6 +80,7 @@ target_link_libraries(${PROJECT_NAME}
         two-pointers
         array
         stack
-        binary-search)
+        binary-search
+        reservoir-sampling)
 
 
