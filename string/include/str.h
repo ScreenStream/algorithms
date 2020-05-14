@@ -28,6 +28,7 @@ bool isAlienSorted(std::vector<std::string>& words, std::string order);
 int numJewelsInStones(std::string J, std::string S);
 bool canConstruct(const std::string& ransomNote, const std::string& magazine);
 std::string addStrings(const std::string& num1, const std::string& num2);
+std::string removeKdigits(std::string num, int k);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {

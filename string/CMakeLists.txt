@@ -19,6 +19,7 @@
          src/verifying-an-alien-dictionary.cpp
          src/jewels-and-stones.cpp
          src/ransom-note.cpp
-         src/add-strings.cpp)
+         src/add-strings.cpp
+         src/remove-k-digits.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
