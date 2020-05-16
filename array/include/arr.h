@@ -14,3 +14,4 @@ std::vector<int> dailyTemperatures(std::vector<int>& T);
 std::vector<int> productExceptSelf(std::vector<int>& nums);
 int searchInRotatedSortedArray(std::vector<int>& nums, int target);
 int subarraySum(std::vector<int>& nums, int k);
+int maxSubarraySumCircular(std::vector<int>& A);

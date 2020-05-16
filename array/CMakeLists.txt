@@ -10,6 +10,7 @@
          src/daily-temperatures.cpp
          src/product-of-array-except-self.cpp
          src/search-in-rotated-sorted-array.cpp
-         src/subarray-sum-equals-k.cpp)
+         src/subarray-sum-equals-k.cpp
+         src/maximum-sum-circular-subarray.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

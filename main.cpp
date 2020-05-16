@@ -20,9 +20,6 @@ using std::endl;
 
 int main()
 {
-//    int i = 6;
-//    char c = '0' + i;
-//    cout << c << endl;
-
-    cout << addStrings("0", "9") << endl;
+    std::vector<int> m{5,-3,5};
+    maxSubarraySumCircular(m);
 }
