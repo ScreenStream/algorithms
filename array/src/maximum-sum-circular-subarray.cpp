@@ -50,18 +50,19 @@ One pass, time O(N)
 No extra space, space O(1)
  */
 int maxSubarraySumCircular(vector<int>& A) {
-    int curMin = 0;
-    int curMax = 0;
-    int minSum = INT_MAX;
-    int maxSum = INT_MIN;
-
+    int localMin = 0;
+    int localMax = 0;
+    int globalMin = INT_MAX;
+    int globalMax = INT_MIN;
     int total = 0;
 
     for(auto a : A) {
-        curMin = min(curMin + a, a); /// out of ordinary way of using min --> not maintaining the variable itself but its addition with a value.
-        minSum = min(minSum, curMin);
-        curMax = max(curMax + a, a); /// out of ordinary way of using max --> not maintaining the variable itself but its addition with a value.
-        maxSum = max(maxSum, curMax);
+        localMin = min(a, localMin + a); /// out of ordinary way of using min --> not maintaining the variable itself but its addition with a value.
+        globalMin = min(globalMin, localMin);
+
+        localMax = max(a, localMax + a); /// out of ordinary way of using max --> not maintaining the variable itself but its addition with a value.
+        globalMax = max(globalMax, localMax);
+        
         total += a;
     }
 
@@ -73,5 +74,5 @@ int maxSubarraySumCircular(vector<int>& A) {
         According to the description, We need to return the max(A), instead of sum of am empty subarray.
         So we return the maxSum to handle this corner case.
      */
-    return maxSum > 0 ? max(maxSum, total - minSum) : maxSum;
+    return globalMax > 0 ? max(globalMax, total - globalMin) : globalMax;
 }
