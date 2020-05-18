@@ -12,3 +12,4 @@ struct ListNode {
 ListNode* reverseList(ListNode* head);
 ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
+ListNode* oddEvenList(ListNode* head);

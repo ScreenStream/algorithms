@@ -5,6 +5,7 @@
          STATIC
          src/reverse-list.cpp
          src/intersection-of-two-linked-lists.cpp
-         src/add-two-numbers.cpp)
+         src/add-two-numbers.cpp
+         src/odd-even-linked-list.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
