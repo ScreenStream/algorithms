@@ -14,6 +14,7 @@
 #include "maths.h"
 #include "graph.h"
 #include "binary-search.h"
+#include "knapsack.h"
 
 using std::cout;
 using std::endl;
