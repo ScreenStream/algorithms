@@ -21,6 +21,6 @@
          src/longest-common-subsequence.cpp
          src/longest-palindromic-subsequence.cpp
          src/shortest-common-supersequence.cpp
-         src/longest-increasing-path-in-matrix.cpp)
+         src/longest-increasing-path-in-matrix.cpp src/count-square-submatrices-with-all-ones.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)
