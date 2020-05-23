@@ -51,9 +51,10 @@ Space O(1)
 /// A matrix is used as dp matrix, so we do not need to create an explicit dp matrix.
 int countSquares(vector<vector<int>>& A) {
     int res = 0;
+
     for (int i = 0; i < A.size(); ++i) {
         for (int j = 0; j < A[0].size(); ++j) {
-            if (A[i][j] && i > 0 && j > 0) {
+            if (A[i][j] == 1 && i > 0 && j > 0) {
                 A[i][j] += min({A[i - 1][j - 1], A[i - 1][j], A[i][j - 1]});
             }
 
