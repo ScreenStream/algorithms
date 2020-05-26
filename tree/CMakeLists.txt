@@ -29,9 +29,12 @@
          src/maximum-depth-of-n-ary-tree.cpp
          src/find-largest-value-in-each-tree-row.cpp
          src/check-completeness-of-a-binary-tree.cpp
-         src/cousins-in-binary-tree.cpp)
+         src/cousins-in-binary-tree.cpp
+         src/convert-sorted-array-to-binary-search-tree.cpp
+         src/convert-sorted-list-to-binary-search-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
          include
-         ${CMAKE_SOURCE_DIR}/string/include)
+         ${CMAKE_SOURCE_DIR}/string/include
+         ${CMAKE_SOURCE_DIR})

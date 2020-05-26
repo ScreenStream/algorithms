@@ -20,6 +20,6 @@
          src/jewels-and-stones.cpp
          src/ransom-note.cpp
          src/add-strings.cpp
-         src/remove-k-digits.cpp)
+         src/remove-k-digits.cpp src/reorder-data-in-log-files.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

@@ -6,6 +6,11 @@
          src/reverse-list.cpp
          src/intersection-of-two-linked-lists.cpp
          src/add-two-numbers.cpp
-         src/odd-even-linked-list.cpp)
+         src/odd-even-linked-list.cpp
+         src/merge-two-sorted-lists.cpp
+         src/merge-k-sorted-lists.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME}
+         PUBLIC
+         include
+         ${CMAKE_SOURCE_DIR})

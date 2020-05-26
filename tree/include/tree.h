@@ -8,31 +8,7 @@
 #include <unordered_map>
 #include <unordered_set>
 
-/// Binary tree node.
-struct TreeNode
-{
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    explicit TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-};
-
-/// N-ary tree node.
-class Node {
-public:
-    int val;
-    std::vector<Node*> children;
-
-    explicit Node() = default;
-    explicit Node(int val_) {
-        val = val_;
-    }
-
-    explicit Node(int val_, const std::vector<Node*>& children_) {
-        val = val_;
-        children = children_;
-    }
-};
+#include "nodes.h"
 
 TreeNode* createBinaryTree(const std::string& input);
 bool isSameTree(TreeNode* p, TreeNode* q);
@@ -66,6 +42,8 @@ int maxDepth(Node* root);
 std::vector<int> largestValues(TreeNode* root);
 bool isCompleteTree(TreeNode* root);
 bool isCousins(TreeNode* root, int x, int y);
+TreeNode* sortedArrayToBST(std::vector<int>& nums);
+TreeNode* sortedListToBST(ListNode* head);
 
 inline bool isLeafNode(TreeNode* root)
 {

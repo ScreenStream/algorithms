@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 2.8)
 project(algorithms CXX)
 
 add_subdirectory(sliding-window)
-add_subdirectory(tree)
 add_subdirectory(greedy)
 add_subdirectory(bfs)
 add_subdirectory(dfs)
@@ -26,6 +25,7 @@ add_subdirectory(stack)
 add_subdirectory(binary-search)
 add_subdirectory(reservoir-sampling)
 add_subdirectory(knapsack)
+add_subdirectory(tree)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -34,7 +34,6 @@ target_compile_options(${PROJECT_NAME} PUBLIC -Wall -Wextra -pedantic -Werror)
 target_include_directories(${PROJECT_NAME}
         PUBLIC
         sliding-window/include
-        tree/include
         greedy/include
         bfs/include
         dfs/include
@@ -57,11 +56,11 @@ target_include_directories(${PROJECT_NAME}
         stack/include
         binary-search/include
         reservoir-sampling/include
-        knapsack/include)
+        knapsack/include
+        tree/include)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
-        tree
         greedy
         bfs
         dfs
@@ -84,6 +83,7 @@ target_link_libraries(${PROJECT_NAME}
         stack
         binary-search
         reservoir-sampling
-        knapsack)
+        knapsack
+        tree)
 
 

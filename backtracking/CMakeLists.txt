@@ -16,4 +16,4 @@
          PUBLIC
          include
          ${CMAKE_SOURCE_DIR}/string/include
-         ${CMAKE_SOURCE_DIR}/tree/include)
+         ${CMAKE_SOURCE_DIR})
