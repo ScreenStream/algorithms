@@ -16,7 +16,7 @@ Input:
 Output: 1->1->2->3->4->4->5->6
  */
 
-ListNode* mergeKLists(vector<ListNode*>& lists) {
+ListNode* mergeKLists2(const vector<ListNode*>& lists) {
     if(lists.empty()) {
         return nullptr;
     }
@@ -36,3 +36,34 @@ ListNode* mergeKLists(vector<ListNode*>& lists) {
     return mergeTwoLists(mergeKLists(lower), mergeKLists(upper));
 }
 
+ListNode* mergeKLists(const std::vector<ListNode*>& lists) {
+    if(lists.empty()) {
+        return nullptr;
+    }
+
+    auto cmp = [](auto a, auto b){
+        return a->val > b->val;
+    };
+
+    priority_queue<ListNode*, vector<ListNode*>, decltype(cmp)> pq(cmp);
+
+    for(auto list : lists) {
+        while(list) {
+            pq.push(list);
+            list = list->next;
+        }
+    }
+
+    auto dummy = new ListNode(0);
+    auto head = dummy;
+
+    while(!pq.empty()) {
+        dummy->next = pq.top();
+        pq.top()->next = nullptr; /// Reset the next pointer of the node, otherwise the solution would TLE due to infinite linked list chain.
+        pq.pop();
+
+        dummy = dummy->next;
+    }
+
+    return head->next;
+}

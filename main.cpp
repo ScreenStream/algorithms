@@ -1,26 +1,13 @@
 #include <iostream>
-#include "sliding-window.h"
-#include "tree.h"
-#include "greedy.h"
-#include "bitwise.h"
-#include "backtracking.h"
-#include "dfs.h"
-#include "bfs.h"
-#include "arr.h"
-#include "str.h"
-#include "dp.h"
-#include "heap.h"
-#include "design.h"
-#include "maths.h"
-#include "graph.h"
-#include "binary-search.h"
-#include "knapsack.h"
+#include "methods.h"
 
 using std::cout;
 using std::endl;
 
 int main()
 {
-    std::vector<int> m{5,-3,5};
-    maxSubarraySumCircular(m);
+    auto list1 = createList({-1,-1,-1});
+    auto list2 = createList({-2,-2,-1});
+
+    printList(mergeKLists({list1, list2}));
 }
