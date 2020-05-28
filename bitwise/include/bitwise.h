@@ -8,3 +8,4 @@ int rangeBitwiseAnd(int m, int n);
 int bitwiseComplement(int N);
 int divide(int dividend, int divisor);
 int getSum(int a, int b);
+std::vector<int> countBits(int num);
