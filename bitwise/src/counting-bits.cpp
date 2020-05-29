@@ -23,11 +23,11 @@ Can you do it like a boss? Do it without using any builtin function like __built
 
 
 /*
- * i&(i-1) drops the lowest set bit. For example: i = 14, its binary representation is 1110, so i-1 is 1101, i&(i-1) = 1100,
- * the number of "1" in its binary representation decrease one, so ret[i] = ret[i&(i-1)] + 1.
+ * i&(i-1) drops the lowest set(1) bit. For example: i = 14, its binary representation is 1110, so i-1 is 1101, i&(i-1) = 1100,
+ * the number of "1" in its binary representation decrease one, so res[i] = res[i&(i-1)] + 1.
  */
 vector<int> countBits(int num) {
-    vector<int> res(num+1);
+    vector<int> res(num + 1);
 
     for (int i = 1; i <= num; ++i) {
         res[i] = res[i & (i - 1)] + 1;

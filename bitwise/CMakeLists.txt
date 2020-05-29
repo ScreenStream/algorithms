@@ -8,6 +8,7 @@
          src/complement-of-base-10-integer.cpp
          src/divide-two-integers.cpp
          src/sum-of-two-integers.cpp
-         src/counting-bits.cpp)
+         src/counting-bits.cpp
+         src/number-of-1-bits.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

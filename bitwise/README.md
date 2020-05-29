@@ -34,3 +34,5 @@ From string::npos reference page:
 Note
 Although the definition uses -1, size_type is an unsigned integer type, and the value of npos is the largest positive value it can hold, due to signed-to-unsigned implicit conversion. **This is a portable way to specify the largest value of any unsigned type (Remember that unsigned int values do not have to be 4 bytes long, that is why we need this.)**
 
+n & (n - 1) drops the lowest set(1) bit. It's a neat little bit trick.
+
