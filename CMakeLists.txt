@@ -26,6 +26,7 @@ add_subdirectory(binary-search)
 add_subdirectory(reservoir-sampling)
 add_subdirectory(knapsack)
 add_subdirectory(tree)
+add_subdirectory(shortest-path)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -57,7 +58,8 @@ target_include_directories(${PROJECT_NAME}
         binary-search/include
         reservoir-sampling/include
         knapsack/include
-        tree/include)
+        tree/include
+        shortest-path/include)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -84,6 +86,7 @@ target_link_libraries(${PROJECT_NAME}
         binary-search
         reservoir-sampling
         knapsack
-        tree)
+        tree
+        shortest-path)
 
 
