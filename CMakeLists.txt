@@ -15,8 +15,6 @@ add_subdirectory(interval)
 add_subdirectory(line-sweep)
 add_subdirectory(linked-list)
 add_subdirectory(maths)
-add_subdirectory(union-find)
-add_subdirectory(topological-sort)
 add_subdirectory(string)
 add_subdirectory(segment-tree)
 add_subdirectory(two-pointers)
@@ -26,7 +24,6 @@ add_subdirectory(binary-search)
 add_subdirectory(reservoir-sampling)
 add_subdirectory(knapsack)
 add_subdirectory(tree)
-add_subdirectory(shortest-path)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -48,8 +45,6 @@ target_include_directories(${PROJECT_NAME}
         line-sweep/include
         linked-list/include
         maths/include
-        union-find/include
-        topological-sort/include
         string/include
         segment-tree/include
         two-pointers/include
@@ -58,8 +53,7 @@ target_include_directories(${PROJECT_NAME}
         binary-search/include
         reservoir-sampling/include
         knapsack/include
-        tree/include
-        shortest-path/include)
+        tree/include)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -76,8 +70,6 @@ target_link_libraries(${PROJECT_NAME}
         line-sweep
         linked-list
         maths
-        union-find
-        topological-sort
         strings
         segment-tree
         two-pointers
@@ -86,7 +78,6 @@ target_link_libraries(${PROJECT_NAME}
         binary-search
         reservoir-sampling
         knapsack
-        tree
-        shortest-path)
+        tree)
 
 
