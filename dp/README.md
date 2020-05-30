@@ -42,3 +42,7 @@ A) Yes, the magic is observation from the induction rule/recurrence relation!
                  #  
    Conclusion:
    So the rule is that observe the positions of current element and its dependencies in the matrix. Mostly if current elements depends on the elements in previous row(most frequent case)/columns, you can optimize the space.
+   
+   
+   
+   https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns

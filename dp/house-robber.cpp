@@ -59,7 +59,7 @@ int robRecursiveHelper(std::vector<int>& nums, int i, std::vector<int>& dp)
     return dp[i];
 }
 
-int robRecursive(std::vector<int>& nums) {
+int rob(std::vector<int>& nums) {
     std::vector<int> dp(nums.size(), -1);
     return robRecursiveHelper(nums, nums.size() - 1, dp);
 }

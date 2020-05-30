@@ -32,7 +32,7 @@ target_include_directories(${PROJECT_NAME}
         backtracking/include
         bitwise/include
         design/include
-        dp/include
+        dp
         graph
         heap/include
         interval/include

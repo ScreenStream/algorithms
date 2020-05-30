@@ -1,5 +1,7 @@
 #include "dp.h"
 
+using namespace std;
+
 /*
  * Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 
@@ -26,15 +28,16 @@ When i > 0 and j > 0, if matrix[i][j] = '0', then dp[i][j] = 0 since no square w
  If matrix[i][j] = '1', we will have dp[i][j] = min(dp[i-1][j-1], dp[i-1][j], dp[i][j-1]) + 1,
  which means that the square will be limited by its left, upper and upper-left neighbors.
  */
+
 /// O(m*n) space.
-int maximalSquare(std::vector<std::vector<char>>& matrix) {
+int maximalSquare(vector<vector<char>>& matrix) {
     if(matrix.empty()) {
         return 0;
     }
 
     int m = matrix.size();
     int n = matrix[0].size();
-    std::vector<std::vector<int>> dp(m, std::vector<int>(n));
+    vector<vector<int>> dp(m, vector<int>(n));
     int edge = 0;
 
     for(int i = 0; i < m; ++i) {
@@ -42,10 +45,10 @@ int maximalSquare(std::vector<std::vector<char>>& matrix) {
             if(!i || !j || matrix[i][j] == '0') {
                 dp[i][j] = matrix[i][j] - '0';
             } else {
-                dp[i][j] = std::min({dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]}) + 1; /// Taking minimum out of the options will lead to SQUARE edge discovery.
+                dp[i][j] = min({dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]}) + 1; /// Taking minimum out of the options will lead to SQUARE edge discovery.
             }
 
-            edge = std::max(edge, dp[i][j]);
+            edge = max(edge, dp[i][j]);
         }
     }
 
@@ -57,7 +60,7 @@ int maximalSquare(std::vector<std::vector<char>>& matrix) {
  * dp[i][j-1] (the current row). So we may just maintain a row and a variable.
  */
 /// O(n) space.
-int maximalSquare2(std::vector<std::vector<char>>& matrix) {
+int maximalSquare2(vector<vector<char>>& matrix) {
     if (matrix.empty()) {
         return 0;
     }
@@ -67,7 +70,7 @@ int maximalSquare2(std::vector<std::vector<char>>& matrix) {
     int edgeLength = 0;
     int pre = 0;
 
-    std::vector<int> dp(n, 0);
+    vector<int> dp(n, 0);
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
             int temp = dp[j];
@@ -75,10 +78,10 @@ int maximalSquare2(std::vector<std::vector<char>>& matrix) {
             if (!i || !j || matrix[i][j] == '0') {
                 dp[j] = matrix[i][j] - '0';
             } else {
-                dp[j] = std::min({pre, dp[j], dp[j - 1]}) + 1;
+                dp[j] = min({pre, dp[j], dp[j - 1]}) + 1;
             }
 
-            edgeLength = std::max(edgeLength, dp[j]);
+            edgeLength = max(edgeLength, dp[j]);
             pre = temp;
         }
     }

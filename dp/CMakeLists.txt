@@ -5,28 +5,60 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/fibonacci-number.cpp
-         src/two-sum.cpp
-         src/coin-change.cpp
-         src/minimum-path-sum.cpp
-         src/house-robber.cpp
-         src/min-cost-climbing-stairs.cpp
-         src/climbing-stairs.cpp
-         src/unique-paths.cpp
-         src/decode-ways.cpp
-         src/minimum-falling-path-sum.cpp
-         src/minimum-costs-for-tickets.cpp
-         src/2-keys-keyboard.cpp
-         src/perfect-squares.cpp
-         src/triangle.cpp
-         src/maximal-square.cpp
-         src/longest-common-subsequence.cpp
-         src/longest-palindromic-subsequence.cpp
-         src/shortest-common-supersequence.cpp
-         src/longest-increasing-path-in-matrix.cpp
-         src/count-square-submatrices-with-all-ones.cpp)
+         fibonacci-number.cpp
+         two-sum.cpp
+         coin-change.cpp
+         minimum-path-sum.cpp
+         house-robber.cpp
+         min-cost-climbing-stairs.cpp
+         climbing-stairs.cpp
+         unique-paths.cpp
+         decode-ways.cpp
+         minimum-falling-path-sum.cpp
+         minimum-costs-for-tickets.cpp
+         2-keys-keyboard.cpp
+         perfect-squares.cpp
+         triangle.cpp
+         maximal-square.cpp
+         longest-common-subsequence.cpp
+         longest-palindromic-subsequence.cpp
+         shortest-common-supersequence.cpp
+         longest-increasing-path-in-matrix.cpp
+         count-square-submatrices-with-all-ones.cpp
+         number-of-dice-rolls-with-target-sum.cpp
+         knight-probability-in-chessboard.cpp
+         target-sum.cpp
+         combination-sum-IV.cpp
+         knight-dialer.cpp
+         domino-and-tromino-tiling.cpp
+         soup-servings.cpp
+         dice-roll-simulation.cpp
+         minimum-swaps-to-make-sequences-increasing.cpp
+         number-of-longest-increasing-subsequence.cpp
+         unique-paths-II.cpp
+         out-of-boundary-paths.cpp
+         number-of-ways-to-stay-in-the-same-place-after-some-steps.cpp
+         count-vowels-permutation.cpp 
+         minimum-cost-tree-from-leaf-values.cpp 
+         unique-binary-search-trees.cpp 
+         minimum-score-triangulation-of-polygon.cpp 
+         remove-boxes.cpp 
+         minimum-cost-to-merge-stones.cpp 
+         burst-balloons.cpp 
+         guess-number-higher-or-lower-II.cpp 
+         palindromic-substrings.cpp 
+         edit-distance.cpp 
+         distinct-subsequences.cpp 
+         minimum-ASCII-delete-sum-for-two-strings.cpp 
+         longest-palindromic-substring.cpp 
+         best-time-to-buy-and-sell-stock.cpp 
+         best-time-to-buy-and-sell-stock-with-transaction-fee.cpp 
+         best-time-to-buy-and-sell-stock-with-cooldown.cpp 
+         best-time-to-buy-and-sell-stock-III.cpp 
+         best-time-to-buy-and-sell-stock-IV.cpp 
+         dungeon-game.cpp 
+         minimum-number-of-refueling-stops.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
-         include
          knapsack/include)
