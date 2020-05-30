@@ -1,6 +1,8 @@
  cmake_minimum_required(VERSION 2.8)
  set(TARGET_NAME dp)
 
+ add_subdirectory(knapsack)
+
  add_library(${TARGET_NAME}
          STATIC
          src/fibonacci-number.cpp
@@ -24,4 +26,7 @@
          src/longest-increasing-path-in-matrix.cpp
          src/count-square-submatrices-with-all-ones.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME}
+         PUBLIC
+         include
+         knapsack/include)
