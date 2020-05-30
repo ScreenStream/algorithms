@@ -35,7 +35,7 @@ target_include_directories(${PROJECT_NAME}
         bitwise/include
         design/include
         dp/include
-        graph/include
+        graph
         heap/include
         interval/include
         line-sweep/include

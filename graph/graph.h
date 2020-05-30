@@ -5,4 +5,3 @@
 std::vector<int> findMinHeightTrees(int n, std::vector<std::vector<int>>& edges);
 int findJudge(int N, std::vector<std::vector<int>>& trust);
 int findCelebrity(int N);
-std::vector<std::vector<int>> criticalConnections(int n, const std::vector<std::vector<int>>& connections);

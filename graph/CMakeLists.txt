@@ -5,14 +5,30 @@
  add_subdirectory(topological-sort)
  add_subdirectory(shortest-path)
  add_subdirectory(union-find)
- add_subdirectory(bfs)
- add_subdirectory(dfs)
+ add_subdirectory(searching)
+ add_subdirectory(strongly-connected-components)
 
  add_library(${TARGET_NAME}
          STATIC
-         src/minimum-height-trees.cpp
-         src/find-the-town-judge.cpp
-         src/find-the-celebrity.cpp
-         src/critical-connections.cpp)
+         minimum-height-trees.cpp
+         find-the-town-judge.cpp
+         find-the-celebrity.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME}
+         PUBLIC
+         searching/bfs/include
+         searching/dfs/include
+         coloring/include
+         shortest-path/include
+         strongly-connected-components/include
+         topological-sort/include
+         union-find/include)
+
+ target_link_libraries(${TARGET_NAME}
+         bfs
+         dfs
+         coloring
+         topological-sort
+         union-find
+         shortest-path
+         strongly-connected-components)
