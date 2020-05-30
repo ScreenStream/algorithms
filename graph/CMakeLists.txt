@@ -5,6 +5,8 @@
  add_subdirectory(topological-sort)
  add_subdirectory(shortest-path)
  add_subdirectory(union-find)
+ add_subdirectory(bfs)
+ add_subdirectory(dfs)
 
  add_library(${TARGET_NAME}
          STATIC

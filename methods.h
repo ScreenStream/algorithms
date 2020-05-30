@@ -5,8 +5,6 @@
 #include "greedy.h"
 #include "bitwise.h"
 #include "backtracking.h"
-#include "dfs.h"
-#include "bfs.h"
 #include "arr.h"
 #include "str.h"
 #include "dp.h"

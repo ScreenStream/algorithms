@@ -3,8 +3,6 @@ project(algorithms CXX)
 
 add_subdirectory(sliding-window)
 add_subdirectory(greedy)
-add_subdirectory(bfs)
-add_subdirectory(dfs)
 add_subdirectory(backtracking)
 add_subdirectory(bitwise)
 add_subdirectory(design)
@@ -33,8 +31,6 @@ target_include_directories(${PROJECT_NAME}
         PUBLIC
         sliding-window/include
         greedy/include
-        bfs/include
-        dfs/include
         backtracking/include
         bitwise/include
         design/include
@@ -58,8 +54,6 @@ target_include_directories(${PROJECT_NAME}
 target_link_libraries(${PROJECT_NAME}
         sliding-window
         greedy
-        bfs
-        dfs
         backtracking
         bitwise
         design
