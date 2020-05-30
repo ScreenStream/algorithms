@@ -3,8 +3,9 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/partition-equal-subset-sum.cpp
-         src/ones-and-zeroes.cpp
-         src/last-stone-weight-II.cpp src/coin-change-2.cpp)
+         partition-equal-subset-sum.cpp
+         ones-and-zeroes.cpp
+         last-stone-weight-II.cpp 
+         coin-change-2.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)
