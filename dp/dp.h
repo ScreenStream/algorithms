@@ -97,4 +97,14 @@ std::vector<int> twoSum(std::vector<int>& nums, int target);
 int numDecodings(std::string s);
 int countSquares(std::vector<std::vector<int>>& A);
 int longestIncreasingPath(const std::vector<std::vector<int>>& matrix);
-
+int cherryPickup(std::vector<std::vector<int>>& grid);
+int cherryPickupII(std::vector<std::vector<int>>& grid);
+int ways(std::vector<std::string>& pizza, int k); /// number-of-ways-of-cutting-a-pizza
+bool isMatch(std::string s, std::string p); /// wildcard-matching
+bool isRegexMatch(std::string s, std::string p);
+int longestValidParentheses(std::string s);
+int maximalRectangle(std::vector<std::vector<char>>& matrix);
+bool isInterleave(std::string s1, std::string s2, std::string s3);
+bool wordBreak(std::string s, std::vector<std::string>& wordDict);
+int longestStrChain(std::vector<std::string>& words);
+int robII(std::vector<int>& nums);

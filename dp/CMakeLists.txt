@@ -57,7 +57,8 @@
          best-time-to-buy-and-sell-stock-III.cpp 
          best-time-to-buy-and-sell-stock-IV.cpp 
          dungeon-game.cpp 
-         minimum-number-of-refueling-stops.cpp)
+         minimum-number-of-refueling-stops.cpp
+         cherry-pickup.cpp cherry-pickup-II.cpp number-of-ways-of-cutting-a-pizza.cpp wildcard-matching.cpp longest-valid-parentheses.cpp regular-expression-matching.cpp maximal-rectangle.cpp interleaving-string.cpp word-break.cpp longest-string-chain.cpp house-robber-II.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

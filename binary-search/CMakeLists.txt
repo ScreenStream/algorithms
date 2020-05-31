@@ -3,7 +3,8 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/first-bad-version.cpp)
+         src/first-bad-version.cpp
+         src/is-subsequence.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
