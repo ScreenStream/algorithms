@@ -1,4 +1,4 @@
-#include "stack/stack_.h"
+#include "monotone-stack.h"
 
 /*
  * Given a list of daily temperatures T, return a list such that, for each day in the input, tells you how many days you would have to wait until a warmer temperature. If there is no future day for which this is possible, put 0 instead.
