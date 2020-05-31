@@ -13,7 +13,8 @@
          STATIC
          minimum-height-trees.cpp
          find-the-town-judge.cpp
-         find-the-celebrity.cpp)
+         find-the-celebrity.cpp
+         clone-graph.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

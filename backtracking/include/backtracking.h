@@ -15,3 +15,4 @@ std::vector<std::vector<int>> permute(std::vector<int>& nums);
 std::vector<std::vector<int>> permuteUnique(std::vector<int>& nums);
 std::vector<std::vector<int>> combinationSum(std::vector<int>& candidates, int target);
 std::vector<std::vector<int>> pathSumII(TreeNode* root, int sum);
+std::vector<std::string> letterCasePermutation(std::string S);

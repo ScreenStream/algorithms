@@ -10,7 +10,8 @@
          src/permutations.cpp
          src/permutations-ii.cpp
          src/combination-sum.cpp
-         src/path-sum-ii.cpp)
+         src/path-sum-ii.cpp
+         src/letter-case-permutation.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

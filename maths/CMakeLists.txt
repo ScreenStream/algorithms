@@ -3,7 +3,6 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/happy-number.cpp
          src/plus-one.cpp
          src/rotate-image.cpp
          src/reverse-integer.cpp

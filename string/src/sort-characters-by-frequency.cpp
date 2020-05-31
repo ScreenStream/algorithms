@@ -1,5 +1,7 @@
 #include "str.h"
 
+using namespace std;
+
 /*
  * Given a string, sort it in decreasing order based on the frequency of characters.
 
@@ -38,14 +40,14 @@ Explanation:
 Note that 'A' and 'a' are treated as two different characters.
  */
 
-std::string frequencySort(std::string s) {
-    std::vector<int> charmap(256);
+string frequencySort(string s) {
+    vector<int> charmap(256);
 
     for(auto ch : s) {
         charmap[ch]++;
     }
 
-    std::sort(s.begin(), s.end(), [&charmap](auto a, auto b){
+    sort(s.begin(), s.end(), [&charmap](auto a, auto b){
         return charmap[a] > charmap[b] || (charmap[a] == charmap[b] && a < b); /// (charmap[a] == charmap[b] && a < b) is important!
                                                                                /// Otherwise, in letters that have the same frequency we would
                                                                                /// have them mixed up! a > b would also work, of course.

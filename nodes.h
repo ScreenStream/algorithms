@@ -1,5 +1,7 @@
 #pragma once
 
+#include <vector>
+
 /// Binary tree node.
 struct TreeNode
 {
@@ -16,6 +18,11 @@ class Node {
 public:
     int val;
     std::vector<Node*> children;
+
+    Node() {
+        val = 0;
+        children = std::vector<Node*>();
+    }
 
     explicit Node(int val_) {
         val = val_;

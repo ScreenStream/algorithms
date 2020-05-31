@@ -5,6 +5,11 @@
          STATIC
          src/num-islands.cpp
          src/word-search.cpp
-         src/flood-fill.cpp)
+         src/flood-fill.cpp
+         src/path-sum.cpp
+         src/validate-binary-search-tree.cpp src/smallest-string-starting-from-leaf.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME}
+         PUBLIC
+         include
+         ${CMAKE_SOURCE_DIR})

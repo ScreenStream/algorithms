@@ -20,6 +20,7 @@ add_subdirectory(array)
 add_subdirectory(stack)
 add_subdirectory(binary-search)
 add_subdirectory(reservoir-sampling)
+add_subdirectory(slow-fast-pointer)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -27,25 +28,26 @@ target_compile_options(${PROJECT_NAME} PUBLIC -Wall -Wextra -pedantic -Werror)
 
 target_include_directories(${PROJECT_NAME}
         PUBLIC
-        sliding-window/include
+        sliding-window
         greedy/include
         backtracking/include
         bitwise/include
         design/include
         dp
         graph
-        heap/include
+        heap
         interval/include
         line-sweep/include
         linked-list/include
         maths/include
         string/include
         segment-tree/include
-        two-pointers/include
+        two-pointers
         array/include
         stack/include
-        binary-search/include
-        reservoir-sampling/include)
+        binary-search
+        reservoir-sampling/include
+        slow-fast-pointer)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -66,6 +68,7 @@ target_link_libraries(${PROJECT_NAME}
         array
         stack
         binary-search
-        reservoir-sampling)
+        reservoir-sampling
+        slow-fast-pointer)
 
 

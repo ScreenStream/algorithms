@@ -7,8 +7,6 @@
 #include <unordered_set>
 #include <unordered_map>
 
-int lengthOfLongestSubstring1(const std::string& s);
-int lengthOfLongestSubstring2(const std::string& s);
 void reverseString(std::vector<char>& s);
 std::vector<std::string> letterCombinationsBFS(const std::string& digits);
 std::vector<std::string> letterCombinationsDFS(const std::string& digits);

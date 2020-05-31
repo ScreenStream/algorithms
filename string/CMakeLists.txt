@@ -3,7 +3,6 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/longest-substring-without-repeating-characters.cpp
          src/reverse-string.cpp
          src/letter-combinations-of-a-phone-number.cpp
          src/backspace-string-compare.cpp

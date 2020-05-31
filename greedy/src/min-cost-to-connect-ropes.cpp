@@ -1,5 +1,7 @@
 #include "greedy.h"
 
+using namespace std;
+
 /*
  * https://leetcode.com/problems/minimum-cost-to-connect-sticks (premium)
 
@@ -28,13 +30,13 @@ Input: ropes = [2, 2, 3, 3]
 Output: 20
  */
 
-int minCostConnectRopes(const std::vector<int>& nums)
+int minCostConnectRopes(const vector<int>& nums)
 {
     if(nums.size() < 2)
         return 0;
 
     int res = 0;
-    std::priority_queue<int, std::vector<int>, std::greater<>> pq(nums.begin(), nums.end());
+    priority_queue<int, vector<int>, greater<>> pq(nums.begin(), nums.end());
 
     while(pq.size() > 1) {
         int a = pq.top();

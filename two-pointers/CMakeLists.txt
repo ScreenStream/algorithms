@@ -3,9 +3,9 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/container-with-most-water.cpp
-         src/intersectionf-of-two-arrays-ii.cpp
-         src/three-sum.cpp
-         src/valid-palindrome.cpp)
+         container-with-most-water.cpp
+         intersectionf-of-two-arrays-ii.cpp
+         three-sum.cpp
+         valid-palindrome.cpp duplicate-zeroes.cpp squares-of-a-sorted-array.cpp 3Sum-closest.cpp subarray-product-less-than-K.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)
