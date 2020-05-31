@@ -18,4 +18,5 @@ std::vector<std::vector<int>> levelOrder(TreeNode* root);
 std::vector<std::vector<int>> levelOrderII(TreeNode* root);
 std::vector<std::vector<int>> zigzagLevelOrder(TreeNode* root);
 std::vector<double> averageOfLevels(TreeNode* root);
+std::vector<int> largestValues(TreeNode* root);
 int minDepth(TreeNode* root);

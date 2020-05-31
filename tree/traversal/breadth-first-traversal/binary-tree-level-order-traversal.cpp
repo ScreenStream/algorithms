@@ -1,4 +1,4 @@
-#include "bfs.h"
+#include "breadth-first-traversal.h"
 
 using namespace std;
 

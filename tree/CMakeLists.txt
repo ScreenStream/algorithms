@@ -1,0 +1,38 @@
+ cmake_minimum_required(VERSION 2.8)
+ set(TARGET_NAME tree)
+
+ add_subdirectory(traversal)
+
+ add_library(${TARGET_NAME}
+         STATIC
+         same-tree.cpp
+         symmetric-tree.cpp
+         invert-binary-tree.cpp
+         subtree-another-tree.cpp
+         create-binary-tree.cpp
+         diameter-of-binary-tree.cpp
+         lowest-common-ancestor-of-bst.cpp
+         lowest-common-ancestor-of-binary-tree.cpp
+         all-nodes-distance-k-in-binary-tree.cpp
+         binary-tree-maximum-path-sum.cpp
+         binary-tree-paths.cpp
+         check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp
+         deepest-leaves-sum.cpp
+         sum-of-left-leaves.cpp
+         path-sum-iii.cpp
+         binary-tree-right-side-view.cpp
+         range-sum-of-bst.cpp
+         maximum-depth-of-n-ary-tree.cpp
+         check-completeness-of-a-binary-tree.cpp
+         convert-sorted-array-to-binary-search-tree.cpp)
+
+ target_include_directories(${TARGET_NAME}
+         PUBLIC
+         ${CMAKE_SOURCE_DIR}/string/include
+         ${CMAKE_SOURCE_DIR}
+         traversal/breadth-first-traversal
+         traversal/depth-first-traversal)
+
+ target_link_libraries(${TARGET_NAME}
+         breadth-first-traversal
+         depth-first-traversal)

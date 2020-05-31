@@ -1,4 +1,6 @@
-#include "tree.h"
+#include "depth-first-traversal.h"
+
+using namespace std;
 
 /*
  * Given a binary tree, return the inorder traversal of its nodes' values.
@@ -16,12 +18,12 @@ Output: [1,3,2]
 Follow up: Recursive solution is trivial, could you do it iteratively?
  */
 
-std::vector<int> inorderTraversalIterative(TreeNode* root)
+vector<int> inorderTraversalIterative(TreeNode* root)
 {
     if(!root) return {};
-    std::vector<int> res;
+    vector<int> res;
 
-    std::stack<TreeNode*> nodes;
+    stack<TreeNode*> nodes;
 
     while(root || !nodes.empty()) {
         while(root) {
@@ -38,7 +40,7 @@ std::vector<int> inorderTraversalIterative(TreeNode* root)
     return res;
 }
 
-void inorderTraversalRecursiveHelper(TreeNode* root, std::vector<int>& res)
+void inorderTraversalRecursiveHelper(TreeNode* root, vector<int>& res)
 {
     if(!root) return;
 
@@ -47,8 +49,8 @@ void inorderTraversalRecursiveHelper(TreeNode* root, std::vector<int>& res)
     inorderTraversalRecursiveHelper(root->right, res);
 }
 
-std::vector<int> inorderTraversalRecursive(TreeNode* root) {
-    std::vector<int> res;
+vector<int> inorderTraversalRecursive(TreeNode* root) {
+    vector<int> res;
     inorderTraversalRecursiveHelper(root, res);
     return res;
 }

@@ -17,13 +17,6 @@ bool isSymmetric(TreeNode* root);
 TreeNode* invertTree(TreeNode* root);
 bool isValidBSTIterative(TreeNode* root);
 bool isValidBSTRecursive(TreeNode* root);
-std::vector<int> inorderTraversalIterative(TreeNode* root);
-std::vector<int> inorderTraversalRecursive(TreeNode* root);
-std::vector<int> preorderTraversalIterative(TreeNode* root);
-std::vector<int> preorderTraversalIterative2(TreeNode* root);
-std::vector<int> preorderTraversalRecursive(TreeNode* root);
-std::vector<int> postorderTraversalIterative(TreeNode* root);
-std::vector<int> postorderTraversalRecursive(TreeNode* root);
 int diameterOfBinaryTree(TreeNode* root);
 TreeNode* lowestCommonAncestorBST(TreeNode* root, TreeNode* p, TreeNode* q);
 TreeNode* lowestCommonAncestorBinaryTree(TreeNode* root, TreeNode* p, TreeNode* q);
@@ -38,11 +31,8 @@ int pathSum(TreeNode* root, int sum);
 std::vector<int> rightSideView(TreeNode* root);
 int rangeSumBST(TreeNode* root, int L, int R);
 int maxDepth(Node* root);
-std::vector<int> largestValues(TreeNode* root);
 bool isCompleteTree(TreeNode* root);
-bool isCousins(TreeNode* root, int x, int y);
 TreeNode* sortedArrayToBST(std::vector<int>& nums);
-TreeNode* sortedListToBST(ListNode* head);
 
 inline bool isLeafNode(TreeNode* root)
 {

@@ -21,6 +21,7 @@ add_subdirectory(stack)
 add_subdirectory(binary-search)
 add_subdirectory(reservoir-sampling)
 add_subdirectory(slow-fast-pointer)
+add_subdirectory(tree)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -47,7 +48,8 @@ target_include_directories(${PROJECT_NAME}
         stack/include
         binary-search
         reservoir-sampling/include
-        slow-fast-pointer)
+        slow-fast-pointer
+        tree)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -69,6 +71,7 @@ target_link_libraries(${PROJECT_NAME}
         stack
         binary-search
         reservoir-sampling
-        slow-fast-pointer)
+        slow-fast-pointer
+        tree)
 
 

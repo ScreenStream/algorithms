@@ -9,9 +9,10 @@
          01-matrix.cpp
          as-far-from-land-as-possible.cpp
          shortest-path-in-binary-matrix.cpp
-         binary-tree-level-order-traversal.cpp
-         binary-tree-level-order-traversal-II.cpp
-         binary-tree-zigzag-level-order-traversal.cpp average-of-levels-in-binary-tree.cpp minimum-depth-of-binary-tree.cpp)
+         average-of-levels-in-binary-tree.cpp
+         minimum-depth-of-binary-tree.cpp
+         find-largest-value-in-each-tree-row.cpp
+         cousins-in-binary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -7,7 +7,8 @@
          happy-number.cpp
          linked-list-cycle-II.cpp
          linked-list-cycle.cpp
-         find-the-duplicate-number.cpp)
+         find-the-duplicate-number.cpp
+         convert-sorted-list-to-binary-search-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

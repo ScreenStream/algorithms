@@ -7,7 +7,6 @@
  add_subdirectory(union-find)
  add_subdirectory(searching)
  add_subdirectory(strongly-connected-components)
- add_subdirectory(tree)
 
  add_library(${TARGET_NAME}
          STATIC
@@ -24,8 +23,7 @@
          shortest-path/include
          strongly-connected-components/include
          topological-sort/include
-         union-find/include
-         tree/include)
+         union-find/include)
 
  target_link_libraries(${TARGET_NAME}
          bfs
@@ -34,5 +32,4 @@
          topological-sort
          union-find
          shortest-path
-         strongly-connected-components
-         tree)
+         strongly-connected-components)

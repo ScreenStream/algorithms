@@ -1,4 +1,6 @@
-#include "tree.h"
+#include "depth-first-traversal.h"
+
+using namespace std;
 
 /*
  * Given a binary tree, return the preorder traversal of its nodes' values.
@@ -16,13 +18,15 @@ Output: [1,2,3]
 Follow up: Recursive solution is trivial, could you do it iteratively?
  */
 
-std::vector<int> preorderTraversalIterative(TreeNode* root)
+vector<int> preorderTraversalIterative(TreeNode* root)
 {
-    if(!root) return {};
+    if(!root) {
+        return {};
+    }
 
-    std::vector<int> res;
+    vector<int> res;
 
-    std::stack<TreeNode*> nodes;
+    stack<TreeNode*> nodes;
     nodes.push(root);
 
     while(!nodes.empty()) {
@@ -41,10 +45,10 @@ std::vector<int> preorderTraversalIterative(TreeNode* root)
 }
 
 /// This version only stores right pointers in the stack. root = root->left needed to traverse to left.
-std::vector<int> preorderTraversalIterative2(TreeNode* root)
+vector<int> preorderTraversalIterative2(TreeNode* root)
 {
-    std::vector<int> res;
-    std::stack<TreeNode*> nodes;
+    vector<int> res;
+    stack<TreeNode*> nodes;
 
     while(root || !nodes.empty()) {
         if(root) {
@@ -60,16 +64,19 @@ std::vector<int> preorderTraversalIterative2(TreeNode* root)
     return res;
 }
 
-void preorderTraversalRecursiveHelper(TreeNode* root, std::vector<int>& nodes) {
-    if (!root) return;
+void preorderTraversalRecursiveHelper(TreeNode* root, vector<int>& nodes) {
+    if (!root) {
+        return;
+    }
+
     nodes.push_back(root->val);
     preorderTraversalRecursiveHelper(root->left, nodes);
     preorderTraversalRecursiveHelper(root->right, nodes);
 }
 
-std::vector<int> preorderTraversalRecursive(TreeNode* root)
+vector<int> preorderTraversalRecursive(TreeNode* root)
 {
-    std::vector<int> nodes;
+    vector<int> nodes;
     preorderTraversalRecursiveHelper(root, nodes);
     return nodes;
 }
