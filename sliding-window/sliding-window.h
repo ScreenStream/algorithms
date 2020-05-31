@@ -24,3 +24,6 @@ int equalSubstring(std::string s, std::string t, int maxCost);
 int characterReplacement(std::string s, int k);
 std::vector<int> maxSlidingWindow(std::vector<int>& nums, int k);
 int lengthOfLongestSubstring(const std::string& s);
+std::string minWindow(std::string s, std::string t);
+int lengthOfLongestSubstringTwoDistinct(std::string s);
+std::vector<int> findSubstring(std::string s, std::vector<std::string>& words);

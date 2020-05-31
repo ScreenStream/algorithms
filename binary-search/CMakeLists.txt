@@ -7,7 +7,10 @@
          is-subsequence.cpp
          find-first-and-last-position-of-element-in-sorted-array.cpp
          binary-search.cpp
-         search-in-rotated-sorted-array.cpp find-smallest-letter-greater-than-target.cpp single-element-in-a-sorted-array.cpp find-k-closest-elements.cpp)
+         search-in-rotated-sorted-array.cpp
+         find-smallest-letter-greater-than-target.cpp
+         single-element-in-a-sorted-array.cpp
+         find-k-closest-elements.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

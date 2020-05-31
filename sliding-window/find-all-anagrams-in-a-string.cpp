@@ -1,5 +1,6 @@
 #include "sliding-window.h"
-#include <vector>
+
+using namespace std;
 
 /*
  * Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
@@ -33,14 +34,14 @@ The substring with start index = 1 is "ba", which is an anagram of "ab".
 The substring with start index = 2 is "ab", which is an anagram of "ab".
  */
 
-std::vector<int> findAnagrams(const std::string& s, const std::string& p) {
-    std::vector<int> res;
+vector<int> findAnagrams(const string& s, const string& p) {
+    vector<int> res;
 
     int l = 0;
     int r = 0;
     int needToFindCount = p.size();
 
-    std::vector<int> chars(256);
+    vector<int> chars(256);
     for(char ch : p)
         chars[ch]++;
 

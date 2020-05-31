@@ -19,3 +19,4 @@ bool checkStraightLine(std::vector<std::vector<int>>& coordinates);
 bool isPerfectSquare(int num);
 std::vector<int> sumZero(int n);
 int triangleNumber(std::vector<int>& nums);
+int countNumbersWithUniqueDigits(int n);

@@ -3,11 +3,11 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/num-islands.cpp
-         src/word-search.cpp
-         src/flood-fill.cpp
-         src/path-sum.cpp
-         src/validate-binary-search-tree.cpp src/smallest-string-starting-from-leaf.cpp)
+         num-islands.cpp
+         word-search.cpp
+         flood-fill.cpp
+         path-sum.cpp
+         validate-binary-search-tree.cpp smallest-string-starting-from-leaf.cpp maximum-product-of-splitted-binary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

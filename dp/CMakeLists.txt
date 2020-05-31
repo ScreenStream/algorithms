@@ -48,8 +48,8 @@
          guess-number-higher-or-lower-II.cpp 
          palindromic-substrings.cpp 
          edit-distance.cpp 
-         distinct-subsequences.cpp 
-         minimum-ASCII-delete-sum-for-two-strings.cpp 
+         distinct-subsequences.cpp
+         minimum-ascii-delete-sum-for-two-strings.cpp
          longest-palindromic-substring.cpp 
          best-time-to-buy-and-sell-stock.cpp 
          best-time-to-buy-and-sell-stock-with-transaction-fee.cpp 
@@ -68,7 +68,24 @@
          interleaving-string.cpp
          word-break.cpp
          longest-string-chain.cpp
-         house-robber-II.cpp)
+         house-robber-II.cpp
+         longest-increasing-subsequence.cpp
+         largest-divisible-subset.cpp
+         russian-doll-envelopes.cpp
+         maximum-length-of-pair-chain.cpp
+         delete-and-earn.cpp
+         partition-to-k-equal-sum-subsets.cpp
+         palindrome-partitioning-ii.cpp
+         matrix-block-sum.cpp
+         range-sum-query-2d-immutable.cpp
+         longest-arithmetic-sequence.cpp
+         longest-arithmetic-subsequence-of-given-difference.cpp
+         best-time-to-buy-and-sell-stock-ii.cpp
+         predict-the-winner.cpp
+         stone-game.cpp
+         greatest-sum-divisible-by-three.cpp
+         count-numbers-with-unique-digits.cpp
+         longest-turbulent-subarray.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

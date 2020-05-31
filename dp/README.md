@@ -46,3 +46,25 @@ A) Yes, the magic is observation from the induction rule/recurrence relation!
    
    
    https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
+   
+   
+   
+   
+I used to solve DP problems after DP problems without really it clicking in my head. I would see a solution and wonder "how the heck did they come with that solution..."
+
+Here is my practical guide to solving DP problems.
+
+The order of solving a dp problem should be 1) come up with a recurrence relation first 2) code it up. The first part only needs a pen and paper.
+
+When coming up with a recurrence relation, separately come up with a general case and base cases.
+**2.1 when coming up with a general case, assign well defined English meaning to your dp term, dp[...][...][...]... e.g. for https://leetcode.com/problems/longest-increasing-subsequence/, dp[i] = the length of the longest increasing subsequence that ENDS on element i.
+**2.2 once you define your meaning, express the answer to the original problem in terms of your dp terms. If you can't do this, then it means your dp definition likely lacks certain necessary information. e.g. for longest increasing subsequence, ans == max(dp[i]) (because you don't know where an optimal solution ends)
+**2.3 baes cases are usually straightforwardly defined if you follow the top-down approach. i.e. the conditions in which your recursive function ends.
+
+People usually prefer either the top-down or the bottom-up style. Stick with one or the other and always code in some template. Then, writing code is a matter of translating your recurrence relation. This way, you avoid mistakes.
+
+At its core, DP problems are really graph problems. Here each dp[...][...][...] terms are nodes and edges are drawn based on recurrence relations. For your problem to have a DP solution, this graph MUST BE a DAG. This is usually what textbooks mean "optimal substructure". For me, this connection of DP to its graph representation greatly helped.
+
+Once you "get" the solid understanding, then solve problems to find and internalize common patterns.
+
+To me, the practice of 2.1 and understanding of 4 were the tipping point. After that, DP became really easy for me and a weapon to solve many problems, that even have other solutions (usually greedy, which is harder to come up with)

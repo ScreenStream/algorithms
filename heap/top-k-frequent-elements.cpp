@@ -1,5 +1,7 @@
 #include "heap.h"
 
+using namespace std;
+
 /*
  * Given a non-empty array of integers, return the k most frequent elements.
 
@@ -17,9 +19,9 @@ You may assume k is always valid, 1 ≤ k ≤ number of unique elements.
 Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
  */
 
-std::vector<int> topKFrequent(std::vector<int>& nums, int k)
+vector<int> topKFrequent(vector<int>& nums, int k)
 {
-    std::unordered_map<int, int> mp;
+    unordered_map<int, int> mp;
 
     for(auto num : nums) {
         ++mp[num];
@@ -29,7 +31,7 @@ std::vector<int> topKFrequent(std::vector<int>& nums, int k)
         return mp[a] > mp[b];
     };
 
-    std::priority_queue<int, std::vector<int>, decltype(cmp)> pq(cmp);
+    priority_queue<int, vector<int>, decltype(cmp)> pq(cmp);
 
     for(auto n : mp) {
         pq.push(n.first);
@@ -39,7 +41,7 @@ std::vector<int> topKFrequent(std::vector<int>& nums, int k)
         }
     }
 
-    std::vector<int> res;
+    vector<int> res;
     while(!pq.empty()) {
         res.push_back(pq.top());
         pq.pop();

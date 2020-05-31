@@ -13,3 +13,4 @@ std::vector<std::vector<int>> floodFill(std::vector<std::vector<int>>& image, in
 bool hasPathSum(TreeNode* root, int sum);
 bool isValidBST(TreeNode* root);
 std::string smallestFromLeaf(TreeNode* root);
+int maxProduct(TreeNode* root);

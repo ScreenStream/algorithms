@@ -18,8 +18,8 @@
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
-         searching/bfs/include
-         searching/dfs/include
+         searching/bfs
+         searching/dfs
          coloring/include
          shortest-path/include
          strongly-connected-components/include

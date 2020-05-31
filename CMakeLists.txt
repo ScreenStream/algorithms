@@ -39,7 +39,7 @@ target_include_directories(${PROJECT_NAME}
         interval/include
         line-sweep/include
         linked-list/include
-        maths/include
+        maths
         string/include
         segment-tree/include
         two-pointers

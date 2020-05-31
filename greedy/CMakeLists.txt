@@ -4,6 +4,7 @@
  add_library(${TARGET_NAME}
          STATIC
          src/min-cost-to-connect-ropes.cpp
-         src/jump-game.cpp)
+         src/jump-game.cpp
+         src/maximum-length-of-pair-chain.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

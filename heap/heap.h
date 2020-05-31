@@ -15,7 +15,7 @@ int findKthLargest(std::vector<int>& nums, int k);
 
 class KthLargest {
 public:
-    priority_queue<int, std::vector<int>, greater<>> pq;
+    std::priority_queue<int, std::vector<int>, std::greater<>> pq;
     int size;
     KthLargest(int k, const std::vector<int>& nums);
     int add(int val);

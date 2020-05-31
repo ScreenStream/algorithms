@@ -15,3 +15,11 @@ the principle of optimality applies to the problem.
 BUCKET CATEGORY MAYBE?
 CONTAINS DUPLICATE III
 TOP K FREQUENT ELEMENTS
+
+
+PREFIX SUM CATEGORY MAYBE?
+https://leetcode.com/problems/matrix-block-sum/discuss/477036/JavaPython-3-PrefixRange-sum-w-analysis-similar-to-LC-30478
+If you need more practice with range/prefix sum, please refer to:
+304. Range Sum Query 2D - Immutable
+307. Range Sum Query - Mutable
+308. Range Sum Query 2D - Mutable: Premium

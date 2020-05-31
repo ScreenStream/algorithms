@@ -3,15 +3,15 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/rotting-oranges.cpp
-         src/island-perimeter.cpp
-         src/word-ladder.cpp
-         src/01-matrix.cpp
-         src/as-far-from-land-as-possible.cpp
-         src/shortest-path-in-binary-matrix.cpp
-         src/binary-tree-level-order-traversal.cpp
-         src/binary-tree-level-order-traversal-II.cpp
-         src/binary-tree-zigzag-level-order-traversal.cpp src/average-of-levels-in-binary-tree.cpp src/minimum-depth-of-binary-tree.cpp)
+         rotting-oranges.cpp
+         island-perimeter.cpp
+         word-ladder.cpp
+         01-matrix.cpp
+         as-far-from-land-as-possible.cpp
+         shortest-path-in-binary-matrix.cpp
+         binary-tree-level-order-traversal.cpp
+         binary-tree-level-order-traversal-II.cpp
+         binary-tree-zigzag-level-order-traversal.cpp average-of-levels-in-binary-tree.cpp minimum-depth-of-binary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
