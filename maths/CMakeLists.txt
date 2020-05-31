@@ -14,6 +14,8 @@
          check-if-it-is-a-straight-line.cpp
          valid-perfect-square.cpp
          find-n-unique-integers-sum-up-to-zero.cpp
-         valid-triangle-number.cpp count-numbers-with-unique-digits.cpp)
+         valid-triangle-number.cpp
+         count-numbers-with-unique-digits.cpp
+         maximum-of-absolute-value-expression.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

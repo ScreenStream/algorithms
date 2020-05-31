@@ -3,15 +3,15 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/generate-parenthesis.cpp
-         src/palindrome-partitioning.cpp
-         src/subsets.cpp
-         src/subsets-ii.cpp
-         src/permutations.cpp
-         src/permutations-ii.cpp
-         src/combination-sum.cpp
-         src/path-sum-ii.cpp
-         src/letter-case-permutation.cpp)
+         generate-parenthesis.cpp
+         palindrome-partitioning.cpp
+         subsets.cpp
+         subsets-ii.cpp
+         permutations.cpp
+         permutations-ii.cpp
+         combination-sum.cpp
+         path-sum-ii.cpp
+         letter-case-permutation.cpp maximum-score-words-formed-by-letters.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

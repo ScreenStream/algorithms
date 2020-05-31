@@ -3,8 +3,8 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/merge-intervals.cpp
-         src/interval-list-intersections.cpp
-         src/insert-interval.cpp)
+         merge-intervals.cpp
+         interval-list-intersections.cpp
+         insert-interval.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

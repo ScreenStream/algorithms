@@ -42,6 +42,19 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+class RandomNode {
+public:
+    int val;
+    Node* next;
+    Node* random;
+
+    explicit RandomNode(int _val) {
+        val = _val;
+        next = nullptr;
+        random = nullptr;
+    }
+};
+
 struct DoublyListNode {
     int val;
     ListNode *next;

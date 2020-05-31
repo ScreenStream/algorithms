@@ -125,6 +125,8 @@ https://leetcode.com/problems/partition-equal-subset-sum/
 
 BitMasking:
 https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+https://leetcode.com/problems/smallest-sufficient-team/
+https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/
 
 Longest Common Subsequence Variant:
 https://leetcode.com/problems/longest-common-subsequence/
@@ -197,6 +199,8 @@ int deleteAndEarn(std::vector<int>& nums);
 
 /// BitMasking
 bool canPartitionKSubsets(std::vector<int>& nums, int k);
+std::vector<int> smallestSufficientTeam(std::vector<std::string>& req_skills, std::vector<std::vector<std::string>>& people);
+int numberWays(std::vector<std::vector<int>>& hats);
 
 /// Palindrome
 int minCut(std::string s);

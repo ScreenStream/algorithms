@@ -36,3 +36,13 @@ Although the definition uses -1, size_type is an unsigned integer type, and the 
 
 n & (n - 1) drops the lowest set(1) bit. It's a neat little bit trick.
 
+
+https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently
+
+
+__builtin_popcount --> for gcc/g++, counts the number of set bits.
+
+For Toogling the case of letter, xor with 32 beacuse letters are in such a way that toggling the 6th LSB will change its case from lower to upper and vice versa
+
+sliding window + bitwise = rolling hash
+

@@ -3,6 +3,6 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/critical-connections.cpp)
+         critical-connections.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

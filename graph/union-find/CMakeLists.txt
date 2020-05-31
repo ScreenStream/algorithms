@@ -3,13 +3,12 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/friend-circles.cpp
-         src/redundant-connection.cpp
-         src/most-stones-removed-with-same-row-or-column.cpp
-         src/number-of-operations-to-make-network-connected.cpp
-         src/satisfiability-of-equality-equations.cpp
-         src/accounts-merge.cpp)
+         friend-circles.cpp
+         redundant-connection.cpp
+         most-stones-removed-with-same-row-or-column.cpp
+         number-of-operations-to-make-network-connected.cpp
+         satisfiability-of-equality-equations.cpp
+         accounts-merge.cpp)
 
  target_include_directories(${TARGET_NAME}
-         PUBLIC
-         include)
+         PUBLIC)

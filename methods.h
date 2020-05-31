@@ -2,9 +2,9 @@
 
 #include "sliding-window.h"
 #include "tree.h"
-#include "greedy.h"
-#include "bitwise.h"
-#include "backtracking.h"
+#include "greedy/greedy.h"
+#include "bitwise/bitwise.h"
+#include "backtracking/backtracking.h"
 #include "arr.h"
 #include "str.h"
 #include "dp.h"
@@ -13,4 +13,4 @@
 #include "maths.h"
 #include "graph.h"
 #include "binary-search.h"
-#include "linked-list.h"
+#include "linked-list/linked-list.h"

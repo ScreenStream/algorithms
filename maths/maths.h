@@ -20,3 +20,4 @@ bool isPerfectSquare(int num);
 std::vector<int> sumZero(int n);
 int triangleNumber(std::vector<int>& nums);
 int countNumbersWithUniqueDigits(int n);
+int maxAbsValExpr(std::vector<int>& arr1, std::vector<int>& arr2);

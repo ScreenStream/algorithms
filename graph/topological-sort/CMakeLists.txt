@@ -3,9 +3,9 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/course-schedule.cpp
-         src/course-schedule-ii.cpp
-         src/alien-dictionary.cpp
-         src/longest-increasing-path-in-matrix.cpp)
+         course-schedule.cpp
+         course-schedule-ii.cpp
+         alien-dictionary.cpp
+         longest-increasing-path-in-matrix.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

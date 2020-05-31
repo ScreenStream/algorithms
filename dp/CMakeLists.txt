@@ -85,7 +85,9 @@
          stone-game.cpp
          greatest-sum-divisible-by-three.cpp
          count-numbers-with-unique-digits.cpp
-         longest-turbulent-subarray.cpp)
+         longest-turbulent-subarray.cpp
+         number-of-ways-to-wear-different-hats-to-each-other.cpp
+         smallest-sufficient-team.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

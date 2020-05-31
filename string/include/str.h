@@ -28,6 +28,7 @@ bool canConstruct(const std::string& ransomNote, const std::string& magazine);
 std::string addStrings(const std::string& num1, const std::string& num2);
 std::string removeKdigits(std::string num, int k);
 std::vector<std::string> reorderLogFiles(std::vector<std::string>& logs);
+int numSteps(std::string s);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {

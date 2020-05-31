@@ -3,7 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/is-graph-bipartite.cpp
-         src/possible-bipartition.cpp)
+         is-graph-bipartite.cpp
+         possible-bipartition.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

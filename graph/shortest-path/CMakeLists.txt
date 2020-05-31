@@ -3,9 +3,8 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/network-delay-time.cpp
-         src/cheapest-flights-within-k-stops.cpp)
+         network-delay-time.cpp
+         cheapest-flights-within-k-stops.cpp)
 
  target_include_directories(${TARGET_NAME}
-         PUBLIC
-         include)
+         PUBLIC)

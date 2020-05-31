@@ -1,3 +1,9 @@
+Searching algos:
+
+DFS
+BFS
+
+
 Greedy Approach VS Dynamic
 Programming (DP)
  Greedy and Dynamic Programming are methods for
