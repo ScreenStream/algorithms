@@ -63,3 +63,11 @@ struct DoublyListNode {
     explicit DoublyListNode(int x) : val(x), next(nullptr), prev(nullptr) {}
     DoublyListNode(int x, ListNode *next, ListNode *prev) : val(x), next(next), prev(prev) {}
 };
+
+class MultilevelDoublyListNode {
+public:
+    int val;
+    Node* prev;
+    Node* next;
+    Node* child;
+};

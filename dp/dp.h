@@ -7,6 +7,9 @@
 #include <algorithm>
 #include <cmath>
 
+struct TreeNode;
+struct ListNode;
+
 /*
  * Patterns
  * https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
@@ -227,3 +230,8 @@ bool stoneGame(std::vector<int>& piles);
 
 int maxSumDivThree(std::vector<int>& nums);
 int maxTurbulenceSize(std::vector<int>& A);
+
+
+
+/////////////////////
+bool isSubPath(ListNode* head, TreeNode* root);

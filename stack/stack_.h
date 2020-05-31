@@ -2,9 +2,12 @@
 #include <vector>
 #include <string>
 
+struct  ListNode;
+
 bool isValid(std::string s);
 std::vector<int> dailyTemperatures(std::vector<int>& T);
 int scoreOfParentheses(const std::string& S);
+std::vector<int> nextLargerNodes(ListNode* head);
 
 class StockSpanner {
 public:

@@ -24,6 +24,7 @@ add_subdirectory(slow-fast-pointer)
 add_subdirectory(tree)
 add_subdirectory(bfs)
 add_subdirectory(dfs)
+add_subdirectory(sorting)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -53,7 +54,8 @@ target_include_directories(${PROJECT_NAME}
         slow-fast-pointer
         tree
         bfs
-        dfs)
+        dfs
+        sorting)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -78,6 +80,7 @@ target_link_libraries(${PROJECT_NAME}
         slow-fast-pointer
         tree
         bfs
-        dfs)
+        dfs
+        sorting)
 
 

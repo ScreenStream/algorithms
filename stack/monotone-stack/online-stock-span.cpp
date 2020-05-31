@@ -1,4 +1,4 @@
-#include "stack_.h"
+#include "stack/stack_.h"
 
 using namespace std;
 

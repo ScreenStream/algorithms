@@ -1,12 +1,11 @@
  cmake_minimum_required(VERSION 2.8)
- set(TARGET_NAME stack)
-
- add_subdirectory(monotone-stack)
+ set(TARGET_NAME monotone-stack)
 
  add_library(${TARGET_NAME}
          STATIC
-         valid-parentheses.cpp
-         score-of-parentheses.cpp)
+         daily-temperatures.cpp
+         online-stock-span.cpp
+         next-greater-node-in-linked-list.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
