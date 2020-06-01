@@ -28,7 +28,7 @@
          unique-email-addresses.cpp
          group-shifted-strings.cpp
          compare-version-numbers.cpp
-         KMP/repeated-substring-pattern.cpp)
+         KMP/repeated-substring-pattern.cpp license-key-formatting.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

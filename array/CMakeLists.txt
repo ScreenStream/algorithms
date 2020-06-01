@@ -27,7 +27,7 @@
          move-zeroes.cpp
          matrix/spiral-matrix.cpp
          matrix/spiral-matrix-ii.cpp
-         matrix/search-a-2d-matrix-ii.cpp prison-cells-after-n-days.cpp find-all-numbers-disappeared-in-an-array.cpp)
+         matrix/search-a-2d-matrix-ii.cpp prison-cells-after-n-days.cpp find-all-numbers-disappeared-in-an-array.cpp matrix/number-of-submatrices-that-sum-to-target.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

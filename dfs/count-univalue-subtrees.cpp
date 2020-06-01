@@ -1,7 +1,5 @@
 #include "dfs.h"
 
-using namespace std;
-
 /*
  * Given a binary tree, count the number of uni-value subtrees.
 

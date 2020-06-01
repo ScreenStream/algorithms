@@ -6,6 +6,6 @@
          course-schedule.cpp
          course-schedule-ii.cpp
          alien-dictionary.cpp
-         longest-increasing-path-in-matrix.cpp)
+         longest-increasing-path-in-matrix.cpp find-eventual-safe-states.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

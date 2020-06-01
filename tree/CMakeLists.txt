@@ -44,7 +44,9 @@
          path-sum-iv.cpp
          find-duplicate-subtrees.cpp
          maximum-depth-of-binary-tree.cpp
-         merge-two-binary-trees.cpp count-complete-tree-nodes.cpp)
+         merge-two-binary-trees.cpp
+         count-complete-tree-nodes.cpp
+         all-possible-full-binary-trees.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

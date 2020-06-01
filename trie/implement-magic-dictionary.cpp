@@ -1,4 +1,4 @@
-#include "design.h"
+#include "trie.h"
 
 using namespace std;
 
@@ -20,8 +20,6 @@ Note:
 You may assume that all the inputs are consist of lowercase letters a-z.
 
  */
-
-/// TRIE QUESTION
 
 /** Initialize your data structure here. */
 MagicDictionary::MagicDictionary() {

@@ -14,6 +14,6 @@
          4Sum.cpp
          valid-palindrome-ii.cpp
          intersection-of-two-arrays.cpp
-         trapping-rain-water.cpp two-sum-ii-input-array-is-sorted.cpp)
+         trapping-rain-water.cpp two-sum-ii-input-array-is-sorted.cpp long-pressed-name.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

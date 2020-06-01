@@ -5,24 +5,34 @@
 #include <string>
 #include <queue>
 
+using std::vector;
+using std::string;
+using std::pair;
+using std::queue;
+
 struct TreeNode;
 
-int numIslands(std::vector<std::vector<char>>& grid);
-bool exist(std::vector<std::vector<char>>& board, std::string word);
-std::vector<std::vector<int>> floodFill(std::vector<std::vector<int>>& image, int sr, int sc, int newColor);
+int numIslands(vector<vector<char>>& grid);
+bool exist(vector<vector<char>>& board, string word);
+vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor);
 bool hasPathSum(TreeNode* root, int sum);
 bool isValidBST(TreeNode* root);
-std::string smallestFromLeaf(TreeNode* root);
+string smallestFromLeaf(TreeNode* root);
 int maxProduct(TreeNode* root);
 int pseudoPalindromicPaths (TreeNode* root);
-void solve(std::vector<std::vector<char>>& board); /// Surrounded Regions
+void solve(vector<vector<char>>& board); /// Surrounded Regions
 int countUnivalSubtrees(TreeNode* root);
 int longestUnivaluePath(TreeNode* root);
-bool canPartitionKSubsets(std::vector<int>& nums, int k);
-int maxAreaOfIsland(std::vector<std::vector<int>>& grid);
-std::vector<std::vector<char>> updateBoard(std::vector<std::vector<char>>& board, std::vector<int>& click);
-bool canVisitAllRooms(std::vector<std::vector<int>>& rooms);
-std::vector<std::vector<int>> pacificAtlantic(std::vector<std::vector<int>>& matrix);
+bool canPartitionKSubsets(vector<int>& nums, int k);
+int maxAreaOfIsland(vector<vector<int>>& grid);
+vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click);
+bool canVisitAllRooms(vector<vector<int>>& rooms);
+vector<vector<int>> pacificAtlantic(vector<vector<int>>& matrix);
+vector<int> eventualSafeNodes(vector<vector<int>>& graph);
+int removeStones(vector<vector<int>>& stones);
+int numEnclaves(vector<vector<int>>& A);
+int closedIsland(vector<vector<int>>& grid);
+int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime);
 
 /// GREEDY DFS
-std::vector<std::string> findItinerary(std::vector<std::vector<std::string>>& tickets);
+vector<string> findItinerary(vector<vector<string>>& tickets);

@@ -244,5 +244,6 @@ bool isSubPath(ListNode* head, TreeNode* root);
 int checkRecord(int n);
 int nthUglyNumber(int n);
 int minimumDistance(std::string word);
+int oddEvenJumps(std::vector<int>& A);
 
 

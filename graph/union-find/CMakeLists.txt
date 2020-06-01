@@ -12,7 +12,7 @@
          surrounded-regions.cpp
          couples-holding-hands.cpp
          longest-consecutive-sequence.cpp
-         count-servers-that-communicate.cpp)
+         count-servers-that-communicate.cpp evaluate-division.cpp regions-cut-by-slashes.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC)

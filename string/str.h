@@ -7,40 +7,45 @@
 #include <unordered_set>
 #include <unordered_map>
 
-void reverseString(std::vector<char>& s);
-bool backspaceCompare(std::string S, std::string T);
-bool backspaceCompare2(std::string S, std::string T);
-std::string removeDuplicateLetters(std::string s);
-int firstUniqChar(std::string s);
-bool checkValidString(std::string s);
-std::string mostCommonWord(std::string paragraph, std::vector<std::string>& banned);
-std::vector<int> partitionLabels(std::string S);
-std::string longestPalindrome(std::string s);
-bool isIsomorphic(std::string s, std::string t);
-std::string reorganizeString(std::string S);
-std::string frequencySort(std::string s);
-bool isAlienSorted(std::vector<std::string>& words, std::string order);
-int numJewelsInStones(std::string J, std::string S);
-bool canConstruct(const std::string& ransomNote, const std::string& magazine);
-std::string addStrings(const std::string& num1, const std::string& num2);
-std::string removeKdigits(std::string num, int k);
-std::vector<std::string> reorderLogFiles(std::vector<std::string>& logs);
-int numSteps(std::string s);
-std::string convert(std::string s, int numRows);
-int myAtoi(std::string str);
-int numUniqueEmails(std::vector<std::string>& emails);
-std::vector<std::vector<std::string>> groupStrings(std::vector<std::string>& strings);
-int compareVersion(std::string version1, std::string version2);
-bool repeatedSubstringPattern(std::string s);
-int strStr(std::string haystack, std::string needle);
+using std::string;
+using std::vector;
+using std::istringstream;
 
-inline std::vector<std::string> split(const std::string& s, char delimiter)
+void reverseString(vector<char>& s);
+bool backspaceCompare(string S, string T);
+bool backspaceCompare2(string S, string T);
+string removeDuplicateLetters(string s);
+int firstUniqChar(string s);
+bool checkValidString(string s);
+string mostCommonWord(string paragraph, vector<string>& banned);
+vector<int> partitionLabels(string S);
+string longestPalindrome(string s);
+bool isIsomorphic(string s, string t);
+string reorganizeString(string S);
+string frequencySort(string s);
+bool isAlienSorted(vector<string>& words, string order);
+int numJewelsInStones(string J, string S);
+bool canConstruct(const string& ransomNote, const string& magazine);
+string addStrings(const string& num1, const string& num2);
+string removeKdigits(string num, int k);
+vector<string> reorderLogFiles(vector<string>& logs);
+int numSteps(string s);
+string convert(string s, int numRows);
+int myAtoi(string str);
+int numUniqueEmails(vector<string>& emails);
+vector<vector<string>> groupStrings(vector<string>& strings);
+int compareVersion(string version1, string version2);
+bool repeatedSubstringPattern(string s);
+int strStr(string haystack, string needle);
+string licenseKeyFormatting(string S, int K);
+
+inline vector<string> split(const string& s, char delimiter)
 {
-    std::vector<std::string> tokens;
-    std::string token;
-    std::istringstream tokenStream(s);
+    vector<string> tokens;
+    string token;
+    istringstream tokenStream(s);
 
-    while (std::getline(tokenStream, token, delimiter))
+    while (getline(tokenStream, token, delimiter))
     {
         tokens.push_back(token);
     }
@@ -48,7 +53,7 @@ inline std::vector<std::string> split(const std::string& s, char delimiter)
     return tokens;
 }
 
-inline bool isPalindrome(const std::string& s, int i, int j) {
+inline bool isPalindrome(const string& s, int i, int j) {
     while(i < j) {
         if(s[i++] != s[j--]) {
             return false;

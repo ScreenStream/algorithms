@@ -25,3 +25,4 @@ std::vector<std::vector<int>> knightsTour(int m, int n, int x, int y); /// Not o
 std::vector<std::string> removeInvalidParentheses(std::string s);
 bool judgePoint24(std::vector<int>& nums);
 std::vector<std::vector<int>> findSubsequences(std::vector<int>& nums);
+int tilingRectangle(int n, int m);

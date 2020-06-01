@@ -3,6 +3,6 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         two-sum.cpp)
+         two-sum.cpp minimum-area-rectangle.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

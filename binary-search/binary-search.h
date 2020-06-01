@@ -21,6 +21,7 @@ int shipWithinDays(std::vector<int>& weights, int D);
 bool searchMatrix(std::vector<std::vector<int>>& matrix, int target);
 int splitArray(std::vector<int>& nums, int m);
 int findRadius(std::vector<int>& houses, std::vector<int>& heaters);
+int numMatchingSubseq(std::string S, std::vector<std::string>& words);
 
 class RandomPickWeightIndex {
 public:

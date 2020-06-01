@@ -3,13 +3,18 @@
 #include <vector>
 #include <string>
 
-int findCircleNum(std::vector<std::vector<int>>& M);
-std::vector<int> findRedundantConnection(std::vector<std::vector<int>>& edges);
-int removeStones(std::vector<std::vector<int>>& stones);
-int makeConnected(int n, std::vector<std::vector<int>>& connections);
-bool equationsPossible(std::vector<std::string>& equations);
-std::vector<std::vector<std::string>> accountsMerge(std::vector<std::vector<std::string>>& accounts);
-void solve(std::vector<std::vector<char>>& board); /// Surrounded Regions
-int minSwapsCouples(std::vector<int>& row);
-int longestConsecutive(std::vector<int>& nums);
-int countServers(std::vector<std::vector<int>>& grid);
+using std::vector;
+using std::string;
+
+int findCircleNum(vector<vector<int>>& M);
+vector<int> findRedundantConnection(vector<vector<int>>& edges);
+int removeStones(vector<vector<int>>& stones);
+int makeConnected(int n, vector<vector<int>>& connections);
+bool equationsPossible(vector<string>& equations);
+vector<vector<string>> accountsMerge(vector<vector<string>>& accounts);
+void solve(vector<vector<char>>& board); /// Surrounded Regions
+int minSwapsCouples(vector<int>& row);
+int longestConsecutive(vector<int>& nums);
+int countServers(vector<vector<int>>& grid);
+vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries); /// Evaluate Division
+int regionsBySlashes(vector<string>& grid);

@@ -16,7 +16,12 @@
          find-peak-element.cpp
          random-pick-with-weight.cpp
          search-insert-position.cpp
-         find-minimum-in-rotated-sorted-array.cpp capacity-to-ship-packages-within-d-days.cpp search-a-2d-matrix.cpp split-array-largest-sum.cpp heaters.cpp)
+         find-minimum-in-rotated-sorted-array.cpp
+         capacity-to-ship-packages-within-d-days.cpp
+         search-a-2d-matrix.cpp
+         split-array-largest-sum.cpp
+         heaters.cpp
+         number-of-matching-subsequences.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

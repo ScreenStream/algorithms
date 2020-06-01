@@ -5,7 +5,8 @@
          STATIC
          palindrome-pairs.cpp
          add-and-search-word-data-structure-design.cpp
-         search-suggestions-system.cpp)
+         search-suggestions-system.cpp stream-of-characters.cpp
+         implement-magic-dictionary.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

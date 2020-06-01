@@ -33,3 +33,4 @@ std::vector<std::vector<int>> generateMatrix(int n); /// Spiral Matrix II
 bool searchMatrix(std::vector<std::vector<int>>& matrix, int target);
 std::vector<int> prisonAfterNDays(std::vector<int>& cells, int N);
 std::vector<int> findDisappearedNumbers(std::vector<int>& nums);
+int numSubmatrixSumTarget(std::vector<std::vector<int>>& matrix, int target);

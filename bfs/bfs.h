@@ -29,3 +29,5 @@ int shortestBridge(std::vector<std::vector<int>>& A);
 int shortestPath(std::vector<std::vector<int>>& grid, int k);
 int treasureIsland(std::vector<std::vector<char>>& island);
 int getImportance(std::vector<Employee*>& employees, int id);
+int openLock(std::vector<std::string>& deadends, std::string target);
+int maxLevelSum(TreeNode* root);

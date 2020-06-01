@@ -17,3 +17,4 @@ std::vector<std::vector<int>> fourSum(std::vector<int>& nums, int target);
 bool validPalindrome(std::string s);
 int trap(std::vector<int>& height);
 std::vector<int> twoSum(std::vector<int>& numbers, int target);
+bool isLongPressedName(std::string name, std::string typed);
