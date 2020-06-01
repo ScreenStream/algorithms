@@ -7,27 +7,32 @@
 
 #include "nodes.h"
 
+using std::vector;
+using std::string;
+using std::queue;
+using std::unordered_set;
+
 struct Employee;
 
-int orangesRotting(std::vector<std::vector<int>>& grid);
-int islandPerimeterBFS(std::vector<std::vector<int>>& grid);
-int islandPerimeterMath(std::vector<std::vector<int>>& grid);
-int ladderLength(const std::string& beginWord, const std::string& endWord, std::vector<std::string>& wordList);
-std::vector<std::vector<int>> updateMatrix(std::vector<std::vector<int>>& matrix);
-int maxDistance(std::vector<std::vector<int>>& grid);
-int shortestPathBinaryMatrix(std::vector<std::vector<int>>& grid);
-std::vector<std::vector<int>> levelOrder(TreeNode* root);
-std::vector<std::vector<int>> levelOrderII(TreeNode* root);
-std::vector<std::vector<int>> zigzagLevelOrder(TreeNode* root);
-std::vector<double> averageOfLevels(TreeNode* root);
-std::vector<int> largestValues(TreeNode* root);
+int orangesRotting(vector<vector<int>>& grid);
+int islandPerimeterBFS(vector<vector<int>>& grid);
+int islandPerimeterMath(vector<vector<int>>& grid);
+int ladderLength(const string& beginWord, const string& endWord, vector<string>& wordList);
+vector<vector<int>> updateMatrix(vector<vector<int>>& matrix);
+int maxDistance(vector<vector<int>>& grid);
+int shortestPathBinaryMatrix(vector<vector<int>>& grid);
+vector<vector<int>> levelOrder(TreeNode* root);
+vector<vector<int>> levelOrderII(TreeNode* root);
+vector<vector<int>> zigzagLevelOrder(TreeNode* root);
+vector<double> averageOfLevels(TreeNode* root);
+vector<int> largestValues(TreeNode* root);
 int minDepth(TreeNode* root);
 int minKnightMoves(int x, int y);
-bool hasPath(std::vector<std::vector<int>> maze, std::vector<int> start, std::vector<int> destination);
-std::vector<std::vector<std::string>> findLadders(std::string beginWord, std::string endWord, std::vector<std::string>& wordList);
-int shortestBridge(std::vector<std::vector<int>>& A);
-int shortestPath(std::vector<std::vector<int>>& grid, int k);
-int treasureIsland(std::vector<std::vector<char>>& island);
-int getImportance(std::vector<Employee*>& employees, int id);
-int openLock(std::vector<std::string>& deadends, std::string target);
+bool hasPath(vector<vector<int>> maze, vector<int> start, vector<int> destination);
+vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList);
+int shortestBridge(vector<vector<int>>& A);
+int shortestPath(vector<vector<int>>& grid, int k);
+int treasureIsland(vector<vector<char>>& island);
+int getImportance(vector<Employee*>& employees, int id);
+int openLock(vector<string>& deadends, string target);
 int maxLevelSum(TreeNode* root);

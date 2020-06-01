@@ -52,6 +52,7 @@ int maxDepth(TreeNode* root);
 TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2);
 int countNodes(TreeNode* root);
 std::vector<TreeNode*> allPossibleFBT(int N);
+TreeNode* trimBST(TreeNode* root, int L, int R);
 
 // https://leetcode.com/discuss/interview-question/546703/Microsoft-or-OA-2020-or-Count-Visible-Nodes-in-Binary-Tree
 int countVisibleNodes(TreeNode* root);

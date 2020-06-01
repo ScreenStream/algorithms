@@ -18,7 +18,7 @@
          minimum-cost-to-make-at-least-one-valid-path-in-a-grid.cpp
          word-ladder-ii.cpp
          shortest-bridge.cpp
-         shortest-path-in-a-grid-with-obstacles-elimination.cpp treasure-island.cpp employee-importance.cpp open-the-lock.cpp maximum-level-sum-of-a-binary-tree.cpp)
+         shortest-path-in-a-grid-with-obstacles-elimination.cpp treasure-island.cpp employee-importance.cpp open-the-lock.cpp maximum-level-sum-of-a-binary-tree.cpp jump-game-iii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

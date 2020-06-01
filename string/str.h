@@ -9,7 +9,10 @@
 
 using std::string;
 using std::vector;
+using std::stringstream;
 using std::istringstream;
+using std::unordered_map;
+using std::unordered_set;
 
 void reverseString(vector<char>& s);
 bool backspaceCompare(string S, string T);
@@ -38,6 +41,9 @@ int compareVersion(string version1, string version2);
 bool repeatedSubstringPattern(string s);
 int strStr(string haystack, string needle);
 string licenseKeyFormatting(string S, int K);
+string reverseWords(string s);
+string reverseStr(string s, int k); /// Reverse String II
+string reverseWordsIII(string s);
 
 inline vector<string> split(const string& s, char delimiter)
 {

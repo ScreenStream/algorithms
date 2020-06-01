@@ -5,32 +5,38 @@
 #include <unordered_map>
 #include <set>
 
-int findMaxLength(std::vector<int>& nums);
-int removeDuplicates(std::vector<int>& nums);
-std::vector<int> productExceptSelf(std::vector<int>& nums);
-int subarraySum(std::vector<int>& nums, int k);
-int maxSubarraySumCircular(std::vector<int>& A);
-int removeElement(std::vector<int>& nums, int val);
-void nextPermutation(std::vector<int>& nums);
-int countServers(std::vector<std::vector<int>>& grid);
-void rotate(std::vector<std::vector<int>>& matrix);
-void setZeroes(std::vector<std::vector<int>>& matrix);
-bool isRectangleOverlap(std::vector<int>& rec1, std::vector<int>& rec2);
-int countBattleships(std::vector<std::vector<char>>& board);
-int orderOfLargestPlusSign(int N, std::vector<std::vector<int>>& mines);
-int minDominoRotations(std::vector<int>& A, std::vector<int>& B);
-bool isValidSudoku(std::vector<std::vector<char>>& board);
-int maxChunksToSorted(std::vector<int>& arr);
-int maxChunksToSortedII(std::vector<int>& arr);
-bool checkPossibility(std::vector<int>& nums);
-bool containsDuplicate(std::vector<int>& nums);
-bool containsNearbyDuplicate(std::vector<int>& nums, int k);
-void gameOfLife(std::vector<std::vector<int>>& board);
-int peakIndexInMountainArray(std::vector<int>& A);
-void moveZeroes(std::vector<int>& nums);
-std::vector<int> spiralOrder(std::vector<std::vector<int>>& matrix);
-std::vector<std::vector<int>> generateMatrix(int n); /// Spiral Matrix II
-bool searchMatrix(std::vector<std::vector<int>>& matrix, int target);
-std::vector<int> prisonAfterNDays(std::vector<int>& cells, int N);
-std::vector<int> findDisappearedNumbers(std::vector<int>& nums);
-int numSubmatrixSumTarget(std::vector<std::vector<int>>& matrix, int target);
+using std::vector;
+using std::stack;
+using std::unordered_map;
+using std::set;
+
+int findMaxLength(vector<int>& nums);
+int removeDuplicates(vector<int>& nums);
+vector<int> productExceptSelf(vector<int>& nums);
+int subarraySum(vector<int>& nums, int k);
+int maxSubarraySumCircular(vector<int>& A);
+int removeElement(vector<int>& nums, int val);
+void nextPermutation(vector<int>& nums);
+int countServers(vector<vector<int>>& grid);
+void rotate(vector<vector<int>>& matrix);
+void setZeroes(vector<vector<int>>& matrix);
+bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2);
+int countBattleships(vector<vector<char>>& board);
+int orderOfLargestPlusSign(int N, vector<vector<int>>& mines);
+int minDominoRotations(vector<int>& A, vector<int>& B);
+bool isValidSudoku(vector<vector<char>>& board);
+int maxChunksToSorted(vector<int>& arr);
+int maxChunksToSortedII(vector<int>& arr);
+bool checkPossibility(vector<int>& nums);
+bool containsDuplicate(vector<int>& nums);
+bool containsNearbyDuplicate(vector<int>& nums, int k);
+void gameOfLife(vector<vector<int>>& board);
+int peakIndexInMountainArray(vector<int>& A);
+void moveZeroes(vector<int>& nums);
+vector<int> spiralOrder(vector<vector<int>>& matrix);
+vector<vector<int>> generateMatrix(int n); /// Spiral Matrix II
+bool searchMatrix(vector<vector<int>>& matrix, int target);
+vector<int> prisonAfterNDays(vector<int>& cells, int N);
+vector<int> findDisappearedNumbers(vector<int>& nums);
+int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target);
+int numTimesAllBlue(vector<int>& light);

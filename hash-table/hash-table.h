@@ -3,5 +3,9 @@
 #include <unordered_map>
 #include <vector>
 
-std::vector<int> twoSum(std::vector<int>& nums, int target);
-int minAreaRect(std::vector<std::vector<int>>& points);
+using std::vector;
+using std::unordered_map;
+
+vector<int> twoSum(vector<int>& nums, int target);
+int minAreaRect(vector<vector<int>>& points);
+int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats);
