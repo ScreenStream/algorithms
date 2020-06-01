@@ -3,6 +3,7 @@
 #include <vector>
 #include <stack>
 #include <unordered_map>
+#include <set>
 
 int findMaxLength(std::vector<int>& nums);
 int removeDuplicates(std::vector<int>& nums);
@@ -21,3 +22,7 @@ int minDominoRotations(std::vector<int>& A, std::vector<int>& B);
 bool isValidSudoku(std::vector<std::vector<char>>& board);
 int maxChunksToSorted(std::vector<int>& arr);
 int maxChunksToSortedII(std::vector<int>& arr);
+bool checkPossibility(std::vector<int>& nums);
+bool containsDuplicate(std::vector<int>& nums);
+bool containsNearbyDuplicate(std::vector<int>& nums, int k);
+void gameOfLife(std::vector<std::vector<int>>& board);

@@ -27,3 +27,5 @@ int romanToInt(std::string s);
 bool isPowerOfThree(int n);
 std::string multiply(std::string num1, std::string num2);
 std::string numberToWords(int num);
+std::vector<int> selfDividingNumbers(int left, int right);
+double myPow(double x, int n);

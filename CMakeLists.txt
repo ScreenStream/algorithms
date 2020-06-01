@@ -27,6 +27,7 @@ add_subdirectory(dfs)
 add_subdirectory(sorting)
 add_subdirectory(misc)
 add_subdirectory(trie)
+add_subdirectory(bucket)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -59,7 +60,8 @@ target_include_directories(${PROJECT_NAME}
         dfs
         sorting
         misc
-        trie)
+        trie
+        bucket)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -87,6 +89,7 @@ target_link_libraries(${PROJECT_NAME}
         dfs
         sorting
         misc
-        trie)
+        trie
+        bucket)
 
 

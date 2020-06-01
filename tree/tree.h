@@ -46,6 +46,8 @@ std::vector<int> sumOfDistancesInTree(int N, std::vector<std::vector<int>>& edge
 int minCameraCover(TreeNode* root);
 Node* connect(Node* root); /// Populating Next Right Pointers in Each Node
 TreeNode* removeEdge(TreeNode* node);
+int pathSumIV(std::vector<int>& nums);
+std::vector<TreeNode*> findDuplicateSubtrees(TreeNode* root);
 
 // https://leetcode.com/discuss/interview-question/546703/Microsoft-or-OA-2020-or-Count-Visible-Nodes-in-Binary-Tree
 int countVisibleNodes(TreeNode* root);

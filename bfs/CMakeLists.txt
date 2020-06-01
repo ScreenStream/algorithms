@@ -18,7 +18,7 @@
          minimum-cost-to-make-at-least-one-valid-path-in-a-grid.cpp
          word-ladder-ii.cpp
          shortest-bridge.cpp
-         shortest-path-in-a-grid-with-obstacles-elimination.cpp treasure-island.cpp)
+         shortest-path-in-a-grid-with-obstacles-elimination.cpp treasure-island.cpp employee-importance.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

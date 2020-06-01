@@ -19,6 +19,8 @@
          integer-to-roman.cpp
          roman-to-integer.cpp
          power-of-three.cpp
-         multiply-strings.cpp integer-to-english-words.cpp)
+         multiply-strings.cpp
+         integer-to-english-words.cpp
+         self-dividing-numbers.cpp powx-n.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

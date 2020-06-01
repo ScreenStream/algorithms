@@ -7,6 +7,8 @@
 
 #include "nodes.h"
 
+struct Employee;
+
 int orangesRotting(std::vector<std::vector<int>>& grid);
 int islandPerimeterBFS(std::vector<std::vector<int>>& grid);
 int islandPerimeterMath(std::vector<std::vector<int>>& grid);
@@ -26,3 +28,4 @@ std::vector<std::vector<std::string>> findLadders(std::string beginWord, std::st
 int shortestBridge(std::vector<std::vector<int>>& A);
 int shortestPath(std::vector<std::vector<int>>& grid, int k);
 int treasureIsland(std::vector<std::vector<char>>& island);
+int getImportance(std::vector<Employee*>& employees, int id);

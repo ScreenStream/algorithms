@@ -8,6 +8,7 @@
          maximum-length-of-pair-chain.cpp
          jump-game-ii.cpp
          video-stitching.cpp
-         minimum-number-of-taps-to-open-to-water-a-garden.cpp)
+         minimum-number-of-taps-to-open-to-water-a-garden.cpp
+         rearrange-string-k-distance-apart.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

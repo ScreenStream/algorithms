@@ -16,7 +16,13 @@
          matrix/battleships-in-a-board.cpp
          matrix/largest-plus-sign.cpp
          minimum-domino-rotations-for-equal-row.cpp
-         matrix/valid-sudoku.cpp max-chunks-to-make-sorted.cpp max-chunks-to-make-sorted-ii.cpp)
+         matrix/valid-sudoku.cpp
+         max-chunks-to-make-sorted.cpp
+         max-chunks-to-make-sorted-ii.cpp
+         non-decreasing-array.cpp
+         contains-duplicate.cpp
+         contains-duplicate-ii.cpp
+         matrix/game-of-life.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

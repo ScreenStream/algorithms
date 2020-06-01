@@ -9,6 +9,7 @@
          implement-stack-using-queues.cpp
          "insert-delete-getrandom-O(1).cpp"
          "implement-trie(prefix-tree).cpp"
-         snapshot-array.cpp)
+         snapshot-array.cpp
+         implement-magic-dictionary.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

@@ -1,9 +1,8 @@
  cmake_minimum_required(VERSION 2.8)
- set(TARGET_NAME reservoir-sampling)
+ set(TARGET_NAME bucket)
 
  add_library(${TARGET_NAME}
          STATIC
-         linked-list-random-node.cpp
-         random-pick-index.cpp)
+         contains-duplicate-iii.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

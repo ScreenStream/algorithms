@@ -66,6 +66,7 @@
          maximal-rectangle.cpp
          interleaving-string.cpp
          word-break.cpp
+         word-break-ii.cpp
          longest-string-chain.cpp
          house-robber-II.cpp
          longest-increasing-subsequence.cpp
@@ -93,7 +94,7 @@
          numbers-at-most-n-given-digit-set.cpp
          stone-game-iii.cpp
          stone-game-ii.cpp
-         minimum-distance-to-type-a-word-using-two-fingers.cpp)
+         minimum-distance-to-type-a-word-using-two-fingers.cpp delete-operation-for-two-strings.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -39,7 +39,10 @@
          distribute-coins-in-binary-tree.cpp
          sum-of-distances-in-tree.cpp
          binary-tree-cameras.cpp
-         populating-next-right-pointers-in-each-node.cpp remove-extra-edge.cpp)
+         populating-next-right-pointers-in-each-node.cpp
+         remove-extra-edge.cpp
+         path-sum-iv.cpp
+         find-duplicate-subtrees.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
