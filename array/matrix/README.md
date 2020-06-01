@@ -1,0 +1,1 @@
+i traverses downwards, j traverses towards right.

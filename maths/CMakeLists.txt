@@ -4,9 +4,7 @@
  add_library(${TARGET_NAME}
          STATIC
          plus-one.cpp
-         rotate-image.cpp
          reverse-integer.cpp
-         set-matrix-zeroes.cpp
          count-primes.cpp
          ugly-number.cpp
          add-binary.cpp

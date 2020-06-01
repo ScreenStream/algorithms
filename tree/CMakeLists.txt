@@ -24,7 +24,10 @@
          range-sum-of-bst.cpp
          maximum-depth-of-n-ary-tree.cpp
          check-completeness-of-a-binary-tree.cpp
-         convert-sorted-array-to-binary-search-tree.cpp delete-nodes-and-return-forest.cpp serialize-and-deserialize-binary-tree.cpp)
+         convert-sorted-array-to-binary-search-tree.cpp
+         delete-nodes-and-return-forest.cpp
+         serialize-and-deserialize-binary-tree.cpp
+         count-visible-nodes-in-binary-tree.cpp kth-smallest-element-in-a-bst.cpp binary-tree-tilt.cpp flatten-binary-tree-to-linked-list.cpp binary-search-tree-iterator.cpp recover-binary-search-tree.cpp sum-root-to-leaf-numbers.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

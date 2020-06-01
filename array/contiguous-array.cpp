@@ -1,5 +1,7 @@
 #include "arr.h"
 
+using namespace std;
+
 /*
  * Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
 
@@ -15,7 +17,7 @@ Note: The length of the given binary array will not exceed 50,000.
  */
 
 /// Idea: The idea is to change 0 in the original array to -1. Thus, if we find SUM[i, j] == 0 then we know there are even number of -1 and 1 between index i and j.
-int findMaxLength(std::vector<int>& nums) {
+int findMaxLength(vector<int>& nums) {
     int res = 0;
     for(auto& num : nums) {
         if(num == 0) {
@@ -24,7 +26,7 @@ int findMaxLength(std::vector<int>& nums) {
     }
 
     /// will store sum-index pairs.
-    std::unordered_map<int, int> map;
+    unordered_map<int, int> map;
 
     /// This initial case is crucial.
     /// For example case [1, 0] would fail if it weren't for this line.
@@ -37,7 +39,7 @@ int findMaxLength(std::vector<int>& nums) {
         sum += nums[i];
 
         if(map.count(sum)) {
-            res = std::max(res, i - map[sum]);
+            res = max(res, i - map[sum]);
         } else {
             map.insert({sum, i});
         }

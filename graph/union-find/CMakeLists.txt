@@ -8,7 +8,11 @@
          most-stones-removed-with-same-row-or-column.cpp
          number-of-operations-to-make-network-connected.cpp
          satisfiability-of-equality-equations.cpp
-         accounts-merge.cpp)
+         accounts-merge.cpp
+         surrounded-regions.cpp
+         couples-holding-hands.cpp
+         longest-consecutive-sequence.cpp
+         count-servers-that-communicate.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC)

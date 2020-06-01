@@ -1,4 +1,6 @@
-#include "maths.h"
+#include "arr.h"
+
+using namespace std;
 
 /*
  * Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in-place.
@@ -38,9 +40,9 @@ A simple improvement uses O(m + n) space, but still not the best solution.
 Could you devise a constant space solution?
  */
 
-/// We wil be using first row and first column as a tracker for the rows and columns except for the first row and column. First row and column will be
-/// dealth with two booleans representing if they contain 0 or not.
-void setZeroes(std::vector<std::vector<int>>& matrix) {
+/// We wil be using first row and first column as a tracker for the rows and columns except for the first row and column.
+/// First row and column will be dealt with two booleans representing if they contain 0 or not.
+void setZeroes(vector<vector<int>>& matrix) {
     bool zerofirstcol = false;
     bool zerofirstrow = false;
 

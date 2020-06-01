@@ -10,6 +10,8 @@
          k-closest-points-to-origin.cpp
          top-k-frequent-words.cpp
          find-K-pairs-with-smallest-sums.cpp
-         kth-largest-element-in-an-array.cpp kth-largest-element-in-a-stream.cpp kth-smallest-element-in-a-sorted-matrix.cpp)
+         kth-largest-element-in-an-array.cpp
+         kth-largest-element-in-a-stream.cpp
+         kth-smallest-element-in-a-sorted-matrix.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

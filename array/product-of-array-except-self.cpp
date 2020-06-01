@@ -1,5 +1,7 @@
 #include "arr.h"
 
+using namespace std;
+
 /*
  * Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
 
@@ -17,8 +19,8 @@ Could you solve it with constant space complexity? (The output array does not co
 
 /// Solution is based on a observation:
 /// Every product for an item is multiplication of the items before that item, multiplied by multiplication of the items after that item.
-std::vector<int> productExceptSelf(std::vector<int>& nums) {
-    std::vector<int> res(nums.size());
+vector<int> productExceptSelf(vector<int>& nums) {
+    vector<int> res(nums.size());
     int x = 1;
 
     for(int i = 0; i < nums.size(); ++i) {

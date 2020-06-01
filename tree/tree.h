@@ -34,6 +34,14 @@ int maxDepth(Node* root);
 bool isCompleteTree(TreeNode* root);
 TreeNode* sortedArrayToBST(std::vector<int>& nums);
 std::vector<TreeNode*> delNodes(TreeNode* root, std::vector<int>& to_delete);
+int kthSmallest(TreeNode* root, int k);
+int findTilt(TreeNode* root);
+void flatten(TreeNode* root);
+void recoverTree(TreeNode* root);
+int sumNumbers(TreeNode* root);
+
+// https://leetcode.com/discuss/interview-question/546703/Microsoft-or-OA-2020-or-Count-Visible-Nodes-in-Binary-Tree
+int countVisibleNodes(TreeNode* root);
 
 class Codec {
 public:
@@ -42,6 +50,17 @@ public:
 
     /// Decodes your encoded data to tree.
     TreeNode* deserialize(std::string data);
+};
+
+class BSTIterator {
+public:
+    BSTIterator(TreeNode* root);
+
+    /** @return the next smallest number */
+    int next();
+
+    /** @return whether we have a next smallest number */
+    bool hasNext();
 };
 
 inline bool isLeafNode(TreeNode* root)

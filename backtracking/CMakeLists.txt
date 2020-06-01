@@ -14,7 +14,11 @@
          letter-case-permutation.cpp
          maximum-score-words-formed-by-letters.cpp
          sudoku-solver.cpp
-         letter-combinations-of-a-phone-number.cpp n-queens.cpp n-queens-ii.cpp)
+         letter-combinations-of-a-phone-number.cpp
+         n-queens.cpp
+         n-queens-ii.cpp
+         knights-tour.cpp
+         remove-invalid-parentheses.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

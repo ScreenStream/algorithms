@@ -13,3 +13,7 @@ std::vector<int> preorderTraversalIterative(TreeNode* root);
 
 std::vector<int> postorderTraversalRecursive(TreeNode* root);
 std::vector<int> postorderTraversalIterative(TreeNode* root);
+
+TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder);
+TreeNode* bstFromPreorder(std::vector<int>& preorder);
+int minDiffInBST(TreeNode* root);

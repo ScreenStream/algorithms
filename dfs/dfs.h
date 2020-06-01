@@ -15,4 +15,6 @@ bool isValidBST(TreeNode* root);
 std::string smallestFromLeaf(TreeNode* root);
 int maxProduct(TreeNode* root);
 int pseudoPalindromicPaths (TreeNode* root);
-void solve(std::vector<std::vector<char>>& board);
+void solve(std::vector<std::vector<char>>& board); /// Surrounded Regions
+int countUnivalSubtrees(TreeNode* root);
+int longestUnivaluePath(TreeNode* root);

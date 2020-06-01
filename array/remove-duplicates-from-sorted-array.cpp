@@ -1,5 +1,7 @@
 #include "arr.h"
 
+using namespace std;
+
 /*
  * Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
 
@@ -37,7 +39,7 @@ for (int i = 0; i < len; i++) {
 }
  */
 
-int removeDuplicates(std::vector<int>& nums) {
+int removeDuplicates(vector<int>& nums) {
     if(nums.size() < 2)
         return nums.size();
 

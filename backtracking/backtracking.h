@@ -21,3 +21,5 @@ void solveSudoku(std::vector<std::vector<char>>& board);
 std::vector<std::string> letterCombinations(const std::string& digits);
 std::vector<std::vector<std::string>> solveNQueens(int n);
 int totalNQueens(int n); /// N-Queens II
+std::vector<std::vector<int>> knightsTour(int m, int n, int x, int y); /// Not on leetcode.
+std::vector<std::string> removeInvalidParentheses(std::string s);

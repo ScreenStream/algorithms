@@ -8,6 +8,11 @@
          product-of-array-except-self.cpp
          subarray-sum-equals-k.cpp
          maximum-sum-circular-subarray.cpp
-         remove-element.cpp next-permutation.cpp)
+         remove-element.cpp next-permutation.cpp
+         matrix/count-servers-that-communicate.cpp
+         matrix/rotate-image.cpp
+         matrix/set-matrix-zeroes.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC)
+ target_include_directories(${TARGET_NAME}
+         PUBLIC
+         ${CMAKE_CURRENT_SOURCE_DIR})
