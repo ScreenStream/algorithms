@@ -39,7 +39,7 @@ add_library(${TARGET_NAME}
         minimum-flips-to-make-a-or-b-equal-to-c.cpp
         count-triplets-that-can-form-two-arrays-of-equal-xor.cpp
         valid-sudoku.cpp
-        partition-to-k-equal-sum-subsets.cpp)
+        partition-to-k-equal-sum-subsets.cpp k-th-symbol-in-grammar.cpp)
 
 target_include_directories(${TARGET_NAME}
         PUBLIC

@@ -6,7 +6,7 @@
          reverse-string.cpp
          backspace-string-compare.cpp
          remove-duplicate-letters.cpp
-         first-unique-char-in-string.cpp
+         first-unique-character-in-a-string.cpp
          valid-parenthesis-string.cpp
          most-common-word.cpp
          partition-labels.cpp
@@ -27,6 +27,9 @@
          KMP/implement-strstr.cpp
          unique-email-addresses.cpp
          group-shifted-strings.cpp
-         compare-version-numbers.cpp)
+         compare-version-numbers.cpp
+         KMP/repeated-substring-pattern.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC)
+ target_include_directories(${TARGET_NAME}
+         PUBLIC
+         ${CMAKE_CURRENT_SOURCE_DIR})

@@ -29,3 +29,5 @@ std::string multiply(std::string num1, std::string num2);
 std::string numberToWords(int num);
 std::vector<int> selfDividingNumbers(int left, int right);
 double myPow(double x, int n);
+std::string fractionToDecimal(int numerator, int denominator);
+std::vector<std::vector<int>> generate(int numRows);

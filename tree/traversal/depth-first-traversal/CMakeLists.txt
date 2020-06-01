@@ -5,7 +5,10 @@
          STATIC
          inorder-traversal.cpp
          preorder-traversal.cpp
-         postorder-traversal.cpp construct-binary-tree-from-preorder-and-inorder-traversal.cpp construct-binary-search-tree-from-preorder-traversal.cpp minimum-distance-between-bst-nodes.cpp)
+         postorder-traversal.cpp
+         construct-binary-tree-from-preorder-and-inorder-traversal.cpp
+         construct-binary-search-tree-from-preorder-traversal.cpp
+         minimum-distance-between-bst-nodes.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

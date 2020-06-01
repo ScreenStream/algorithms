@@ -26,3 +26,10 @@ bool checkPossibility(std::vector<int>& nums);
 bool containsDuplicate(std::vector<int>& nums);
 bool containsNearbyDuplicate(std::vector<int>& nums, int k);
 void gameOfLife(std::vector<std::vector<int>>& board);
+int peakIndexInMountainArray(std::vector<int>& A);
+void moveZeroes(std::vector<int>& nums);
+std::vector<int> spiralOrder(std::vector<std::vector<int>>& matrix);
+std::vector<std::vector<int>> generateMatrix(int n); /// Spiral Matrix II
+bool searchMatrix(std::vector<std::vector<int>>& matrix, int target);
+std::vector<int> prisonAfterNDays(std::vector<int>& cells, int N);
+std::vector<int> findDisappearedNumbers(std::vector<int>& nums);

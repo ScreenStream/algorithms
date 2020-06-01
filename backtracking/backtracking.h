@@ -24,3 +24,4 @@ int totalNQueens(int n); /// N-Queens II
 std::vector<std::vector<int>> knightsTour(int m, int n, int x, int y); /// Not on leetcode.
 std::vector<std::string> removeInvalidParentheses(std::string s);
 bool judgePoint24(std::vector<int>& nums);
+std::vector<std::vector<int>> findSubsequences(std::vector<int>& nums);

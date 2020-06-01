@@ -10,3 +10,5 @@ int evalRPN(std::vector<std::string>& tokens);
 int largestRectangleArea(std::vector<int>& heights);
 std::string minRemoveToMakeValid(std::string s);
 std::vector<int> exclusiveTime(int n, std::vector<std::string>& logs);
+std::vector<int> asteroidCollision(std::vector<int>& asteroids);
+std::string removeDuplicates(std::string S);

@@ -42,3 +42,4 @@ int minFlips(int a, int b, int c);
 int countTriplets(std::vector<int>& arr);
 bool isValidSudoku(std::vector<std::vector<char>>& board);
 bool canPartitionKSubsets(std::vector<int>& nums, int k);
+int kthGrammar(int N, int K);

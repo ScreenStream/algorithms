@@ -10,6 +10,8 @@
          "insert-delete-getrandom-O(1).cpp"
          "implement-trie(prefix-tree).cpp"
          snapshot-array.cpp
-         implement-magic-dictionary.cpp)
+         implement-magic-dictionary.cpp
+         encode-and-decode-tinyurl.cpp
+         design-circular-queue.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

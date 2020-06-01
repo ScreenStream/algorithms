@@ -3,7 +3,9 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         palindrome-pairs.cpp)
+         palindrome-pairs.cpp
+         add-and-search-word-data-structure-design.cpp
+         search-suggestions-system.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

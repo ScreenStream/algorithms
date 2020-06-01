@@ -22,7 +22,12 @@
          non-decreasing-array.cpp
          contains-duplicate.cpp
          contains-duplicate-ii.cpp
-         matrix/game-of-life.cpp)
+         matrix/game-of-life.cpp
+         peak-index-in-a-mountain-array.cpp
+         move-zeroes.cpp
+         matrix/spiral-matrix.cpp
+         matrix/spiral-matrix-ii.cpp
+         matrix/search-a-2d-matrix-ii.cpp prison-cells-after-n-days.cpp find-all-numbers-disappeared-in-an-array.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -48,6 +48,9 @@ Node* connect(Node* root); /// Populating Next Right Pointers in Each Node
 TreeNode* removeEdge(TreeNode* node);
 int pathSumIV(std::vector<int>& nums);
 std::vector<TreeNode*> findDuplicateSubtrees(TreeNode* root);
+int maxDepth(TreeNode* root);
+TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2);
+int countNodes(TreeNode* root);
 
 // https://leetcode.com/discuss/interview-question/546703/Microsoft-or-OA-2020-or-Count-Visible-Nodes-in-Binary-Tree
 int countVisibleNodes(TreeNode* root);
@@ -79,15 +82,6 @@ inline bool isLeafNode(TreeNode* root)
     }
 
     return !root->left && !root->right;
-}
-
-inline int maxDepth(TreeNode* root)
-{
-    if(!root) {
-        return 0;
-    }
-
-    return 1 + std::max(maxDepth(root->left), maxDepth(root->right));
 }
 
 inline int totalNodeCount(TreeNode* root) {

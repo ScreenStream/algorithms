@@ -15,9 +15,15 @@ std::vector<int> findClosestElements(std::vector<int>& arr, int k, int x);
 double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2);
 int mySqrt(int x);
 int findPeakElement(std::vector<int>& nums);
+int searchInsert(std::vector<int>& nums, int target);
+int findMin(std::vector<int>& nums);
+int shipWithinDays(std::vector<int>& weights, int D);
+bool searchMatrix(std::vector<std::vector<int>>& matrix, int target);
+int splitArray(std::vector<int>& nums, int m);
+int findRadius(std::vector<int>& houses, std::vector<int>& heaters);
 
-class Solution {
+class RandomPickWeightIndex {
 public:
-    Solution(std::vector<int>& w);
+    RandomPickWeightIndex(std::vector<int>& w);
     int pickIndex();
 };

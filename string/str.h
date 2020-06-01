@@ -31,6 +31,8 @@ int myAtoi(std::string str);
 int numUniqueEmails(std::vector<std::string>& emails);
 std::vector<std::vector<std::string>> groupStrings(std::vector<std::string>& strings);
 int compareVersion(std::string version1, std::string version2);
+bool repeatedSubstringPattern(std::string s);
+int strStr(std::string haystack, std::string needle);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {

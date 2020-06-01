@@ -12,6 +12,8 @@ std::vector<std::vector<int>> kClosest(std::vector<std::vector<int>>& points, in
 std::vector<std::string> topKFrequent(const std::vector<std::string>& words, int k);
 std::vector<std::vector<int>> kSmallestPairs(std::vector<int>& nums1, std::vector<int>& nums2, int k);
 int findKthLargest(std::vector<int>& nums, int k);
+std::vector<int> rearrangeBarcodes(std::vector<int>& barcodes);
+std::vector<int> smallestRange(std::vector<std::vector<int>>& nums);
 
 class KthLargest {
 public:

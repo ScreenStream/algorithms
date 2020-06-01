@@ -31,10 +31,10 @@ The input is two lists: the subroutines called and their arguments.
  */
 
 
-Solution::Solution(vector<int>& w) {
+RandomPickWeightIndex::RandomPickWeightIndex(vector<int>& w) {
 
 }
 
-int Solution::pickIndex() {
+int RandomPickWeightIndex::pickIndex() {
     return 0;
 }

@@ -19,6 +19,10 @@ void solve(std::vector<std::vector<char>>& board); /// Surrounded Regions
 int countUnivalSubtrees(TreeNode* root);
 int longestUnivaluePath(TreeNode* root);
 bool canPartitionKSubsets(std::vector<int>& nums, int k);
+int maxAreaOfIsland(std::vector<std::vector<int>>& grid);
+std::vector<std::vector<char>> updateBoard(std::vector<std::vector<char>>& board, std::vector<int>& click);
+bool canVisitAllRooms(std::vector<std::vector<int>>& rooms);
+std::vector<std::vector<int>> pacificAtlantic(std::vector<std::vector<int>>& matrix);
 
 /// GREEDY DFS
 std::vector<std::string> findItinerary(std::vector<std::vector<std::string>>& tickets);

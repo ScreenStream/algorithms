@@ -13,6 +13,6 @@
          kth-largest-element-in-an-array.cpp
          kth-largest-element-in-a-stream.cpp
          kth-smallest-element-in-a-sorted-matrix.cpp
-         task-scheduler.cpp)
+         task-scheduler.cpp distant-barcodes.cpp smallest-range-covering-elements-from-k-lists.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

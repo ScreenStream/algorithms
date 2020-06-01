@@ -11,3 +11,4 @@ int jump(std::vector<int>& nums);
 int videoStitching(std::vector<std::vector<int>>& clips, int T);
 int minTaps(int n, std::vector<int>& ranges);
 std::string rearrangeString(std::string str, int k);
+bool canPlaceFlowers(std::vector<int>& flowerbed, int n);

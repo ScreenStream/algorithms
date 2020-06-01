@@ -9,6 +9,6 @@
          jump-game-ii.cpp
          video-stitching.cpp
          minimum-number-of-taps-to-open-to-water-a-garden.cpp
-         rearrange-string-k-distance-apart.cpp)
+         rearrange-string-k-distance-apart.cpp can-place-flowers.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

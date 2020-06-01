@@ -15,7 +15,7 @@
          count-univalue-subtrees.cpp
          longest-univalue-path.cpp
          partition-to-k-equal-sum-subsets.cpp
-         reconstruct-itinerary.cpp)
+         reconstruct-itinerary.cpp max-area-of-island.cpp minesweeper.cpp keys-and-rooms.cpp pacific-atlantic-water-flow.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -19,7 +19,8 @@
          n-queens-ii.cpp
          knights-tour.cpp
          remove-invalid-parentheses.cpp
-         24-game.cpp)
+         24-game.cpp
+         increasing-subsequences.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

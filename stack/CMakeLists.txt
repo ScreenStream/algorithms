@@ -10,7 +10,8 @@
          evaluate-reverse-polish-notation.cpp
          largest-rectangle-in-histogram.cpp
          minimum-remove-to-make-valid-parentheses.cpp
-         exclusive-time-of-functions.cpp)
+         exclusive-time-of-functions.cpp
+         asteroid-collision.cpp remove-all-adjacent-duplicates-in-string.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -21,6 +21,8 @@
          power-of-three.cpp
          multiply-strings.cpp
          integer-to-english-words.cpp
-         self-dividing-numbers.cpp powx-n.cpp)
+         self-dividing-numbers.cpp
+         powx-n.cpp
+         fraction-to-recurring-decimal.cpp pascals-triangle.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

@@ -14,7 +14,9 @@
          median-of-two-sorted-arrays.cpp
          "sqrt(x).cpp"
          find-peak-element.cpp
-         random-pick-with-weight.cpp)
+         random-pick-with-weight.cpp
+         search-insert-position.cpp
+         find-minimum-in-rotated-sorted-array.cpp capacity-to-ship-packages-within-d-days.cpp search-a-2d-matrix.cpp split-array-largest-sum.cpp heaters.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

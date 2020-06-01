@@ -8,7 +8,7 @@
          same-tree.cpp
          symmetric-tree.cpp
          invert-binary-tree.cpp
-         subtree-another-tree.cpp
+         subtree-of-another-tree.cpp
          create-binary-tree.cpp
          diameter-of-binary-tree.cpp
          lowest-common-ancestor-of-bst.cpp
@@ -42,7 +42,9 @@
          populating-next-right-pointers-in-each-node.cpp
          remove-extra-edge.cpp
          path-sum-iv.cpp
-         find-duplicate-subtrees.cpp)
+         find-duplicate-subtrees.cpp
+         maximum-depth-of-binary-tree.cpp
+         merge-two-binary-trees.cpp count-complete-tree-nodes.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
