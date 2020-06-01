@@ -73,3 +73,41 @@ public:
     /** Returns whether the stack is empty. */
     bool empty();
 };
+
+class RandomizedSet {
+public:
+    /** Initialize your data structure here. */
+    RandomizedSet();
+
+    /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
+    bool insert(int val);
+
+    /** Removes a value from the set. Returns true if the set contained the specified element. */
+    bool remove(int val);
+
+    /** Get a random element from the set. */
+    int getRandom();
+};
+
+class Trie {
+public:
+    /** Initialize your data structure here. */
+    Trie();
+
+    /** Inserts a word into the trie. */
+    void insert(std::string word);
+
+    /** Returns if the word is in the trie. */
+    bool search(std::string word);
+
+    /** Returns if there is any word in the trie that starts with the given prefix. */
+    bool startsWith(std::string prefix);
+};
+
+class SnapshotArray {
+public:
+    SnapshotArray(int length);
+    void set(int index, int val);
+    int snap();
+    int get(int index, int snap_id);
+};

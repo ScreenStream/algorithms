@@ -27,12 +27,20 @@
          convert-sorted-array-to-binary-search-tree.cpp
          delete-nodes-and-return-forest.cpp
          serialize-and-deserialize-binary-tree.cpp
-         count-visible-nodes-in-binary-tree.cpp kth-smallest-element-in-a-bst.cpp binary-tree-tilt.cpp flatten-binary-tree-to-linked-list.cpp binary-search-tree-iterator.cpp recover-binary-search-tree.cpp sum-root-to-leaf-numbers.cpp)
+         count-visible-nodes-in-binary-tree.cpp
+         kth-smallest-element-in-a-bst.cpp
+         binary-tree-tilt.cpp
+         flatten-binary-tree-to-linked-list.cpp
+         binary-search-tree-iterator.cpp
+         recover-binary-search-tree.cpp
+         sum-root-to-leaf-numbers.cpp
+         traversal/vertical-order-traversal-of-a-binary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
-         ${CMAKE_SOURCE_DIR}/string/include
+         ${CMAKE_SOURCE_DIR}/string
          ${CMAKE_SOURCE_DIR}
+         ${CMAKE_CURRENT_SOURCE_DIR}
          traversal/breadth-first-traversal
          traversal/depth-first-traversal)
 

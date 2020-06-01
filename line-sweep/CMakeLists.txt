@@ -3,6 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/perfect-rectangle.cpp)
+         perfect-rectangle.cpp
+         the-skyline-problem.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

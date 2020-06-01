@@ -4,6 +4,11 @@
  add_library(${TARGET_NAME}
          STATIC
          lru-cache.cpp
-         min-stack.cpp implement-queue-using-stacks.cpp implement-stack-using-queues.cpp)
+         min-stack.cpp
+         implement-queue-using-stacks.cpp
+         implement-stack-using-queues.cpp
+         "insert-delete-getrandom-O(1).cpp"
+         "implement-trie(prefix-tree).cpp"
+         snapshot-array.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

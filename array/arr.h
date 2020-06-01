@@ -14,3 +14,5 @@ void nextPermutation(std::vector<int>& nums);
 int countServers(std::vector<std::vector<int>>& grid);
 void rotate(std::vector<std::vector<int>>& matrix);
 void setZeroes(std::vector<std::vector<int>>& matrix);
+bool isRectangleOverlap(std::vector<int>& rec1, std::vector<int>& rec2);
+int countBattleships(std::vector<std::vector<char>>& board);

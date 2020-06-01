@@ -10,6 +10,8 @@
          duplicate-zeroes.cpp
          squares-of-a-sorted-array.cpp
          3Sum-closest.cpp
-         subarray-product-less-than-K.cpp 4Sum.cpp)
+         subarray-product-less-than-K.cpp
+         4Sum.cpp
+         valid-palindrome-ii.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

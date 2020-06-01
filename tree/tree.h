@@ -39,6 +39,7 @@ int findTilt(TreeNode* root);
 void flatten(TreeNode* root);
 void recoverTree(TreeNode* root);
 int sumNumbers(TreeNode* root);
+std::vector<std::vector<int>> verticalTraversal(TreeNode* root);
 
 // https://leetcode.com/discuss/interview-question/546703/Microsoft-or-OA-2020-or-Count-Visible-Nodes-in-Binary-Tree
 int countVisibleNodes(TreeNode* root);

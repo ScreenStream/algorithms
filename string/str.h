@@ -28,6 +28,7 @@ std::vector<std::string> reorderLogFiles(std::vector<std::string>& logs);
 int numSteps(std::string s);
 std::string convert(std::string s, int numRows);
 int myAtoi(std::string str);
+int numUniqueEmails(std::vector<std::string>& emails);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {

@@ -37,21 +37,21 @@ target_include_directories(${PROJECT_NAME}
         greedy
         backtracking
         bitwise
-        design/include
+        design
         dp
         graph
         heap
         interval
-        line-sweep/include
+        line-sweep
         linked-list
         maths
         string
         segment-tree
         two-pointers
         array
-        stack/include
+        stack
         binary-search
-        reservoir-sampling/include
+        reservoir-sampling
         slow-fast-pointer
         tree
         bfs

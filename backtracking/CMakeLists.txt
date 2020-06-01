@@ -18,10 +18,10 @@
          n-queens.cpp
          n-queens-ii.cpp
          knights-tour.cpp
-         remove-invalid-parentheses.cpp)
+         remove-invalid-parentheses.cpp
+         word-break-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
-         include
-         ${CMAKE_SOURCE_DIR}/string/include
+         ${CMAKE_SOURCE_DIR}/string
          ${CMAKE_SOURCE_DIR})

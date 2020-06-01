@@ -24,6 +24,6 @@
          zigzag-conversion.cpp
          string-to-integer.cpp
          longest-common-prefix.cpp
-         KMP/implement-strstr.cpp)
+         KMP/implement-strstr.cpp unique-email-addresses.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

@@ -6,7 +6,8 @@
  add_library(${TARGET_NAME}
          STATIC
          valid-parentheses.cpp
-         score-of-parentheses.cpp)
+         score-of-parentheses.cpp
+         evaluate-reverse-polish-notation.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

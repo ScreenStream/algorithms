@@ -12,6 +12,7 @@
          find-K-pairs-with-smallest-sums.cpp
          kth-largest-element-in-an-array.cpp
          kth-largest-element-in-a-stream.cpp
-         kth-smallest-element-in-a-sorted-matrix.cpp)
+         kth-smallest-element-in-a-sorted-matrix.cpp
+         task-scheduler.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

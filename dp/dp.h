@@ -234,3 +234,4 @@ int maxTurbulenceSize(std::vector<int>& A);
 
 /////////////////////
 bool isSubPath(ListNode* head, TreeNode* root);
+int checkRecord(int n);

@@ -5,6 +5,7 @@
          STATIC
          min-cost-to-connect-ropes.cpp
          jump-game.cpp
-         maximum-length-of-pair-chain.cpp)
+         maximum-length-of-pair-chain.cpp
+         jump-game-ii.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

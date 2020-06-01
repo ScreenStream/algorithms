@@ -13,3 +13,4 @@ std::vector<int> sortedSquares(std::vector<int>& A);
 int threeSumClosest(std::vector<int>& nums, int target);
 int numSubarrayProductLessThanK(std::vector<int>& nums, int k);
 std::vector<std::vector<int>> fourSum(std::vector<int>& nums, int target);
+bool validPalindrome(std::string s);

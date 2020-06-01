@@ -11,7 +11,8 @@
          remove-element.cpp next-permutation.cpp
          matrix/count-servers-that-communicate.cpp
          matrix/rotate-image.cpp
-         matrix/set-matrix-zeroes.cpp)
+         matrix/set-matrix-zeroes.cpp
+         rectangle-overlap.cpp matrix/battleships-in-a-board.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

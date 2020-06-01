@@ -12,7 +12,7 @@
          average-of-levels-in-binary-tree.cpp
          minimum-depth-of-binary-tree.cpp
          find-largest-value-in-each-tree-row.cpp
-         cousins-in-binary-tree.cpp "minimum-knight-moves .cpp" the-maze.cpp)
+         cousins-in-binary-tree.cpp "minimum-knight-moves .cpp" the-maze.cpp minimum-cost-to-make-at-least-one-valid-path-in-a-grid.cpp word-ladder-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
