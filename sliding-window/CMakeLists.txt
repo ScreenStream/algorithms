@@ -23,6 +23,7 @@ add_library(${TARGET_NAME}
     longest-substring-with-at-most-two-distinct-characters.cpp
     substring-with-concatenation-of-all-words.cpp
     maximum-number-of-occurrences-of-a-substring.cpp
-    check-if-a-string-contains-all-binary-codes-of-size-k.cpp)
+    check-if-a-string-contains-all-binary-codes-of-size-k.cpp
+    longest-substring-with-at-most-k-distinct-characters.cpp)
 
 target_include_directories(${TARGET_NAME} PUBLIC)

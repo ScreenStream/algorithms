@@ -5,6 +5,8 @@
          STATIC
          merge-intervals.cpp
          interval-list-intersections.cpp
-         insert-interval.cpp)
+         insert-interval.cpp
+         meeting-rooms-i.cpp
+         meeting-rooms-ii.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

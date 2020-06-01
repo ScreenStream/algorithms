@@ -23,3 +23,6 @@ int minDepth(TreeNode* root);
 int minKnightMoves(int x, int y);
 bool hasPath(std::vector<std::vector<int>> maze, std::vector<int> start, std::vector<int> destination);
 std::vector<std::vector<std::string>> findLadders(std::string beginWord, std::string endWord, std::vector<std::string>& wordList);
+int shortestBridge(std::vector<std::vector<int>>& A);
+int shortestPath(std::vector<std::vector<int>>& grid, int k);
+int treasureIsland(std::vector<std::vector<char>>& island);

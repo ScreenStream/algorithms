@@ -4,7 +4,7 @@
  add_library(${TARGET_NAME}
          STATIC
          insertion-sort-list.cpp
-         sort-list.cpp)
+         sort-list.cpp pancake-sorting.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

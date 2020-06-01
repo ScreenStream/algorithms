@@ -12,7 +12,11 @@
          matrix/count-servers-that-communicate.cpp
          matrix/rotate-image.cpp
          matrix/set-matrix-zeroes.cpp
-         rectangle-overlap.cpp matrix/battleships-in-a-board.cpp)
+         rectangle-overlap.cpp
+         matrix/battleships-in-a-board.cpp
+         matrix/largest-plus-sign.cpp
+         minimum-domino-rotations-for-equal-row.cpp
+         matrix/valid-sudoku.cpp max-chunks-to-make-sorted.cpp max-chunks-to-make-sorted-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -40,6 +40,12 @@ void flatten(TreeNode* root);
 void recoverTree(TreeNode* root);
 int sumNumbers(TreeNode* root);
 std::vector<std::vector<int>> verticalTraversal(TreeNode* root);
+bool findTarget(TreeNode* root, int k);
+int distributeCoins(TreeNode* root);
+std::vector<int> sumOfDistancesInTree(int N, std::vector<std::vector<int>>& edges);
+int minCameraCover(TreeNode* root);
+Node* connect(Node* root); /// Populating Next Right Pointers in Each Node
+TreeNode* removeEdge(TreeNode* node);
 
 // https://leetcode.com/discuss/interview-question/546703/Microsoft-or-OA-2020-or-Count-Visible-Nodes-in-Binary-Tree
 int countVisibleNodes(TreeNode* root);

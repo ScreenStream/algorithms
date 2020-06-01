@@ -29,3 +29,4 @@ int lengthOfLongestSubstringTwoDistinct(std::string s);
 std::vector<int> findSubstring(std::string s, std::vector<std::string>& words);
 int maxFreq(std::string s, int maxLetters, int minSize, int maxSize); /// Maximum Number of Occurrences of a Substring
 bool hasAllCodes(std::string s, int k);
+int lengthOfLongestSubstringKDistinct(std::string s, int k);

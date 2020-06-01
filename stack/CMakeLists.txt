@@ -7,7 +7,9 @@
          STATIC
          valid-parentheses.cpp
          score-of-parentheses.cpp
-         evaluate-reverse-polish-notation.cpp)
+         evaluate-reverse-polish-notation.cpp
+         largest-rectangle-in-histogram.cpp
+         minimum-remove-to-make-valid-parentheses.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

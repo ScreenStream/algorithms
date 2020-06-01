@@ -18,3 +18,7 @@ int pseudoPalindromicPaths (TreeNode* root);
 void solve(std::vector<std::vector<char>>& board); /// Surrounded Regions
 int countUnivalSubtrees(TreeNode* root);
 int longestUnivaluePath(TreeNode* root);
+bool canPartitionKSubsets(std::vector<int>& nums, int k);
+
+/// GREEDY DFS
+std::vector<std::string> findItinerary(std::vector<std::vector<std::string>>& tickets);

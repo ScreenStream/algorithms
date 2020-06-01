@@ -16,3 +16,8 @@ void rotate(std::vector<std::vector<int>>& matrix);
 void setZeroes(std::vector<std::vector<int>>& matrix);
 bool isRectangleOverlap(std::vector<int>& rec1, std::vector<int>& rec2);
 int countBattleships(std::vector<std::vector<char>>& board);
+int orderOfLargestPlusSign(int N, std::vector<std::vector<int>>& mines);
+int minDominoRotations(std::vector<int>& A, std::vector<int>& B);
+bool isValidSudoku(std::vector<std::vector<char>>& board);
+int maxChunksToSorted(std::vector<int>& arr);
+int maxChunksToSortedII(std::vector<int>& arr);

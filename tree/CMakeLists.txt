@@ -34,7 +34,12 @@
          binary-search-tree-iterator.cpp
          recover-binary-search-tree.cpp
          sum-root-to-leaf-numbers.cpp
-         traversal/vertical-order-traversal-of-a-binary-tree.cpp)
+         traversal/vertical-order-traversal-of-a-binary-tree.cpp
+         two-sum-iv-input-is-a-bst.cpp
+         distribute-coins-in-binary-tree.cpp
+         sum-of-distances-in-tree.cpp
+         binary-tree-cameras.cpp
+         populating-next-right-pointers-in-each-node.cpp remove-extra-edge.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

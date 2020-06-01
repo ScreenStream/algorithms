@@ -13,7 +13,8 @@
          find-k-closest-elements.cpp
          median-of-two-sorted-arrays.cpp
          "sqrt(x).cpp"
-         find-peak-element.cpp)
+         find-peak-element.cpp
+         random-pick-with-weight.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

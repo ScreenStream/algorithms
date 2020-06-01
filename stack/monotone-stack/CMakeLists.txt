@@ -5,7 +5,8 @@
          STATIC
          daily-temperatures.cpp
          online-stock-span.cpp
-         next-greater-node-in-linked-list.cpp)
+         next-greater-node-in-linked-list.cpp
+         sum-of-subarray-minimums.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

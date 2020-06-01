@@ -40,3 +40,5 @@ int maxLength(std::vector<std::string>& arr); /// Maximum Length of a Concatenat
 int getDecimalValue(ListNode* head);
 int minFlips(int a, int b, int c);
 int countTriplets(std::vector<int>& arr);
+bool isValidSudoku(std::vector<std::vector<char>>& board);
+bool canPartitionKSubsets(std::vector<int>& nums, int k);

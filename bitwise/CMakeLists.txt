@@ -37,7 +37,9 @@ add_library(${TARGET_NAME}
         maximum-length-of-a-concatenated-string-with-unique-characters.cpp
         convert-binary-number-in-a-linked-list-to-integer.cpp
         minimum-flips-to-make-a-or-b-equal-to-c.cpp
-        count-triplets-that-can-form-two-arrays-of-equal-xor.cpp)
+        count-triplets-that-can-form-two-arrays-of-equal-xor.cpp
+        valid-sudoku.cpp
+        partition-to-k-equal-sum-subsets.cpp)
 
 target_include_directories(${TARGET_NAME}
         PUBLIC

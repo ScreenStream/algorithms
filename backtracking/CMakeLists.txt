@@ -19,7 +19,7 @@
          n-queens-ii.cpp
          knights-tour.cpp
          remove-invalid-parentheses.cpp
-         word-break-ii.cpp)
+         word-break-ii.cpp 24-game.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

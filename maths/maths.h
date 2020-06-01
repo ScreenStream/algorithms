@@ -25,3 +25,5 @@ bool isPalindrome(int x);
 std::string intToRoman(int num);
 int romanToInt(std::string s);
 bool isPowerOfThree(int n);
+std::string multiply(std::string num1, std::string num2);
+std::string numberToWords(int num);

@@ -20,6 +20,7 @@ Note:
 You can assume that you can always reach the last index.
  */
 
+/// SIMILAR TO Minimum Number of Taps to Open to Water a Garden and Video Stitching.
 int jump(vector<int>& nums) {
     return 0;
 }

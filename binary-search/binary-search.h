@@ -15,3 +15,9 @@ std::vector<int> findClosestElements(std::vector<int>& arr, int k, int x);
 double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2);
 int mySqrt(int x);
 int findPeakElement(std::vector<int>& nums);
+
+class Solution {
+public:
+    Solution(std::vector<int>& w);
+    int pickIndex();
+};

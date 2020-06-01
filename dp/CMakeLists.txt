@@ -86,7 +86,14 @@
          count-numbers-with-unique-digits.cpp
          longest-turbulent-subarray.cpp
          number-of-ways-to-wear-different-hats-to-each-other.cpp
-         smallest-sufficient-team.cpp linked-list-in-binary-tree.cpp student-attendance-record-ii.cpp)
+         smallest-sufficient-team.cpp
+         linked-list-in-binary-tree.cpp
+         student-attendance-record-ii.cpp
+         ugly-number-ii.cpp
+         numbers-at-most-n-given-digit-set.cpp
+         stone-game-iii.cpp
+         stone-game-ii.cpp
+         minimum-distance-to-type-a-word-using-two-fingers.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

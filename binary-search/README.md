@@ -1,0 +1,1 @@
+A little optimization for the binary search solutions. Compare the length of two arrays, and sort the shorter one.

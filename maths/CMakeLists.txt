@@ -17,6 +17,8 @@
          maximum-of-absolute-value-expression.cpp
          fizz-buzz.cpp palindrome-number.cpp
          integer-to-roman.cpp
-         roman-to-integer.cpp power-of-three.cpp)
+         roman-to-integer.cpp
+         power-of-three.cpp
+         multiply-strings.cpp integer-to-english-words.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

@@ -13,7 +13,9 @@
          pseudo-palindromic-paths-in-a-binary-tree.cpp
          surrounded-regions.cpp
          count-univalue-subtrees.cpp
-         longest-univalue-path.cpp)
+         longest-univalue-path.cpp
+         partition-to-k-equal-sum-subsets.cpp
+         reconstruct-itinerary.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

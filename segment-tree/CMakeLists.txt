@@ -4,7 +4,8 @@
  add_library(${TARGET_NAME}
          STATIC
          range-sum-query-mutable.cpp
-         xor-queries-of-a-subarray.cpp)
+         xor-queries-of-a-subarray.cpp
+         largest-rectangle-in-histogram.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC)

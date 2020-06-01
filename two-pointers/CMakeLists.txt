@@ -12,6 +12,8 @@
          3Sum-closest.cpp
          subarray-product-less-than-K.cpp
          4Sum.cpp
-         valid-palindrome-ii.cpp)
+         valid-palindrome-ii.cpp
+         intersection-of-two-arrays.cpp
+         trapping-rain-water.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

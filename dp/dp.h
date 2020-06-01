@@ -230,8 +230,17 @@ bool stoneGame(std::vector<int>& piles);
 int maxSumDivThree(std::vector<int>& nums);
 int maxTurbulenceSize(std::vector<int>& A);
 
+/// DIGIT DP
+int atMostNGivenDigitSet(std::vector<std::string>& D, int N);
 
+/// MINIMAX DP
+int stoneGameII(std::vector<int>& piles);
+std::string stoneGameIII(std::vector<int>& stoneValue);
 
 /////////////////////
 bool isSubPath(ListNode* head, TreeNode* root);
 int checkRecord(int n);
+int nthUglyNumber(int n);
+int minimumDistance(std::string word);
+
+
