@@ -15,3 +15,4 @@ bool isValidBST(TreeNode* root);
 std::string smallestFromLeaf(TreeNode* root);
 int maxProduct(TreeNode* root);
 int pseudoPalindromicPaths (TreeNode* root);
+void solve(std::vector<std::vector<char>>& board);

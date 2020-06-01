@@ -3,24 +3,27 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/reverse-string.cpp
-         src/letter-combinations-of-a-phone-number.cpp
-         src/backspace-string-compare.cpp
-         src/remove-duplicate-letters.cpp
-         src/first-unique-char-in-string.cpp
-         src/valid-parenthesis-string.cpp
-         src/most-common-word.cpp
-         src/partition-labels.cpp
-         src/longest-palindromic-substring.cpp
-         src/isomorphic-strings.cpp
-         src/reorganize-string.cpp
-         src/sort-characters-by-frequency.cpp
-         src/verifying-an-alien-dictionary.cpp
-         src/jewels-and-stones.cpp
-         src/ransom-note.cpp
-         src/add-strings.cpp
-         src/remove-k-digits.cpp
-         src/reorder-data-in-log-files.cpp
-         src/number-of-steps-to-reduce-a-number-in-binary-representation-to-one.cpp)
+         reverse-string.cpp
+         backspace-string-compare.cpp
+         remove-duplicate-letters.cpp
+         first-unique-char-in-string.cpp
+         valid-parenthesis-string.cpp
+         most-common-word.cpp
+         partition-labels.cpp
+         longest-palindromic-substring.cpp
+         isomorphic-strings.cpp
+         reorganize-string.cpp
+         sort-characters-by-frequency.cpp
+         verifying-an-alien-dictionary.cpp
+         jewels-and-stones.cpp
+         ransom-note.cpp
+         add-strings.cpp
+         remove-k-digits.cpp
+         reorder-data-in-log-files.cpp
+         number-of-steps-to-reduce-a-number-in-binary-representation-to-one.cpp
+         zigzag-conversion.cpp
+         string-to-integer.cpp
+         longest-common-prefix.cpp
+         KMP/implement-strstr.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

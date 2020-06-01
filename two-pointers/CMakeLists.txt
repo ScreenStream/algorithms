@@ -5,11 +5,11 @@
          STATIC
          container-with-most-water.cpp
          intersection-of-two-arrays-ii.cpp
-         three-sum.cpp
+         3Sum.cpp
          valid-palindrome.cpp
          duplicate-zeroes.cpp
          squares-of-a-sorted-array.cpp
          3Sum-closest.cpp
-         subarray-product-less-than-K.cpp)
+         subarray-product-less-than-K.cpp 4Sum.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

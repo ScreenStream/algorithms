@@ -11,7 +11,10 @@
          permutations-ii.cpp
          combination-sum.cpp
          path-sum-ii.cpp
-         letter-case-permutation.cpp maximum-score-words-formed-by-letters.cpp)
+         letter-case-permutation.cpp
+         maximum-score-words-formed-by-letters.cpp
+         sudoku-solver.cpp
+         letter-combinations-of-a-phone-number.cpp n-queens.cpp n-queens-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

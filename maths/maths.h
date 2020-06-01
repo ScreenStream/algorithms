@@ -4,6 +4,7 @@
 #include <set>
 #include <algorithm>
 #include <string>
+#include <unordered_map>
 
 bool isHappy(int n);
 std::vector<int> plusOne(std::vector<int>& digits);
@@ -21,3 +22,8 @@ std::vector<int> sumZero(int n);
 int triangleNumber(std::vector<int>& nums);
 int countNumbersWithUniqueDigits(int n);
 int maxAbsValExpr(std::vector<int>& arr1, std::vector<int>& arr2);
+std::vector<std::string> fizzBuzz(int n);
+bool isPalindrome(int x);
+std::string intToRoman(int num);
+int romanToInt(std::string s);
+bool isPowerOfThree(int n);

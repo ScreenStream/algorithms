@@ -25,6 +25,7 @@ add_subdirectory(tree)
 add_subdirectory(bfs)
 add_subdirectory(dfs)
 add_subdirectory(sorting)
+add_subdirectory(misc)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
@@ -44,10 +45,10 @@ target_include_directories(${PROJECT_NAME}
         line-sweep/include
         linked-list
         maths
-        string/include
+        string
         segment-tree
         two-pointers
-        array/include
+        array
         stack/include
         binary-search
         reservoir-sampling/include
@@ -55,7 +56,8 @@ target_include_directories(${PROJECT_NAME}
         tree
         bfs
         dfs
-        sorting)
+        sorting
+        misc)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -81,6 +83,7 @@ target_link_libraries(${PROJECT_NAME}
         tree
         bfs
         dfs
-        sorting)
+        sorting
+        misc)
 
 

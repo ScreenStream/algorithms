@@ -33,6 +33,16 @@ int rangeSumBST(TreeNode* root, int L, int R);
 int maxDepth(Node* root);
 bool isCompleteTree(TreeNode* root);
 TreeNode* sortedArrayToBST(std::vector<int>& nums);
+std::vector<TreeNode*> delNodes(TreeNode* root, std::vector<int>& to_delete);
+
+class Codec {
+public:
+    /// Encodes a tree to a single string.
+    std::string serialize(TreeNode* root);
+
+    /// Decodes your encoded data to tree.
+    TreeNode* deserialize(std::string data);
+};
 
 inline bool isLeafNode(TreeNode* root)
 {

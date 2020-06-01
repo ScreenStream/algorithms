@@ -3,10 +3,11 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         src/contiguous-array.cpp
-         src/remove-duplicates-from-sorted-array.cpp
-         src/product-of-array-except-self.cpp
-         src/subarray-sum-equals-k.cpp
-         src/maximum-sum-circular-subarray.cpp)
+         contiguous-array.cpp
+         remove-duplicates-from-sorted-array.cpp
+         product-of-array-except-self.cpp
+         subarray-sum-equals-k.cpp
+         maximum-sum-circular-subarray.cpp
+         remove-element.cpp next-permutation.cpp)
 
- target_include_directories(${TARGET_NAME} PUBLIC include)
+ target_include_directories(${TARGET_NAME} PUBLIC)

@@ -17,3 +17,7 @@ std::vector<std::vector<int>> combinationSum(std::vector<int>& candidates, int t
 std::vector<std::vector<int>> pathSumII(TreeNode* root, int sum);
 std::vector<std::string> letterCasePermutation(std::string S);
 int maxScoreWords(std::vector<std::string>& words, std::vector<char>& letters, std::vector<int>& score);
+void solveSudoku(std::vector<std::vector<char>>& board);
+std::vector<std::string> letterCombinations(const std::string& digits);
+std::vector<std::vector<std::string>> solveNQueens(int n);
+int totalNQueens(int n); /// N-Queens II

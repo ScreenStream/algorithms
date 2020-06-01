@@ -8,9 +8,6 @@
 #include <unordered_map>
 
 void reverseString(std::vector<char>& s);
-std::vector<std::string> letterCombinationsBFS(const std::string& digits);
-std::vector<std::string> letterCombinationsDFS(const std::string& digits);
-std::vector<std::string> letterCombinationsBacktracking(const std::string& digits);
 bool backspaceCompare(std::string S, std::string T);
 bool backspaceCompare2(std::string S, std::string T);
 std::string removeDuplicateLetters(std::string s);
@@ -29,6 +26,8 @@ std::string addStrings(const std::string& num1, const std::string& num2);
 std::string removeKdigits(std::string num, int k);
 std::vector<std::string> reorderLogFiles(std::vector<std::string>& logs);
 int numSteps(std::string s);
+std::string convert(std::string s, int numRows);
+int myAtoi(std::string str);
 
 inline std::vector<std::string> split(const std::string& s, char delimiter)
 {

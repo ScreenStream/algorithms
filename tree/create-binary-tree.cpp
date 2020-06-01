@@ -1,5 +1,5 @@
 #include "tree.h"
-#include "str.h"
+#include "string/str.h"
 
 TreeNode* createBinaryTree(const std::string& input)
 {

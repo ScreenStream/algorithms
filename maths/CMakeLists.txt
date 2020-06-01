@@ -16,6 +16,9 @@
          find-n-unique-integers-sum-up-to-zero.cpp
          valid-triangle-number.cpp
          count-numbers-with-unique-digits.cpp
-         maximum-of-absolute-value-expression.cpp)
+         maximum-of-absolute-value-expression.cpp
+         fizz-buzz.cpp palindrome-number.cpp
+         integer-to-roman.cpp
+         roman-to-integer.cpp power-of-three.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC include)

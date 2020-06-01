@@ -24,7 +24,7 @@
          range-sum-of-bst.cpp
          maximum-depth-of-n-ary-tree.cpp
          check-completeness-of-a-binary-tree.cpp
-         convert-sorted-array-to-binary-search-tree.cpp)
+         convert-sorted-array-to-binary-search-tree.cpp delete-nodes-and-return-forest.cpp serialize-and-deserialize-binary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

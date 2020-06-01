@@ -95,7 +95,6 @@ int maxProfit(int k, std::vector<int>& prices);
 
 //////////////////////////////
 int fib(int N);
-std::vector<int> twoSum(std::vector<int>& nums, int target);
 int numDecodings(std::string s);
 int countSquares(std::vector<std::vector<int>>& A);
 int longestIncreasingPath(const std::vector<std::vector<int>>& matrix);

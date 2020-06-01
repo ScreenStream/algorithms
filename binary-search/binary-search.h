@@ -12,3 +12,5 @@ int searchInRotatedSortedArray(std::vector<int>& nums, int target);
 char nextGreatestLetter(std::vector<char>& letters, char target);
 int singleNonDuplicate(std::vector<int>& nums);
 std::vector<int> findClosestElements(std::vector<int>& arr, int k, int x);
+double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2);
+int mySqrt(int x);

@@ -6,7 +6,6 @@
  add_library(${TARGET_NAME}
          STATIC
          fibonacci-number.cpp
-         two-sum.cpp
          coin-change.cpp
          minimum-path-sum.cpp
          house-robber.cpp

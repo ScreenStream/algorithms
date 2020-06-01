@@ -1,5 +1,5 @@
 #include "backtracking/backtracking.h"
-#include "str.h"
+#include "string/str.h"
 
 using namespace std;
 

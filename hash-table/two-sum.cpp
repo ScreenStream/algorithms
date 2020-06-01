@@ -1,4 +1,6 @@
-#include "dp.h"
+#include "hash-table.h"
+
+using namespace std;
 
 /*
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
@@ -13,8 +15,8 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
  */
 
-std::vector<int> twoSum(std::vector<int>& nums, int target) {
-    std::unordered_map<int, int> m;
+vector<int> twoSum(vector<int>& nums, int target) {
+    unordered_map<int, int> m;
 
     for(int i = 0; i < nums.size(); ++i) {
         int remainder = target - nums[i];

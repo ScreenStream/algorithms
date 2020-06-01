@@ -1,5 +1,7 @@
 #include "maths.h"
 
+using namespace std;
+
 /*
  * Given two binary strings, return their sum (also a binary string).
 
@@ -23,12 +25,12 @@ Each string is either "0" or doesn't contain any leading zero.
  */
 
 /// Time O(n^2), because of the string concatenation in front.
-std::string addBinary(std::string a, std::string b) {
+string addBinary(string a, string b) {
     int carry = 0;
     int i = a.size() - 1;
     int j = b.size() - 1;
 
-    std::string res;
+    string res;
 
     while(i >= 0 || j >= 0 || carry) { /// As long as there is carry, we will keep going on even if we are done iterating strings.
         carry += i >= 0 ? a[i--] - '0' : 0;

@@ -1,5 +1,7 @@
 #include "two-pointers.h"
 
+using namespace std;
+
 /*
  * Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
 
@@ -20,12 +22,12 @@ A solution set is:
 
 /// We just fix a number and then do a regular two pointer sweep across the elements that are bigger than our fixed element. So, to be able to find
 /// which elements are bigger than our fixed number we first sort the array in the beginning.
-std::vector<std::vector<int>> threeSum(std::vector<int>& nums) {
+vector<vector<int>> threeSum(vector<int>& nums) {
     if(nums.size() < 2)
         return {};
 
-    std::sort(nums.begin(), nums.end());
-    std::vector<std::vector<int>> res;
+    sort(nums.begin(), nums.end());
+    vector<vector<int>> res;
 
     for(int i = 0; i < nums.size() - 2; ++i) {
         if(nums[i] > 0) { /// If number in the array is larger than 0, then there is no way that when we sum this number up with the numbers larger than 0 we
