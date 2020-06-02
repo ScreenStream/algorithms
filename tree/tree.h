@@ -65,6 +65,10 @@ TreeNode* deleteNode(TreeNode* root, int key);
 TreeNode* insertIntoBST(TreeNode* root, int val);
 bool isBalanced(TreeNode* root);
 Node* maximumAverageSubtree(Node* root);
+TreeNode* buildTreeII(vector<int>& inorder, vector<int>& postorder); /// construct-binary-tree-from-inorder-and-postorder-traversal
+vector<int> findMode(TreeNode* root);
+TreeNode* bstFromPreorder(vector<int>& preorder);
+int minDiffInBST(TreeNode* root);
 
 // https://leetcode.com/discuss/interview-question/546703/Microsoft-or-OA-2020-or-Count-Visible-Nodes-in-Binary-Tree
 int countVisibleNodes(TreeNode* root);

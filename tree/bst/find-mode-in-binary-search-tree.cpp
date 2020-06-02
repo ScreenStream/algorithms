@@ -1,4 +1,4 @@
-#include "depth-first-traversal.h"
+#include "tree/traversal/depth-first-traversal/depth-first-traversal.h"
 
 /*
  * Given a binary search tree (BST) with duplicates, find all the mode(s)

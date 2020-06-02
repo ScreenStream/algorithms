@@ -17,9 +17,4 @@ vector<int> postorderTraversalRecursive(TreeNode* root);
 vector<int> postorderTraversalIterative(TreeNode* root);
 
 TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder);
-TreeNode* bstFromPreorder(vector<int>& preorder);
-int minDiffInBST(TreeNode* root);
 vector<int> preorder(Node* root);
-
-TreeNode* buildTreeII(vector<int>& inorder, vector<int>& postorder); /// construct-binary-tree-from-inorder-and-postorder-traversal
-vector<int> findMode(TreeNode* root);
