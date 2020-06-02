@@ -15,6 +15,6 @@
          design-hashset.cpp
          max-stack.cpp
          design-twitter.cpp
-         lfu-cache.cpp)
+         lfu-cache.cpp maximum-frequency-stack.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

@@ -26,7 +26,6 @@ add_subdirectory(bfs-dfs)
 add_subdirectory(sorting)
 add_subdirectory(misc)
 add_subdirectory(trie)
-add_subdirectory(bucket)
 add_subdirectory(hash-table)
 
 add_executable(${PROJECT_NAME} main.cpp)

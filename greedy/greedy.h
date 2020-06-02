@@ -20,3 +20,4 @@ int videoStitching(vector<vector<int>>& clips, int T);
 int minTaps(int n, vector<int>& ranges);
 string rearrangeString(string str, int k);
 bool canPlaceFlowers(vector<int>& flowerbed, int n);
+string breakPalindrome(string palindrome);

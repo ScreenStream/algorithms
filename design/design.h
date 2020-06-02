@@ -200,3 +200,12 @@ public:
 
     void put(int key, int value);
 };
+
+class FreqStack {
+public:
+    FreqStack();
+
+    void push(int x);
+
+    int pop();
+};

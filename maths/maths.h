@@ -40,3 +40,10 @@ string fractionToDecimal(int numerator, int denominator);
 vector<vector<int>> generate(int numRows);
 int numberOfArithmeticSlices(vector<int>& A);
 vector<int> lattice(int ax, int ay, int bx, int by);
+bool checkStraightLine(vector<vector<int>>& coordinates);
+bool checkOverlap(int radius, int x_center, int y_center, int x1, int y1, int x2, int y2);
+int minTimeToVisitAllPoints(vector<vector<int>>& points);
+int numPoints(vector<vector<int>>& points, int r);
+int surfaceArea(vector<vector<int>>& grid);
+vector<vector<int>> outerTrees(vector<vector<int>>& points); /// Convex Hull
+double minAreaFreeRect(vector<vector<int>>& points);

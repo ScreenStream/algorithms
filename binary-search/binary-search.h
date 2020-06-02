@@ -31,6 +31,7 @@ int findRadius(vector<int>& houses, vector<int>& heaters);
 int numMatchingSubseq(string S, vector<string>& words);
 int maxSumSubmatrix(vector<vector<int>>& matrix, int k);
 int maximizeSweetness(vector<int>& nums, int m);
+vector<int> kWeakestRows(vector<vector<int>>& mat, int k);
 
 class RandomPickWeightIndex {
 public:

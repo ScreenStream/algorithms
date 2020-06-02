@@ -47,6 +47,7 @@ void sortColors(vector<int>& nums);
 bool isToeplitzMatrix(vector<vector<int>>& matrix);
 vector<vector<int>> matrixReshape(vector<vector<int>>& nums, int r, int c);
 int findNumbers(vector<int>& nums);
+int minTotalDistance(vector<vector<int>>& grid);
 
 /// MICROSOFT OA
 int minSteps(vector<int>& piles);
