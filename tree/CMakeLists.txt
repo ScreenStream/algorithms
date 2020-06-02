@@ -39,14 +39,16 @@
          distribute-coins-in-binary-tree.cpp
          sum-of-distances-in-tree.cpp
          binary-tree-cameras.cpp
-         populating-next-right-pointers-in-each-node.cpp
          remove-extra-edge.cpp
          path-sum-iv.cpp
          find-duplicate-subtrees.cpp
          maximum-depth-of-binary-tree.cpp
          merge-two-binary-trees.cpp
          count-complete-tree-nodes.cpp
-         all-possible-full-binary-trees.cpp trim-a-binary-search-tree.cpp delete-node-in-a-bst.cpp insert-into-a-binary-search-tree.cpp)
+         all-possible-full-binary-trees.cpp
+         trim-a-binary-search-tree.cpp
+         delete-node-in-a-bst.cpp
+         insert-into-a-binary-search-tree.cpp balanced-binary-tree.cpp maximum-average-subtree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -21,7 +21,7 @@
          search-a-2d-matrix.cpp
          split-array-largest-sum.cpp
          heaters.cpp
-         number-of-matching-subsequences.cpp)
+         number-of-matching-subsequences.cpp max-sum-of-rectangle-no-larger-than-k.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

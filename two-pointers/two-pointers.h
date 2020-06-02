@@ -4,17 +4,28 @@
 #include <algorithm>
 #include <string>
 
-int maxArea(std::vector<int>& height);
-std::vector<int> intersect(std::vector<int>& nums1, std::vector<int>& nums2);
-std::vector<int> intersection(std::vector<int>& nums1, std::vector<int>& nums2);
-std::vector<std::vector<int>> threeSum(std::vector<int>& nums);
-bool isPalindrome(std::string s);
-void duplicateZeros(std::vector<int>& arr);
-std::vector<int> sortedSquares(std::vector<int>& A);
-int threeSumClosest(std::vector<int>& nums, int target);
-int numSubarrayProductLessThanK(std::vector<int>& nums, int k);
-std::vector<std::vector<int>> fourSum(std::vector<int>& nums, int target);
-bool validPalindrome(std::string s);
-int trap(std::vector<int>& height);
-std::vector<int> twoSum(std::vector<int>& numbers, int target);
-bool isLongPressedName(std::string name, std::string typed);
+using std::vector;
+using std::string;
+using std::sort;
+using std::reverse;
+using std::max;
+using std::min;
+
+int maxArea(vector<int>& height);
+vector<int> intersect(vector<int>& nums1, vector<int>& nums2);
+vector<int> intersection(vector<int>& nums1, vector<int>& nums2);
+vector<vector<int>> threeSum(vector<int>& nums);
+bool isPalindrome(string s);
+void duplicateZeros(vector<int>& arr);
+vector<int> sortedSquares(vector<int>& A);
+int threeSumClosest(vector<int>& nums, int target);
+int numSubarrayProductLessThanK(vector<int>& nums, int k);
+vector<vector<int>> fourSum(vector<int>& nums, int target);
+bool validPalindrome(string s);
+int trap(vector<int>& height);
+vector<int> twoSum(vector<int>& numbers, int target);
+bool isLongPressedName(string name, string typed);
+int largestNum(vector<int>& nums);
+
+/// AMAZON OA
+vector<int> getPairs(vector<int>& a, vector<int>& b, int target);

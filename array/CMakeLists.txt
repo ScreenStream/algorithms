@@ -27,7 +27,19 @@
          move-zeroes.cpp
          matrix/spiral-matrix.cpp
          matrix/spiral-matrix-ii.cpp
-         matrix/search-a-2d-matrix-ii.cpp prison-cells-after-n-days.cpp find-all-numbers-disappeared-in-an-array.cpp matrix/number-of-submatrices-that-sum-to-target.cpp bulb-switcher-iii.cpp sort-colors.cpp max-consecutive-ones.cpp)
+         matrix/search-a-2d-matrix-ii.cpp
+         prison-cells-after-n-days.cpp
+         find-all-numbers-disappeared-in-an-array.cpp
+         matrix/number-of-submatrices-that-sum-to-target.cpp
+         bulb-switcher-iii.cpp
+         sort-colors.cpp
+         max-consecutive-ones.cpp
+         matrix/toeplitz-matrix.cpp
+         matrix/reshape-the-matrix.cpp
+         find-numbers-with-even-number-of-digits.cpp
+         min-steps-to-make-piles-equal-height.cpp
+         fair-indexes.cpp
+         largest-m-aligned-subset.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -1,7 +1,5 @@
 #include "interval.h"
 
-using namespace std;
-
 /*
  * Given two lists of closed intervals, each list of intervals is pairwise disjoint and in sorted order.
 

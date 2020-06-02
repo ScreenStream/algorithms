@@ -9,6 +9,10 @@
 
 using std::vector;
 using std::string;
+using std::max;
+using std::min;
+using std::sort;
+using std::reverse;
 
 struct TreeNode;
 struct ListNode;
@@ -247,5 +251,10 @@ int checkRecord(int n);
 int nthUglyNumber(int n);
 int minimumDistance(string word);
 int oddEvenJumps(vector<int>& A);
-
+int superEggDrop(int K, int N);
+int lenLongestFibSubseq(vector<int>& A);
+int leastOpsExpressTarget(int x, int target);
+int racecar(int target);
+vector<TreeNode*> generateTrees(int n); /// unique-binary-search-trees-ii
+int robIII(TreeNode* root);
 

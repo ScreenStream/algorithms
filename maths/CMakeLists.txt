@@ -23,6 +23,6 @@
          integer-to-english-words.cpp
          self-dividing-numbers.cpp
          powx-n.cpp
-         fraction-to-recurring-decimal.cpp pascals-triangle.cpp arithmetic-slices.cpp)
+         fraction-to-recurring-decimal.cpp pascals-triangle.cpp arithmetic-slices.cpp point-of-lattice.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

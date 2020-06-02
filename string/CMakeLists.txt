@@ -33,7 +33,11 @@
          reverse-words-in-a-string.cpp
          reverse-string-ii.cpp
          reverse-words-in-a-string-iii.cpp
-         find-words-that-can-be-formed-by-characters.cpp)
+         find-words-that-can-be-formed-by-characters.cpp
+         KMP/shortest-palindrome.cpp
+         count-and-say.cpp
+         min-moves-to-obtain-string-without-3-identical-consecutive-letters.cpp
+         min-adj-swaps-to-make-palindrome.cpp string-without-3-identical-consecutive-letters.cpp max-inserts-to-obtain-string-without-3-consecutive-a.cpp crop-words.cpp min-cost-to-get-string-without-2-identical-consecutive-letters.cpp riddle.cpp largest-alphabetic-character.cpp longest-string-made-up-of-only-vowels.cpp battleship.cpp min-amplitude.cpp ways-to-split-string.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

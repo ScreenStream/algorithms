@@ -12,7 +12,11 @@
          surrounded-regions.cpp
          couples-holding-hands.cpp
          longest-consecutive-sequence.cpp
-         count-servers-that-communicate.cpp evaluate-division.cpp regions-cut-by-slashes.cpp)
+         count-servers-that-communicate.cpp
+         evaluate-division.cpp
+         regions-cut-by-slashes.cpp
+         max-network-rank.cpp
+         min-cost-to-connect-all-nodes.cpp min-cost-to-repair-edges.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC)

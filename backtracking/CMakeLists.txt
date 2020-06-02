@@ -20,7 +20,7 @@
          knights-tour.cpp
          remove-invalid-parentheses.cpp
          24-game.cpp
-         increasing-subsequences.cpp tiling-a-rectangle-with-the-fewest-squares.cpp maximum-length-of-a-concatenated-string-with-unique-characters.cpp)
+         increasing-subsequences.cpp tiling-a-rectangle-with-the-fewest-squares.cpp maximum-length-of-a-concatenated-string-with-unique-characters.cpp unique-paths-iii.cpp restore-ip-addresses.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

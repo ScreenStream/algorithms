@@ -1,6 +1,7 @@
 #include "bfs.h"
 
-using namespace std;
+/// AMAZON OA
+/// https://leetcode.com/discuss/interview-question/347457
 
 /*
  * You have a map that marks the location of a treasure island. Some of the map area has jagged rocks and dangerous reefs.

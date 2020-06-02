@@ -1,7 +1,5 @@
 #include "interval.h"
 
-using namespace std;
-
 /*
  * Given a collection of intervals, merge all overlapping intervals.
 
@@ -17,13 +15,13 @@ Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
  */
 
-std::vector<std::vector<int>> merge(std::vector<std::vector<int>>& intervals)
+vector<vector<int>> merge(vector<vector<int>>& intervals)
 {
     if(intervals.empty()) {
         return {};
     }
 
-    sort(intervals.begin(), intervals.end()); /// std::sort sorts vector of vectors by their first item by default. No need to
+    sort(intervals.begin(), intervals.end()); /// sort sorts vector of vectors by their first item by default. No need to
                                               /// create a custom comparator for this purpose.
     vector<vector<int>> res;
     res.push_back(intervals[0]);

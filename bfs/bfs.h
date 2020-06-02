@@ -36,3 +36,6 @@ int treasureIsland(vector<vector<char>>& island);
 int getImportance(vector<Employee*>& employees, int id);
 int openLock(vector<string>& deadends, string target);
 int maxLevelSum(TreeNode* root);
+Node* connect(Node* root); /// Populating Next Right Pointers in Each Node
+Node* connectII(Node* root);
+int shortestPath(vector<vector<char>>& islands);

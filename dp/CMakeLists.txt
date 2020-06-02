@@ -96,7 +96,13 @@
          stone-game-ii.cpp
          minimum-distance-to-type-a-word-using-two-fingers.cpp
          delete-operation-for-two-strings.cpp
-         odd-even-jump.cpp)
+         odd-even-jump.cpp
+         super-egg-drop.cpp
+         length-of-longest-fibonacci-subsequence.cpp
+         least-operators-to-express-number.cpp
+         race-car.cpp
+         unique-binary-search-trees-ii.cpp
+         house-robber-iii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -39,3 +39,4 @@ double myPow(double x, int n);
 string fractionToDecimal(int numerator, int denominator);
 vector<vector<int>> generate(int numRows);
 int numberOfArithmeticSlices(vector<int>& A);
+vector<int> lattice(int ax, int ay, int bx, int by);

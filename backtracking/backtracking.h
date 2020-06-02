@@ -33,3 +33,5 @@ bool judgePoint24(vector<int>& nums);
 vector<vector<int>> findSubsequences(vector<int>& nums);
 int tilingRectangle(int n, int m);
 int maxLength(vector<string>& arr);
+int uniquePathsIII(vector<vector<int>>& grid);
+vector<string> restoreIpAddresses(string s);

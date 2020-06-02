@@ -45,7 +45,25 @@ string reverseWords(string s);
 string reverseStr(string s, int k); /// Reverse String II
 string reverseWordsIII(string s);
 int countCharacters(vector<string>& words, string chars);
+string shortestPalindrome(string s);
+string countAndSay(int n);
 
+/// MICROSOFT OA
+int  minMovesToObtain(string s);
+int getNoOfSwaps(string s);
+string getLongestSubstring(string s);
+int maxA(string s);
+string cropWords(string s, int k);
+int getMinCost(string s, vector<int>& nums);
+string riddle(string &str);
+string largestCharacter(string s);
+string battleship(int N, string S, string T);
+
+/// GOOGLE OA
+int minAmplitude(vector<int>& nums);
+int numOfSplit(string s);
+
+///
 inline vector<string> split(const string& s, char delimiter)
 {
     vector<string> tokens;
@@ -68,4 +86,8 @@ inline bool isPalindrome(const string& s, int i, int j) {
     }
 
     return true;
+}
+
+inline bool isVowel(char c){
+    return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
 }

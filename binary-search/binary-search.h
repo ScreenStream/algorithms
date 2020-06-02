@@ -4,27 +4,35 @@
 #include <string>
 #include <algorithm>
 
+using std::vector;
+using std::string;
+using std::max;
+using std::min;
+using std::sort;
+using std::reverse;
+
 int firstBadVersion(int n);
-bool isSubsequence(std::string s, std::string t);
-std::vector<int> searchRange(std::vector<int>& nums, int target);
-int search(std::vector<int>& nums, int target);
-int searchInRotatedSortedArray(std::vector<int>& nums, int target);
-char nextGreatestLetter(std::vector<char>& letters, char target);
-int singleNonDuplicate(std::vector<int>& nums);
-std::vector<int> findClosestElements(std::vector<int>& arr, int k, int x);
-double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2);
+bool isSubsequence(string s, string t);
+vector<int> searchRange(vector<int>& nums, int target);
+int search(vector<int>& nums, int target);
+int searchInRotatedSortedArray(vector<int>& nums, int target);
+char nextGreatestLetter(vector<char>& letters, char target);
+int singleNonDuplicate(vector<int>& nums);
+vector<int> findClosestElements(vector<int>& arr, int k, int x);
+double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2);
 int mySqrt(int x);
-int findPeakElement(std::vector<int>& nums);
-int searchInsert(std::vector<int>& nums, int target);
-int findMin(std::vector<int>& nums);
-int shipWithinDays(std::vector<int>& weights, int D);
-bool searchMatrix(std::vector<std::vector<int>>& matrix, int target);
-int splitArray(std::vector<int>& nums, int m);
-int findRadius(std::vector<int>& houses, std::vector<int>& heaters);
-int numMatchingSubseq(std::string S, std::vector<std::string>& words);
+int findPeakElement(vector<int>& nums);
+int searchInsert(vector<int>& nums, int target);
+int findMin(vector<int>& nums);
+int shipWithinDays(vector<int>& weights, int D);
+bool searchMatrix(vector<vector<int>>& matrix, int target);
+int splitArray(vector<int>& nums, int m);
+int findRadius(vector<int>& houses, vector<int>& heaters);
+int numMatchingSubseq(string S, vector<string>& words);
+int maxSumSubmatrix(vector<vector<int>>& matrix, int k);
 
 class RandomPickWeightIndex {
 public:
-    RandomPickWeightIndex(std::vector<int>& w);
+    RandomPickWeightIndex(vector<int>& w);
     int pickIndex();
 };

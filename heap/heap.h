@@ -6,19 +6,31 @@
 #include <unordered_map>
 #include <algorithm>
 
-std::vector<int> topKFrequent(std::vector<int>& nums, int k);
-int lastStoneWeight(std::vector<int>& stones);
-std::vector<std::vector<int>> kClosest(std::vector<std::vector<int>>& points, int K);
-std::vector<std::string> topKFrequent(const std::vector<std::string>& words, int k);
-std::vector<std::vector<int>> kSmallestPairs(std::vector<int>& nums1, std::vector<int>& nums2, int k);
-int findKthLargest(std::vector<int>& nums, int k);
-std::vector<int> rearrangeBarcodes(std::vector<int>& barcodes);
-std::vector<int> smallestRange(std::vector<std::vector<int>>& nums);
+using std::vector;
+using std::string;
+using std::max;
+using std::min;
+using std::reverse;
+using std::sort;
+using std::unordered_map;
+using std::queue;
+using std::greater;
+using std::priority_queue;
+
+vector<int> topKFrequent(vector<int>& nums, int k);
+int lastStoneWeight(vector<int>& stones);
+vector<vector<int>> kClosest(vector<vector<int>>& points, int K);
+vector<string> topKFrequent(const vector<string>& words, int k);
+vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k);
+int findKthLargest(vector<int>& nums, int k);
+vector<int> rearrangeBarcodes(vector<int>& barcodes);
+vector<int> smallestRange(vector<vector<int>>& nums);
+vector<vector<int>> part(vector<int>& T, int n);
 
 class KthLargest {
 public:
-    std::priority_queue<int, std::vector<int>, std::greater<>> pq;
+    priority_queue<int, vector<int>, greater<>> pq;
     int size;
-    KthLargest(int k, const std::vector<int>& nums);
+    KthLargest(int k, const vector<int>& nums);
     int add(int val);
 };

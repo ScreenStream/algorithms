@@ -13,7 +13,7 @@
          exclusive-time-of-functions.cpp
          asteroid-collision.cpp
          remove-all-adjacent-duplicates-in-string.cpp
-         recover-a-tree-from-preorder-traversal.cpp)
+         recover-a-tree-from-preorder-traversal.cpp basic-calculator.cpp simplify-path.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

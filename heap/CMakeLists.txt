@@ -15,6 +15,6 @@
          kth-smallest-element-in-a-sorted-matrix.cpp
          task-scheduler.cpp
          distant-barcodes.cpp
-         smallest-range-covering-elements-from-k-lists.cpp)
+         smallest-range-covering-elements-from-k-lists.cpp partition-array-into-n-subsets-with-balanced-sum.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

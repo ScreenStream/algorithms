@@ -7,6 +7,6 @@
          interval-list-intersections.cpp
          insert-interval.cpp
          meeting-rooms-i.cpp
-         meeting-rooms-ii.cpp)
+         meeting-rooms-ii.cpp non-overlapping-intervals.cpp minimum-number-of-arrows-to-burst-balloons.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

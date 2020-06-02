@@ -53,7 +53,6 @@ bool findTarget(TreeNode* root, int k);
 int distributeCoins(TreeNode* root);
 vector<int> sumOfDistancesInTree(int N, vector<vector<int>>& edges);
 int minCameraCover(TreeNode* root);
-Node* connect(Node* root); /// Populating Next Right Pointers in Each Node
 TreeNode* removeEdge(TreeNode* node);
 int pathSumIV(vector<int>& nums);
 vector<TreeNode*> findDuplicateSubtrees(TreeNode* root);
@@ -64,6 +63,8 @@ vector<TreeNode*> allPossibleFBT(int N);
 TreeNode* trimBST(TreeNode* root, int L, int R);
 TreeNode* deleteNode(TreeNode* root, int key);
 TreeNode* insertIntoBST(TreeNode* root, int val);
+bool isBalanced(TreeNode* root);
+Node* maximumAverageSubtree(Node* root);
 
 // https://leetcode.com/discuss/interview-question/546703/Microsoft-or-OA-2020-or-Count-Visible-Nodes-in-Binary-Tree
 int countVisibleNodes(TreeNode* root);

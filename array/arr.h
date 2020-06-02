@@ -41,3 +41,11 @@ vector<int> findDisappearedNumbers(vector<int>& nums);
 int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target);
 int numTimesAllBlue(vector<int>& light);
 void sortColors(vector<int>& nums);
+bool isToeplitzMatrix(vector<vector<int>>& matrix);
+vector<vector<int>> matrixReshape(vector<vector<int>>& nums, int r, int c);
+int findNumbers(vector<int>& nums);
+
+/// MICROSOFT OA
+int minSteps(vector<int>& piles);
+int getNumOfFairIndexes(vector<int>& A, vector<int>& B);
+int getLargestMAlignedSubset(vector<int>& nums, int M);

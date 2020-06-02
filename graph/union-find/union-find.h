@@ -18,3 +18,8 @@ int longestConsecutive(vector<int>& nums);
 int countServers(vector<vector<int>>& grid);
 vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries); /// Evaluate Division
 int regionsBySlashes(vector<string>& grid);
+int maxNetworkRank(vector<int>& A, vector<int>& B, int N);
+
+/// AMAZON OA
+int minCost(int n, vector<vector<int>>& edges, vector<vector<int>>& newEdges);
+int minCostRepair(int n, vector<vector<int>>& edges, vector<vector<int>>& newEdges);
