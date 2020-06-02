@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given a rectangular pizza represented as a rows x cols matrix containing the following characters: 'A' (an apple) and '.' (empty cell) and

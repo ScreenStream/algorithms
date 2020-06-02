@@ -1,7 +1,5 @@
 #include "str.h"
 
-using namespace std;
-
 /*
  * You have an array of logs.  Each log is a space delimited string of words.
 

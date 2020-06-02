@@ -1,6 +1,6 @@
 #include "design.h"
 
-using namespace std;
+
 
 /*
  * In this design, high priority keys are stored towards the end of the list.

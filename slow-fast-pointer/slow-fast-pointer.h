@@ -2,6 +2,8 @@
 
 #include <vector>
 
+using std::vector;
+
 #include "nodes.h"
 
 bool isHappy(int n);

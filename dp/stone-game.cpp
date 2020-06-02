@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Alex and Lee play a game with piles of stones.  There are an even number of piles arranged in a row,

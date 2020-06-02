@@ -1,6 +1,6 @@
 #include "binary-search.h"
 
-using namespace std;
+
 
 /*
  * Given a sorted array arr, two integers k and x, find the k closest elements to x in the array.

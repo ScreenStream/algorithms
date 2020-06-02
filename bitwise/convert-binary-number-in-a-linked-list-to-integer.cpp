@@ -2,7 +2,7 @@
 
 #include "nodes.h"
 
-using namespace std;
+
 
 /*
  * Given head which is a reference node to a singly-linked list.

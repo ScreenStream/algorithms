@@ -1,6 +1,6 @@
 #include "trie.h"
 
-using namespace std;
+
 
 /*
  * Given a list of unique words, find all pairs of distinct indices (i, j) in the given list,

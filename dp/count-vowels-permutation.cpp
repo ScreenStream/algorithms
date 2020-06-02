@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given an integer n, your task is to count how many strings of length n can be formed under the following rules:

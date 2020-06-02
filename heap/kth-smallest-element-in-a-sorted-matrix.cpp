@@ -1,6 +1,6 @@
 #include "heap.h"
 
-using namespace std;
+
 
 /*
  * Given a n x n matrix where each of the rows and columns are sorted in ascending order, find the kth smallest element in the matrix.

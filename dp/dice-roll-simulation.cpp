@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * A die simulator generates a random number from 1 to 6 for each roll. You introduced a constraint to the generator such that it cannot

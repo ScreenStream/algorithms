@@ -2,4 +2,6 @@
 
 #include <vector>
 
-bool containsNearbyAlmostDuplicate(std::vector<int>& nums, int k, int t);
+using std::vector;
+
+bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t);

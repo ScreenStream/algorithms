@@ -1,6 +1,6 @@
 #include "binary-search.h"
 
-using namespace std;
+
 
 /*
  * Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.

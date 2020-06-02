@@ -1,6 +1,6 @@
 #include "bfs.h"
 
-using namespace std;
+
 
 /*
  * You are given a perfect binary tree where all leaves are on the same level, and every parent has two children.

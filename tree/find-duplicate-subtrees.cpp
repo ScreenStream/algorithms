@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * Given a binary tree, return all duplicate subtrees. For each kind of duplicate subtrees,

@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given two words word1 and word2, find the minimum number of steps required to make word1 and word2 the same,

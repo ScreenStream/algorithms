@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * A chess knight can move as indicated in the chess diagram below:

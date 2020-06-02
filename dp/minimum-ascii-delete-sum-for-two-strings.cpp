@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given two strings s1, s2, find the lowest ASCII sum of deleted characters to make two strings equal.

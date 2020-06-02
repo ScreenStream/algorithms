@@ -1,6 +1,6 @@
 #include "str.h"
 
-using namespace std;
+
 
 /*
  * You are given a license key represented as a string S which consists only alphanumeric character and dashes.

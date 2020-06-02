@@ -1,6 +1,6 @@
 #include "stack_.h"
 
-using namespace std;
+
 
 /*
  * Evaluate the value of an arithmetic expression in Reverse Polish Notation.

@@ -1,6 +1,6 @@
 #include "arr.h"
 
-using namespace std;
+
 
 /*
  * In a row of dominoes, A[i] and B[i] represent the top and bottom halves of the i-th domino.

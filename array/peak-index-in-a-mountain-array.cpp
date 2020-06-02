@@ -1,6 +1,6 @@
 #include "arr.h"
 
-using namespace std;
+
 
 /*
  * Let's call an array A a mountain if the following properties hold:

@@ -1,6 +1,6 @@
 #include "bfs.h"
 
-using namespace std;
+
 
 /*
  * In an N by N square grid, each cell is either empty (0) or blocked (1).

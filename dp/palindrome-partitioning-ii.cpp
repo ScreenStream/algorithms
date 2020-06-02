@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given a string s, partition s such that every substring of the partition is a palindrome.

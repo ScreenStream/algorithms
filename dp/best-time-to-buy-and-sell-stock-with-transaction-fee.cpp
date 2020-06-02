@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Your are given an array of integers prices, for which the i-th element is the price of a given stock on day i; and a non-negative integer

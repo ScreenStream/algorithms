@@ -1,6 +1,6 @@
 #include "backtracking/backtracking.h"
 
-using namespace std;
+
 
 /*
  * Given a collection of distinct integers, return all possible permutations.

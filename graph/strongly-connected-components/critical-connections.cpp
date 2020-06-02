@@ -1,7 +1,5 @@
 #include "strongly-connected-components.h"
 
-using namespace std;
-
 /*
  * There are n servers numbered from 0 to n-1 connected by undirected server-to-server connections
  * forming a network where connections[i] = [a, b] represents a connection between servers a and b.

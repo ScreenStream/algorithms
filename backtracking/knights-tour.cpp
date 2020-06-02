@@ -1,6 +1,6 @@
 #include "backtracking.h"
 
-using namespace std;
+
 
 /*
  * Given an mxn chessboard, if the position (x,y) of the knight is given, find the path

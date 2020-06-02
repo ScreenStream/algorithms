@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given a m * n matrix mat and an integer K, return a matrix answer where each answer[i][j] is the sum of

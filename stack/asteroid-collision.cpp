@@ -1,6 +1,6 @@
 #include "stack_.h"
 
-using namespace std;
+
 
 /*
  * We are given an array asteroids of integers representing asteroids in a row.

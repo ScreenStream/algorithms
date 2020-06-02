@@ -1,6 +1,6 @@
 #include "str.h"
 
-using namespace std;
+
 
 /*
  * Compare two version numbers version1 and version2.

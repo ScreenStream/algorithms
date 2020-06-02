@@ -1,6 +1,4 @@
-#include "linked-list/linked-list.h"
-
-using namespace std;
+#include "linked-list.h"
 
 /*
  *Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.

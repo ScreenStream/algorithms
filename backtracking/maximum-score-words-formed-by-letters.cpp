@@ -1,6 +1,6 @@
 #include "backtracking/backtracking.h"
 
-using namespace std;
+
 
 /*
  * Given a list of words, list of  single letters (might be repeating) and score of every character.

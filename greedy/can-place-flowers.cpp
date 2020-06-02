@@ -1,6 +1,6 @@
 #include "greedy.h"
 
-using namespace std;
+
 
 /*
  * Suppose you have a long flowerbed in which some of the plots are planted and some are not.

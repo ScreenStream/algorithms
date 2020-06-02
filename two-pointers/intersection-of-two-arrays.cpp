@@ -1,6 +1,6 @@
 #include "two-pointers.h"
 
-using namespace std;
+
 
 /*
  * Given two arrays, write a function to compute their intersection.

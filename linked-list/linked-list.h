@@ -5,6 +5,12 @@
 #include <queue>
 #include <iostream>
 
+using std::vector;
+using std::string;
+using std::queue;
+using std::priority_queue;
+using std::greater;
+
 #include "nodes.h"
 
 ListNode* reverseList(ListNode* head);

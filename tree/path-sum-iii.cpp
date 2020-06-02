@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * You are given a binary tree in which each node contains an integer value.

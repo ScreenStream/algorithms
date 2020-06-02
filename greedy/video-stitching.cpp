@@ -1,6 +1,6 @@
 #include "greedy.h"
 
-using namespace std;
+
 
 /*
  * You are given a series of video clips from a sporting event that lasted T seconds.

@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * We have two types of tiles: a 2x1 domino shape, and an "L" tromino shape. These shapes may be rotated.

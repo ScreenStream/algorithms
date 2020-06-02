@@ -2,7 +2,7 @@
 
 #include <algorithm>
 
-using namespace std;
+using std::swap;
 
 /*
  * You are given an n x n 2D matrix representing an image.

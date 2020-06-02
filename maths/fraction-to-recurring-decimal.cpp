@@ -1,6 +1,6 @@
 #include "maths.h"
 
-using namespace std;
+
 
 /*
  * Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.

@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * Given two integers L and R, find the count of numbers in the range [L, R] (inclusive) having a prime number

@@ -1,6 +1,6 @@
 #include "bfs.h"
 
-using namespace std;
+
 
 /*
  * In a given 2D binary array A, there are two islands.

@@ -1,6 +1,6 @@
 #include "backtracking.h"
 
-using namespace std;
+
 
 /*
  * Given an integer array, your task is to find all the different possible increasing subsequences of

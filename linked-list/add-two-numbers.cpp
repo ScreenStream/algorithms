@@ -1,6 +1,4 @@
-#include "linked-list/linked-list.h"
-
-using namespace std;
+#include "linked-list.h"
 
 /*
  * You are given two non-empty linked lists representing two non-negative integers.

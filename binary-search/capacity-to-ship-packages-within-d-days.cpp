@@ -1,6 +1,6 @@
 #include "binary-search.h"
 
-using namespace std;
+
 
 /*
  * A conveyor belt has packages that must be shipped from one port to another within D days.

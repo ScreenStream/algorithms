@@ -4,11 +4,19 @@
 #include <vector>
 #include <string>
 
-int minCostConnectRopes(const std::vector<int>& nums);
-bool canJump(std::vector<int>& nums);
-int findLongestChain(std::vector<std::vector<int>>& pairs);
-int jump(std::vector<int>& nums);
-int videoStitching(std::vector<std::vector<int>>& clips, int T);
-int minTaps(int n, std::vector<int>& ranges);
-std::string rearrangeString(std::string str, int k);
-bool canPlaceFlowers(std::vector<int>& flowerbed, int n);
+using std::vector;
+using std::string;
+using std::queue;
+using std::greater;
+using std::priority_queue;
+using std::max;
+using std::min;
+
+int minCostConnectRopes(const vector<int>& nums);
+bool canJump(vector<int>& nums);
+int findLongestChain(vector<vector<int>>& pairs);
+int jump(vector<int>& nums);
+int videoStitching(vector<vector<int>>& clips, int T);
+int minTaps(int n, vector<int>& ranges);
+string rearrangeString(string str, int k);
+bool canPlaceFlowers(vector<int>& flowerbed, int n);

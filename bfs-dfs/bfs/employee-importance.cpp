@@ -1,6 +1,6 @@
 #include "bfs.h"
 
-using namespace std;
+
 
 /*
  * You are given a data structure of employee information, which includes the employee's unique id,

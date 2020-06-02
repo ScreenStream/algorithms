@@ -1,6 +1,6 @@
 #include "knapsack.h"
 
-using namespace std;
+
 
 /*
  * Given an array, strs, with strings consisting of only 0s and 1s. Also two integers m and n.

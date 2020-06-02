@@ -1,6 +1,6 @@
 #include "dfs.h"
 
-using namespace std;
+
 
 /*
  * Let's play the minesweeper game (Wikipedia, online game)!

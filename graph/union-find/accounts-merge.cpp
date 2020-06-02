@@ -1,6 +1,6 @@
 #include "union-find.h"
 
-using namespace std;
+
 
 /*
  * Given a list accounts, each element accounts[i] is a list of strings, where the first element accounts[i][0] is a name,

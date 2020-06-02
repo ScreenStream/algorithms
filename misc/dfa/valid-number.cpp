@@ -1,7 +1,5 @@
 #include "misc.h"
 
-using namespace std;
-
 /*
  * Validate if a given string can be interpreted as a decimal number.
 

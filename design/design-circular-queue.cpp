@@ -1,6 +1,6 @@
 #include "design.h"
 
-using namespace std;
+
 
 /*
  * Design your implementation of the circular queue. The circular queue is a linear data structure in which

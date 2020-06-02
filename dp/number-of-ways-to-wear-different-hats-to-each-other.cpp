@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * There are n people and 40 types of hats labeled from 1 to 40.

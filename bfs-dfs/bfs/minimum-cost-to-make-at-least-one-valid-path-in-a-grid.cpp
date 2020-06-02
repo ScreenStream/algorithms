@@ -1,6 +1,6 @@
 #include "bfs.h"
 
-using namespace std;
+
 
 /*
  * Given a m x n grid. Each cell of the grid has a sign pointing to the next cell you should visit

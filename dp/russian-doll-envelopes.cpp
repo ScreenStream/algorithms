@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * You have a number of envelopes with widths and heights given as a pair of integers (w, h).

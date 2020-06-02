@@ -1,6 +1,6 @@
 #include "trie.h"
 
-using namespace std;
+
 
 /*
  * Design a data structure that supports the following two operations:

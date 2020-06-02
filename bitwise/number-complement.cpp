@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * Given a positive integer num, output its complement number.

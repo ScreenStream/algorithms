@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * In a row of trees, the i-th tree produces fruit with type tree[i].

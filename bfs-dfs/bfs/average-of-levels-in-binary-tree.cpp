@@ -1,6 +1,6 @@
 #include "bfs.h"
 
-using namespace std;
+
 
 /*
  * Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.

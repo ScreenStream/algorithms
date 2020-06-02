@@ -1,6 +1,6 @@
 #include "greedy.h"
 
-using namespace std;
+
 
 /*
  * You are given n pairs of numbers. In every pair, the first number is always smaller than the second number.

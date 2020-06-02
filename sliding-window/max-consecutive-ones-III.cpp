@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * Given an array A of 0s and 1s, we may change up to K values from 0 to 1.

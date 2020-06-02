@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * You are given two strings s and t of the same length. You want to change s to t. Changing the i-th character of s to i-th character

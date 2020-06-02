@@ -1,6 +1,6 @@
 #include "design.h"
 
-using namespace std;
+
 
 /*
  * Implement a SnapshotArray that supports the following interface:

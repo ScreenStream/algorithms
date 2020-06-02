@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * On an NxN chessboard, a knight starts at the r-th row and c-th column and attempts to make exactly K moves.

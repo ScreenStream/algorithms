@@ -1,6 +1,6 @@
 #include "maths.h"
 
-using namespace std;
+
 
 /*
  * Implement pow(x, n), which calculates x raised to the power n (xn).

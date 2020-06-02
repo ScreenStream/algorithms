@@ -1,6 +1,6 @@
 #include "design.h"
 
-using namespace std;
+
 
 /*
  * Implement the following operations of a queue using stacks.

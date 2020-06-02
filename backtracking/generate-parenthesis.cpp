@@ -1,6 +1,6 @@
 #include "backtracking/backtracking.h"
 
-using namespace std;
+
 
 void helper(vector<string>& res, const string& s, int n, int open, int close)
 {

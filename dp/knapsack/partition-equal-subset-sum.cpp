@@ -1,6 +1,6 @@
 #include "knapsack.h"
 
-using namespace std;
+
 
 /*
  * Given a non-empty array containing only positive integers,

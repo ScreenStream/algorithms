@@ -12,6 +12,7 @@ using std::vector;
 using std::stringstream;
 using std::istringstream;
 using std::unordered_map;
+using std::pair;
 using std::unordered_set;
 
 void reverseString(vector<char>& s);

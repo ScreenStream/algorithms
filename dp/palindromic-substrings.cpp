@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given a string, your task is to count how many palindromic substrings in this string.

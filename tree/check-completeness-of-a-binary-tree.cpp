@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * Given a binary tree, determine if it is a complete binary tree.

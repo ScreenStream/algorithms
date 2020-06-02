@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.

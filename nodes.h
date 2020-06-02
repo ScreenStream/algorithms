@@ -2,6 +2,8 @@
 
 #include <vector>
 
+using std::vector;
+
 /// Binary tree node.
 struct TreeNode
 {

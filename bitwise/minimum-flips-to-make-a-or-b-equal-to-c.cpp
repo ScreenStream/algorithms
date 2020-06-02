@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * Given 3 positives numbers a, b and c. Return the minimum flips required in some bits of a and b to make

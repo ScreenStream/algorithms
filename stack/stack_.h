@@ -7,7 +7,8 @@
 using std::vector;
 using std::string;
 using std::stack;
-
+using std::max;
+using std::min;
 
 struct TreeNode;
 

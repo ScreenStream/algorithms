@@ -1,6 +1,6 @@
 #include "str.h"
 
-using namespace std;
+
 
 /*
  * Implement atoi which converts a string to an integer.

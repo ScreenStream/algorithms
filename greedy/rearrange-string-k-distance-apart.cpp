@@ -1,6 +1,6 @@
 #include "greedy.h"
 
-using namespace std;
+
 
 /*
  * Given a non-empty string str and an integer k, rearrange the string such that the same characters

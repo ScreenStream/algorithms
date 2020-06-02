@@ -1,6 +1,6 @@
 #include "maths.h"
 
-using namespace std;
+
 
 /*
  * Given two binary strings, return their sum (also a binary string).

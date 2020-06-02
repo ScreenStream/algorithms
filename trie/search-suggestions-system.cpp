@@ -1,6 +1,6 @@
 #include "trie.h"
 
-using namespace std;
+
 
 /*
  * Given an array of strings products and a string searchWord. We want to design a system that

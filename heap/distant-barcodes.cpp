@@ -1,6 +1,6 @@
 #include "heap.h"
 
-using namespace std;
+
 
 /*
  * In a warehouse, there is a row of barcodes, where the i-th barcode is barcodes[i].

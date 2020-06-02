@@ -1,6 +1,6 @@
 #include "trie.h"
 
-using namespace std;
+
 
 /*
  * Implement the StreamChecker class as follows:

@@ -1,6 +1,6 @@
 #include "backtracking.h"
 
-using namespace std;
+
 
 /*
  * Write a program to solve a Sudoku puzzle by filling the empty cells.

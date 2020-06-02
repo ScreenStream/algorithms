@@ -1,6 +1,6 @@
 #include "graph.h"
 
-using namespace std;
+
 
 /*
  * Suppose you are at a party with n people (labeled from 0 to n - 1) and among them, there may exist one celebrity.

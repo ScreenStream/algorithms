@@ -12,10 +12,13 @@ using std::vector;
 using std::string;
 using std::unordered_set;
 using std::unordered_map;
+using std::pair;
 using std::reverse;
 using std::sort;
 using std::stack;
 using std::queue;
+using std::max;
+using std::min;
 
 #include "nodes.h"
 

@@ -1,6 +1,6 @@
 #include "maths.h"
 
-using namespace std;
+
 
 /*
  * A self-dividing number is a number that is divisible by every digit it contains.

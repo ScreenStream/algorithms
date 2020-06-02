@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Alex and Lee continue their games with piles of stones.  There are a number of piles arranged in a row,

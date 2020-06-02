@@ -1,6 +1,6 @@
 #include "shortest-path.h"
 
-using namespace std;
+
 
 /*
  * There are n cities connected by m flights. Each flight starts from city u and arrives at v with a price w.

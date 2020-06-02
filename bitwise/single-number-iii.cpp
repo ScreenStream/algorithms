@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * Given an array of numbers nums, in which exactly two elements appear only once and all the other elements appear

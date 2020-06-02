@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given an array arr of positive integers, consider all binary trees such that:

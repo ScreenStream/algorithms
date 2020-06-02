@@ -1,6 +1,6 @@
 #include "bfs.h"
 
-using namespace std;
+
 
 /*
  * You have a lock in front of you with 4 circular wheels. Each wheel has 10 slots:

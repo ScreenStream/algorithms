@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * Given an array of integers nums and an integer limit, return the size of the longest continuous subarray such that the absolute difference between any two elements is less than or equal to limit.

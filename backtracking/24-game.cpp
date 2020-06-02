@@ -1,6 +1,6 @@
 #include "backtracking.h"
 
-using namespace std;
+
 
 /*
  * You have 4 cards each containing a number from 1 to 9. You need to judge whether

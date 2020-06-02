@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * In a N x N grid representing a field of cherries, each cell is one of three possible integers.

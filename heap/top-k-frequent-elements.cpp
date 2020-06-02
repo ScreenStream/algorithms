@@ -1,6 +1,6 @@
 #include "heap.h"
 
-using namespace std;
+
 
 /*
  * Given a non-empty array of integers, return the k most frequent elements.

@@ -1,6 +1,6 @@
 #include "topological-sort.h"
 
-using namespace std;
+
 
 /*
  * There are a total of n courses you have to take, labeled from 0 to n-1.

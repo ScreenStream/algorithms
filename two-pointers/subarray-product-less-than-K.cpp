@@ -1,6 +1,6 @@
 #include "two-pointers.h"
 
-using namespace std;
+
 
 /*
  * Your are given an array of positive integers nums.

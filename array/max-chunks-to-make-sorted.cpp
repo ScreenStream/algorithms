@@ -1,6 +1,6 @@
 #include "arr.h"
 
-using namespace std;
+
 
 /*
  * Given an array arr that is a permutation of [0, 1, ..., arr.length - 1], we split the array into

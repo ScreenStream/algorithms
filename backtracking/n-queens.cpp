@@ -1,6 +1,6 @@
 #include "backtracking.h"
 
-using namespace std;
+
 
 /*
  * The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens attack each other.

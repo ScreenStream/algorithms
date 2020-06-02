@@ -1,6 +1,6 @@
 #include "arr.h"
 
-using namespace std;
+
 
 /*
  * According to the Wikipedia's article: "The Game of Life, also known simply as Life, is a cellular automaton

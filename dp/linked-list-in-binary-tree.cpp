@@ -2,7 +2,7 @@
 
 #include "nodes.h"
 
-using namespace std;
+
 
 /*
  * Given a binary tree root and a linked list with head as the first node.

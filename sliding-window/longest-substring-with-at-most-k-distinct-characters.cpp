@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * Given a string, find the length of the longest substring T that contains at most k distinct characters.

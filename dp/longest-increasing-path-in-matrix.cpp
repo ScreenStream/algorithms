@@ -1,7 +1,5 @@
 #include "dp.h"
 
-using namespace std;
-
 /*
  * Given an integer matrix, find the length of the longest increasing path.
 

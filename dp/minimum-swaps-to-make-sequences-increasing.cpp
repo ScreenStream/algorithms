@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * We have two integer sequences A and B of the same non-zero length.

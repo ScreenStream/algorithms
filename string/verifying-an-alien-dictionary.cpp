@@ -1,6 +1,6 @@
 #include "str.h"
 
-using namespace std;
+
 
 /*
  * In an alien language, surprisingly they also use english lowercase letters, but possibly in a different order. The order of the alphabet is some permutation of lowercase letters.

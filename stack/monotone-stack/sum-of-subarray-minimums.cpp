@@ -1,6 +1,6 @@
 #include "monotone-stack.h"
 
-using namespace std;
+
 
 /*
  * Given an array of integers A, find the sum of min(B), where B ranges over every (contiguous) subarray of A.

@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  *Given two strings text1 and text2, return the length of their longest common subsequence.

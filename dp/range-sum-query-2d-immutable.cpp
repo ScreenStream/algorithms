@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its

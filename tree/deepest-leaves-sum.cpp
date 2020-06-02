@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * Given a binary tree, return the sum of values of its deepest leaves.

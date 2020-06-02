@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * We have an array A of non-negative integers.

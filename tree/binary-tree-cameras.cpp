@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * Given a binary tree, we install cameras on the nodes of the tree.

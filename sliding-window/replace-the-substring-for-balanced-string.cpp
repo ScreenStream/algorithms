@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * You are given a string containing only 4 kinds of characters 'Q', 'W', 'E' and 'R'.

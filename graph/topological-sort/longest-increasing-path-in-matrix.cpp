@@ -1,7 +1,5 @@
 #include "topological-sort.h"
 
-using namespace std;
-
 /*
  * Given an integer matrix, find the length of the longest increasing path.
 
@@ -32,7 +30,7 @@ Explanation: The longest increasing path is [3, 4, 5, 6]. Moving diagonally is n
 
 /// THIS QUESTION IS MOST EASILY SOLVED BY DP THEREFORE DP SOLUTION OF THIS QUESTION IS UNDER DP DIRECTORY.
 /// HOWEVER, SINCE TOPOLOGICAL SORT SOLUTION IS ALSO INTUITIVE, I HAVE WRITTEN ANOTHER SOLUTION USING TOPOLOGICAL SORT FOR THE QUESTION HERE.
-int longestIncreasingPathTopo(vector<vector<int>>& matrix) {
+int longestIncreasingPath(vector<vector<int>>& matrix) {
     if(matrix.empty()) {
         return 0;
     }

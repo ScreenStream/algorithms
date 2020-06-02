@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given an integer array arr and an integer difference, return the length of the longest subsequence

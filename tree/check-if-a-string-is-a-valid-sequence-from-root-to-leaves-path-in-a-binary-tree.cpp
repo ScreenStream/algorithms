@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * Given a binary tree where each path going from the root to any leaf form a valid sequence, check if a given string

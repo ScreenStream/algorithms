@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * Given the root of a binary tree, each node in the tree has a distinct value.

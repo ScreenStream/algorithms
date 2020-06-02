@@ -1,6 +1,6 @@
 #include "two-heaps.h"
 
-using namespace std;
+
 
 /*
  * Suppose LeetCode will start its IPO soon. In order to sell a good price of its shares to Venture Capital, LeetCode would like to

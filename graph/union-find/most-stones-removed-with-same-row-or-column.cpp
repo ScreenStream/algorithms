@@ -1,6 +1,6 @@
 #include "union-find.h"
 
-using namespace std;
+
 
 /*
  * On a 2D plane, we place stones at some integer coordinate points.  Each coordinate point may have at most one stone.

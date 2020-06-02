@@ -4,6 +4,7 @@
 #include <stack>
 
 using std::vector;
+using std::stack;
 
 #include "nodes.h"
 

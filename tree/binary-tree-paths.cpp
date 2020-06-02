@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+using std::to_string;
 
 /*
  * Given a binary tree, return all root-to-leaf paths.

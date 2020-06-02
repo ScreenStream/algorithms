@@ -1,6 +1,6 @@
 #include "maths.h"
 
-using namespace std;
+
 
 /*
  * You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point.

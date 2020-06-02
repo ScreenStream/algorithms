@@ -2,7 +2,7 @@
 
 #include "nodes.h"
 
-using namespace std;
+
 
 /*
  * We are given a linked list with head as the first node.  Let's number the nodes in the list:

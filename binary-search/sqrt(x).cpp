@@ -1,6 +1,6 @@
 #include "binary-search.h"
 
-using namespace std;
+
 
 /*
  * Implement int sqrt(int x).

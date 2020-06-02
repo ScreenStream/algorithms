@@ -1,6 +1,6 @@
 #include "dfs.h"
 
-using namespace std;
+
 
 /*
  * Given a 2D board containing 'X' and 'O' (the letter O), capture all regions surrounded by 'X'.

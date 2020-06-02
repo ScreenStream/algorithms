@@ -1,6 +1,6 @@
 #include "sorting.h"
 
-using namespace std;
+
 
 /*
  * Given an array A, we can perform a pancake flip: We choose some positive integer k <= A.length,

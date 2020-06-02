@@ -1,6 +1,6 @@
 #include "monotone-stack.h"
 
-using namespace std;
+
 
 /*
  * Write a class StockSpanner which collects daily price quotes for some stock, and returns the span of that stock's price for the current day.

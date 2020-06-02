@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that

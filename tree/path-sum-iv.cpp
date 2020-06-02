@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * If the depth of a tree is smaller than 5, then this tree can be represented by a list of three-digits integers.

@@ -1,6 +1,6 @@
 #include "arr.h"
 
-using namespace std;
+
 
 /*
  * There are 8 prison cells in a row, and each cell is either occupied or vacant.

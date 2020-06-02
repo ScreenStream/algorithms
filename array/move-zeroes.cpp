@@ -1,6 +1,6 @@
 #include "arr.h"
 
-using namespace std;
+
 
 /*
  * Given an array nums, write a function to move all 0's to the end of it while maintaining

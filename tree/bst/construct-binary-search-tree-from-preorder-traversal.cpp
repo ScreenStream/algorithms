@@ -1,6 +1,6 @@
 #include "tree/traversal/depth-first-traversal/depth-first-traversal.h"
 
-using namespace std;
+
 
 /*
  * Return the root node of a binary search tree that matches the given preorder traversal.

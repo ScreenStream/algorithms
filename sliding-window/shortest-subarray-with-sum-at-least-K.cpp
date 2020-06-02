@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * Return the length of the shortest, non-empty, contiguous subarray of A with sum at least K.

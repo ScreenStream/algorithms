@@ -8,7 +8,10 @@
 using std::vector;
 using std::stack;
 using std::unordered_map;
+using std::pair;
 using std::set;
+using std::max;
+using std::min;
 
 int findMaxLength(vector<int>& nums);
 int removeDuplicates(vector<int>& nums);

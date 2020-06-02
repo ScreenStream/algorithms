@@ -1,6 +1,6 @@
 #include "union-find.h"
 
-using namespace std;
+
 
 /*
  * N couples sit in 2N seats arranged in a row and want to hold hands. We want to know the minimum number of swaps

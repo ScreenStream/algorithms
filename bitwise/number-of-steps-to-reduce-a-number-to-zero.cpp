@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * Given a non-negative integer num, return the number of steps to reduce it to zero.

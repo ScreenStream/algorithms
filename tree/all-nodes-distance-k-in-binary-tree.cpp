@@ -1,7 +1,8 @@
 #include "tree.h"
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 /*
  * We are given a binary tree (with root node root), a target node, and an integer value K.

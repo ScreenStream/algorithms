@@ -1,6 +1,6 @@
 #include "stack_.h"
 
-using namespace std;
+
 
 /*
  * Given a string S of lowercase letters, a duplicate removal consists of choosing two adjacent and equal letters,

@@ -1,6 +1,6 @@
 #include "two-pointers.h"
 
-using namespace std;
+
 
 /*
  * Your friend is typing his name into a keyboard.  Sometimes, when typing a character c, the key might

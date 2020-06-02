@@ -1,6 +1,6 @@
 #include "heap.h"
 
-using namespace std;
+
 
 /*
  * Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order,

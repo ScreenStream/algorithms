@@ -1,14 +1,15 @@
 #pragma once
 
 #include <vector>
-#include <stack>
 #include <string>
+#include <stack>
 #include <queue>
 
 using std::vector;
 using std::string;
 using std::pair;
 using std::queue;
+using std::stack;
 
 struct TreeNode;
 

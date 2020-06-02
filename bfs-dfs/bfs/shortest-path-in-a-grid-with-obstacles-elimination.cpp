@@ -1,6 +1,6 @@
 #include "bfs.h"
 
-using namespace std;
+
 
 /*
  * Given a m * n grid, where each cell is either 0 (empty) or 1 (obstacle). In one step, you can move up,

@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * You have d dice, and each die has f faces numbered 1, 2, ..., f.

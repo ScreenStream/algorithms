@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * You are given an integer array A.  From some starting index, you can make a series of jumps.

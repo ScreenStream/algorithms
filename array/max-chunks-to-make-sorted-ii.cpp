@@ -1,6 +1,6 @@
 #include "arr.h"
 
-using namespace std;
+
 
 /*
  * This question is the same as "Max Chunks to Make Sorted" except the integers of the given array are not

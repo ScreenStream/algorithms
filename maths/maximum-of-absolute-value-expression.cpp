@@ -1,6 +1,6 @@
 #include "maths.h"
 
-using namespace std;
+
 
 /*
  * Given two arrays of integers with equal lengths, return the maximum value of:

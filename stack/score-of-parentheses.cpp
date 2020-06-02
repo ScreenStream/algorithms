@@ -1,7 +1,5 @@
 #include "stack_.h"
 
-using namespace std;
-
 /*
  * Given a balanced parentheses string S, compute the score of the string based on the following rule:
 

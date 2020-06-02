@@ -1,6 +1,6 @@
 #include "greedy.h"
 
-using namespace std;
+
 
 /*
  * There is a one-dimensional garden on the x-axis. The garden starts at the point 0 and ends at the point n.

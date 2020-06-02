@@ -1,6 +1,6 @@
 #include "reservoir-sampling.h"
 
-using namespace std;
+
 
 /*
  * Given an array of integers with possible duplicates, randomly output the index of a given target number.

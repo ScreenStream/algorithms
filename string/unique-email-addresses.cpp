@@ -1,6 +1,6 @@
 #include "str.h"
 
-using namespace std;
+
 
 /*
  * Every email consists of a local name and a domain name, separated by the @ sign.

@@ -1,7 +1,5 @@
 #include "depth-first-traversal.h"
 
-using namespace std;
-
 /*
  * Given a binary tree, return the inorder traversal of its nodes' values.
 

@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * You are given a string, s, and a list of words, words, that are all of the same length.

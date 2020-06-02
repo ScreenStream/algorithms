@@ -1,6 +1,6 @@
 #include "trie.h"
 
-using namespace std;
+
 
 /*
  * Implement a magic directory with buildDict, and search methods.

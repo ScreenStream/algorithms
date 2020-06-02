@@ -1,6 +1,6 @@
 #include "binary-search.h"
 
-using namespace std;
+
 
 /*
  * Given an array which consists of non-negative integers and an integer m, you can split the array

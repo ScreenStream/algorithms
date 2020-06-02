@@ -1,6 +1,5 @@
 #include "heap.h"
 
-using namespace std;
 /*
  * Given a non-empty list of words, return the k most frequent elements.
 

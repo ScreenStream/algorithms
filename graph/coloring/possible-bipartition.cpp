@@ -1,6 +1,6 @@
 #include "coloring.h"
 
-using namespace std;
+
 
 /*
  * Given a set of N people (numbered 1, 2, ..., N), we would like to split everyone into two groups of any size.

@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Given a non-empty string s and a dictionary wordDict containing a list of non-empty words,

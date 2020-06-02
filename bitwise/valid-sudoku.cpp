@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:

@@ -1,6 +1,6 @@
 #include "binary-search.h"
 
-using namespace std;
+
 
 /*
  * Given an array w of positive integers, where w[i] describes the weight of index i,

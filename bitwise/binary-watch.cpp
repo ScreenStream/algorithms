@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * A binary watch has 4 LEDs on the top which represent the hours (0-11), and the 6 LEDs on the bottom

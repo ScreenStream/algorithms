@@ -1,6 +1,6 @@
 #include "stack_.h"
 
-using namespace std;
+
 
 /*
  * On a single threaded CPU, we execute some functions.  Each function has a unique id between 0 and N-1.

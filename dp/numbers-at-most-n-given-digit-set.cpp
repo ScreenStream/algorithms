@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * We have a sorted set of digits D, a non-empty subset of {'1','2','3','4','5','6','7','8','9'}.

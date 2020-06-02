@@ -3,4 +3,7 @@
 #include <vector>
 #include <string>
 
-bool isNumber(std::string s);
+using std::vector;
+using std::string;
+
+bool isNumber(string s);

@@ -2,5 +2,7 @@
 
 #include <vector>
 
-bool isRectangleCover(std::vector<std::vector<int>>& rectangles);
-std::vector<std::vector<int>> getSkyline(std::vector<std::vector<int>>& buildings);
+using std::vector;
+
+bool isRectangleCover(vector<vector<int>>& rectangles);
+vector<vector<int>> getSkyline(vector<vector<int>>& buildings);

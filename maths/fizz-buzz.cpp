@@ -1,6 +1,6 @@
 #include "maths.h"
 
-using namespace std;
+
 
 /*
  * Write a program that outputs the string representation of numbers from 1 to n.

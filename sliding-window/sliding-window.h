@@ -7,6 +7,8 @@
 using std::vector;
 using std::string;
 using std::unordered_set;
+using std::max;
+using std::min;
 
 #pragma GCC diagnostic ignored "-Wsign-compare"
 #pragma GCC diagnostic ignored "-Wsign-conversion"

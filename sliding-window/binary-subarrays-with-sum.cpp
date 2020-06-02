@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * In an array A of 0s and 1s, how many non-empty subarrays have sum S?

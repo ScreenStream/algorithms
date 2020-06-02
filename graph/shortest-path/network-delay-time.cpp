@@ -1,6 +1,6 @@
 #include "shortest-path.h"
 
-using namespace std;
+
 
 /*
  * There are N network nodes, labelled 1 to N.

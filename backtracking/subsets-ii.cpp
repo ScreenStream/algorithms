@@ -1,6 +1,6 @@
 #include "backtracking/backtracking.h"
 
-using namespace std;
+
 
 /*
  * Given a collection of integers that MIGHT CONTAIN DUPLICATES, nums, return all possible subsets (the power set).

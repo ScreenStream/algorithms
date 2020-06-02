@@ -1,6 +1,6 @@
 #include "segment-tree.h"
 
-using namespace std;
+
 
 /*
  * Given n non-negative integers representing the histogram's bar height where the width of each bar is 1,

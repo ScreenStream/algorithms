@@ -1,6 +1,6 @@
 #include "binary-search.h"
 
-using namespace std;
+
 
 /*
  * Given a list of sorted characters letters containing only lowercase letters, and given a target letter target,

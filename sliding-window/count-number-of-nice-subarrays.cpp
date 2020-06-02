@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * Given an array of integers nums and an integer k. A subarray is called nice if there are k odd numbers on it.

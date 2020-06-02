@@ -1,6 +1,6 @@
 #include "knapsack.h"
 
-using namespace std;
+
 
 /*
  * You are given coins of different denominations and a total amount of money.

@@ -1,6 +1,6 @@
 #include "knapsack.h"
 
-using namespace std;
+
 
 /*
  * We have a collection of rocks, each rock has a positive integer weight.

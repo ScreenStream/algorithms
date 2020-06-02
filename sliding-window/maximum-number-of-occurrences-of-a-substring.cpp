@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * Given a string s, return the maximum number of occurrences of any substring under the following rules:

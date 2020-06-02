@@ -1,6 +1,6 @@
 #include "tree/traversal/depth-first-traversal/depth-first-traversal.h"
 
-using namespace std;
+
 
 /*
  * Given a Binary Search Tree (BST) with the root node root, return the minimum difference between the values

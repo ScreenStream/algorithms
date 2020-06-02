@@ -1,6 +1,6 @@
 #include "str.h"
 
-using namespace std;
+
 
 /*
  * Given a number s in their binary representation. Return the number of steps to reduce it to 1 under the following rules:

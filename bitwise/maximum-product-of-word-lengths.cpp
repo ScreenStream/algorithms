@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * Given a string array words, find the maximum value of length(word[i]) * length(word[j]) where the two words do not

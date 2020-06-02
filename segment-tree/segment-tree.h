@@ -2,12 +2,14 @@
 
 #include <vector>
 
+using std::vector;
+
 class NumArray {
 public:
-    explicit NumArray(std::vector<int>& nums);
+    explicit NumArray(vector<int>& nums);
     void update(int i, int val);
     int sumRange(int i, int j);
 };
 
-std::vector<int> xorQueries(std::vector<int>& arr, std::vector<std::vector<int>>& queries);
-int largestRectangleArea(std::vector<int>& heights);
+vector<int> xorQueries(vector<int>& arr, vector<vector<int>>& queries);
+int largestRectangleArea(vector<int>& heights);

@@ -1,6 +1,6 @@
 #include "design.h"
 
-using namespace std;
+
 
 /*
  * Implement a trie with insert, search, and startsWith methods.

@@ -1,6 +1,6 @@
 #include "sorting.h"
 
-using namespace std;
+
 
 /*
  * You are given an integer array nums and you have to return a new counts array.

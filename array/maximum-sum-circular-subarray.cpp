@@ -1,6 +1,6 @@
 #include "arr.h"
 
-using namespace std;
+
 
 /*
  * Given a circular array C of integers represented by A, find the maximum possible sum of a non-empty subarray of C.

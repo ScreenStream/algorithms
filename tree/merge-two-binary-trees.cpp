@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * Given two binary trees and imagine that when you put one of them to cover the other, some nodes of

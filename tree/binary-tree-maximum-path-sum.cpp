@@ -1,7 +1,5 @@
 #include "tree.h"
 
-using namespace std;
-
 /*
  * Given a non-empty binary tree, find the maximum path sum.
 

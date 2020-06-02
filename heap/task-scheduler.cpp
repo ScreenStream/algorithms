@@ -1,6 +1,6 @@
 #include "heap.h"
 
-using namespace std;
+
 
 /*
  * Given a char array representing tasks CPU need to do. It contains capital letters A to Z where different

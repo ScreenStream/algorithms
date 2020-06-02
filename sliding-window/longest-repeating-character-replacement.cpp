@@ -1,6 +1,6 @@
 #include "sliding-window.h"
 
-using namespace std;
+
 
 /*
  * Given a string s that consists of only uppercase English letters, you can perform at most k operations on that string.

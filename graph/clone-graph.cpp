@@ -1,6 +1,6 @@
 #include "graph.h"
 
-using namespace std;
+
 
 /*
  * Given a reference of a node in a connected undirected graph.

@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * Alice and Bob continue their games with piles of stones. There are several stones arranged in a row,

@@ -1,6 +1,6 @@
 #include "str.h"
 
-using namespace std;
+
 
 /*
  * Given a non-empty string check if it can be constructed by taking a substring of it and appending

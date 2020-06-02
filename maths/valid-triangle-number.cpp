@@ -1,6 +1,6 @@
 #include "maths.h"
 
-using namespace std;
+
 
 /*
  * Given an array consists of non-negative integers, your task is to count the number of triplets chosen from the array

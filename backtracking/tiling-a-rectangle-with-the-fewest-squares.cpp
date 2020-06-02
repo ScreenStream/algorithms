@@ -1,6 +1,6 @@
 #include "backtracking.h"
 
-using namespace std;
+
 
 /*
  * Given a rectangle of size n x m, find the minimum number of integer-sided squares that tile the rectangle.

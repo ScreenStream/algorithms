@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * On the first row, we write a 0. Now in every subsequent row, we look at the previous row and replace

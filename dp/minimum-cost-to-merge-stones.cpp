@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * There are N piles of stones arranged in a row.  The i-th pile has stones[i] stones.

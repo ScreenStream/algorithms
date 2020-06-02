@@ -1,6 +1,6 @@
 #include "linked-list.h"
 
-using namespace std;
+
 
 /*
  * Given a (singly) linked list with head node root, write a function to split the linked list into

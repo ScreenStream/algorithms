@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * Given an array of strings arr. String s is a concatenation of a sub-sequence of arr which have unique characters.

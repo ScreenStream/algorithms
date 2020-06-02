@@ -1,6 +1,6 @@
 #include "tree.h"
 
-using namespace std;
+
 
 /*
  * Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored

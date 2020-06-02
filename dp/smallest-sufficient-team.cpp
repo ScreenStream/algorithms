@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * In a project, you have a list of required skills req_skills, and a list of people.

@@ -1,6 +1,6 @@
 #include "linked-list.h"
 
-using namespace std;
+
 
 /*
  * We are given head, the head node of a linked list containing unique integer values.

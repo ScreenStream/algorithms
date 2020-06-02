@@ -1,6 +1,6 @@
 #include "dfs.h"
 
-using namespace std;
+
 
 /*
  * There are N rooms and you start in room 0.  Each room has a distinct number in

@@ -1,6 +1,6 @@
 #include "backtracking/backtracking.h"
 
-using namespace std;
+
 
 /*
  * Given a string S, we can transform every letter individually to be lowercase or uppercase to create another string.

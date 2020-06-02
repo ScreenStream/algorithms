@@ -1,6 +1,6 @@
 #include "dp.h"
 
-using namespace std;
+
 
 /*
  * You have a pointer at index 0 in an array of size arrLen. At each step, you can move 1 position to the left,

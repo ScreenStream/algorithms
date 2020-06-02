@@ -1,6 +1,6 @@
 #include "topological-sort.h"
 
-using namespace std;
+
 
 /*
  * There is a new alien language which uses the latin alphabet. However, the order among letters are unknown to you.

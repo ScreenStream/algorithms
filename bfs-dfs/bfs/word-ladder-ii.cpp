@@ -1,6 +1,6 @@
 #include "bfs.h"
 
-using namespace std;
+
 
 /*
  * Given two words (beginWord and endWord), and a dictionary's word list, find all shortest transformation

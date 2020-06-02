@@ -1,6 +1,6 @@
 #include "design.h"
 
-using namespace std;
+
 
 /*
  * Note: This is a companion problem to the System Design problem: Design TinyURL.

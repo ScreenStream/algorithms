@@ -1,6 +1,6 @@
 #include "bitwise.h"
 
-using namespace std;
+
 
 /*
  * With respect to a given puzzle string, a word is valid if both the following conditions are satisfied:
