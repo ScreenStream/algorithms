@@ -11,6 +11,7 @@
          subtree-of-another-tree.cpp
          create-binary-tree.cpp
          diameter-of-binary-tree.cpp
+         average-of-levels-in-binary-tree.cpp
          bst/lowest-common-ancestor-of-bst.cpp
          lowest-common-ancestor-of-binary-tree.cpp
          all-nodes-distance-k-in-binary-tree.cpp

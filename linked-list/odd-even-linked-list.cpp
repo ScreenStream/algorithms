@@ -1,4 +1,4 @@
-#include "linked-list/linked-list.h"
+#include "linked-list.h"
 
 /*
  * Given a singly linked list, group all odd nodes together followed by the even nodes.

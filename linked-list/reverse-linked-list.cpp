@@ -1,4 +1,4 @@
-#include "linked-list/linked-list.h"
+#include "linked-list.h"
 
 /*
  * Reverse a singly linked list.

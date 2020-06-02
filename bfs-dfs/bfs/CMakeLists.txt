@@ -9,7 +9,6 @@
          01-matrix.cpp
          as-far-from-land-as-possible.cpp
          shortest-path-in-binary-matrix.cpp
-         average-of-levels-in-binary-tree.cpp
          minimum-depth-of-binary-tree.cpp
          find-largest-value-in-each-tree-row.cpp
          cousins-in-binary-tree.cpp

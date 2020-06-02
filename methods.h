@@ -13,4 +13,4 @@
 #include "maths.h"
 #include "graph.h"
 #include "binary-search.h"
-#include "linked-list/linked-list.h"
+#include "linked-list.h"

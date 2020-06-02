@@ -32,6 +32,8 @@ Note:
 grid[i][j] is 0 or 1
  */
 
+
+/// "You've proved that it's not a good fit for DFS."
 int maxDistance(vector<vector<int>>& grid) {
     return 0;
 }

@@ -1,0 +1,1 @@
+This directory will contain questions that has reasonable DFS and BFS solutions. Other two directories here (bfs and dfs) will have questions that are way more suitable for the respective searching algorithm.

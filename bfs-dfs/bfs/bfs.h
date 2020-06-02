@@ -26,7 +26,6 @@ int shortestPathBinaryMatrix(vector<vector<int>>& grid);
 vector<vector<int>> levelOrder(TreeNode* root);
 vector<vector<int>> levelOrderII(TreeNode* root);
 vector<vector<int>> zigzagLevelOrder(TreeNode* root);
-vector<double> averageOfLevels(TreeNode* root);
 vector<int> largestValues(TreeNode* root);
 int minDepth(TreeNode* root);
 int minKnightMoves(int x, int y);

@@ -5,7 +5,6 @@
          STATIC
          num-islands.cpp
          word-search.cpp
-         flood-fill.cpp
          path-sum.cpp
          validate-binary-search-tree.cpp
          smallest-string-starting-from-leaf.cpp
@@ -15,7 +14,17 @@
          count-univalue-subtrees.cpp
          longest-univalue-path.cpp
          partition-to-k-equal-sum-subsets.cpp
-         reconstruct-itinerary.cpp max-area-of-island.cpp minesweeper.cpp keys-and-rooms.cpp pacific-atlantic-water-flow.cpp evaluate-division.cpp find-eventual-safe-states.cpp most-stones-removed-with-same-row-or-column.cpp number-of-enclaves.cpp number-of-closed-islands.cpp time-needed-to-inform-all-employees.cpp)
+         reconstruct-itinerary.cpp
+         max-area-of-island.cpp
+         minesweeper.cpp
+         keys-and-rooms.cpp
+         pacific-atlantic-water-flow.cpp
+         evaluate-division.cpp
+         find-eventual-safe-states.cpp
+         most-stones-removed-with-same-row-or-column.cpp
+         number-of-enclaves.cpp
+         number-of-closed-islands.cpp
+         time-needed-to-inform-all-employees.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

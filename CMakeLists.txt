@@ -62,7 +62,8 @@ target_include_directories(${PROJECT_NAME}
         misc
         trie
         bucket
-        hash-table)
+        hash-table
+        bfs-dfs)
 
 target_link_libraries(${PROJECT_NAME}
         sliding-window
@@ -92,6 +93,7 @@ target_link_libraries(${PROJECT_NAME}
         misc
         trie
         bucket
-        hash-table)
+        hash-table
+        bfs-dfs)
 
 
