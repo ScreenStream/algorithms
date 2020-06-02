@@ -27,6 +27,7 @@ int findKthLargest(vector<int>& nums, int k);
 vector<int> rearrangeBarcodes(vector<int>& barcodes);
 vector<int> smallestRange(vector<vector<int>>& nums);
 vector<vector<int>> part(vector<int>& T, int n);
+vector<int> assignBikes(vector<vector<int>>& workers, vector<vector<int>>& bikes);
 
 class KthLargest {
 public:

@@ -35,3 +35,4 @@ int tilingRectangle(int n, int m);
 int maxLength(vector<string>& arr);
 int uniquePathsIII(vector<vector<int>>& grid);
 vector<string> restoreIpAddresses(string s);
+vector<string> generatePalindromes(string s);

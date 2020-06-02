@@ -30,6 +30,7 @@ int splitArray(vector<int>& nums, int m);
 int findRadius(vector<int>& houses, vector<int>& heaters);
 int numMatchingSubseq(string S, vector<string>& words);
 int maxSumSubmatrix(vector<vector<int>>& matrix, int k);
+int maximizeSweetness(vector<int>& nums, int m);
 
 class RandomPickWeightIndex {
 public:

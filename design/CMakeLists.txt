@@ -11,6 +11,10 @@
          "implement-trie(prefix-tree).cpp"
          snapshot-array.cpp
          encode-and-decode-tinyurl.cpp
-         design-circular-queue.cpp design-hashset.cpp max-stack.cpp design-twitter.cpp lfu-cache.cpp)
+         design-circular-queue.cpp
+         design-hashset.cpp
+         max-stack.cpp
+         design-twitter.cpp
+         lfu-cache.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

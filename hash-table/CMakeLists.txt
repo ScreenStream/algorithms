@@ -5,6 +5,13 @@
          STATIC
          two-sum.cpp
          minimum-area-rectangle.cpp
-         cinema-seat-allocation.cpp vowel-spellchecker.cpp time-based-key-value-store.cpp numbers-with-equal-digit-sum.cpp min-deletions-to-make-frequency-of-each-letter-unique.cpp largest-number-x-which-occurs-x-times.cpp favorite-genres.cpp)
+         cinema-seat-allocation.cpp
+         vowel-spellchecker.cpp
+         time-based-key-value-store.cpp
+         numbers-with-equal-digit-sum.cpp
+         min-deletions-to-make-frequency-of-each-letter-unique.cpp
+         largest-number-x-which-occurs-x-times.cpp
+         favorite-genres.cpp
+         strobogrammatic-number.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

@@ -48,6 +48,20 @@ string reverseWordsIII(string s);
 int countCharacters(vector<string>& words, string chars);
 string shortestPalindrome(string s);
 string countAndSay(int n);
+bool canPermutePalindrome(string s);
+bool isOneEditDistance(string s, string t);
+
+class StringCodec {
+public:
+    // Encodes a list of strings to a single string.
+    string encode(vector<string> strs);
+
+    // Decodes a single string to a list of strings.
+    vector<string> decode(string s);
+};
+
+bool canConvert(string str1, string str2);
+
 
 /// MICROSOFT OA
 int  minMovesToObtain(string s);

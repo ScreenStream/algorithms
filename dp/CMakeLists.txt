@@ -102,7 +102,8 @@
          least-operators-to-express-number.cpp
          race-car.cpp
          unique-binary-search-trees-ii.cpp
-         house-robber-iii.cpp)
+         house-robber-iii.cpp
+         paint-fence.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

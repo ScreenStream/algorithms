@@ -12,6 +12,7 @@ vector<int> twoSum(vector<int>& nums, int target);
 int minAreaRect(vector<vector<int>>& points);
 int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats);
 vector<string> spellchecker(vector<string>& wordlist, vector<string>& queries);
+bool isStrobogrammatic(string num);
 
 /// MICROSOFT OA
 int maxSum(vector<int>& A);

@@ -3,6 +3,6 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         contains-duplicate-iii.cpp)
+         contains-duplicate-iii.cpp campus-bikes.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

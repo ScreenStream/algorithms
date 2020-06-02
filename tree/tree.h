@@ -73,6 +73,7 @@ vector<int> findMode(TreeNode* root);
 TreeNode* bstFromPreorder(vector<int>& preorder);
 int minDiffInBST(TreeNode* root);
 vector<double> averageOfLevels(TreeNode* root);
+TreeNode* upsideDownBinaryTree(TreeNode* root);
 
 // https://leetcode.com/discuss/interview-question/546703/Microsoft-or-OA-2020-or-Count-Visible-Nodes-in-Binary-Tree
 int countVisibleNodes(TreeNode* root);

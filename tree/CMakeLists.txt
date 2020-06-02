@@ -49,7 +49,7 @@
          all-possible-full-binary-trees.cpp
          bst/trim-a-binary-search-tree.cpp
          bst/delete-node-in-a-bst.cpp
-         bst/insert-into-a-binary-search-tree.cpp balanced-binary-tree.cpp maximum-average-subtree.cpp)
+         bst/insert-into-a-binary-search-tree.cpp balanced-binary-tree.cpp maximum-average-subtree.cpp binary-tree-upside-down.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

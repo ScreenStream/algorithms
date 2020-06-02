@@ -261,4 +261,5 @@ int leastOpsExpressTarget(int x, int target);
 int racecar(int target);
 vector<TreeNode*> generateTrees(int n); /// unique-binary-search-trees-ii
 int robIII(TreeNode* root);
+int numWays(int n, int k);
 
