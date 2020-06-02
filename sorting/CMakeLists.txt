@@ -9,7 +9,10 @@
          sort-list.cpp pancake-sorting.cpp
          count-of-smaller-numbers-after-self.cpp
          largest-number.cpp
-         relative-sort-array.cpp sort-the-matrix-diagonally.cpp wiggle-sort.cpp wiggle-sort-ii.cpp)
+         relative-sort-array.cpp
+         sort-the-matrix-diagonally.cpp
+         wiggle-sort.cpp
+         wiggle-sort-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

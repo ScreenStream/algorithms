@@ -39,7 +39,8 @@
          find-numbers-with-even-number-of-digits.cpp
          min-steps-to-make-piles-equal-height.cpp
          fair-indexes.cpp
-         largest-m-aligned-subset.cpp matrix/best-meeting-point.cpp)
+         largest-m-aligned-subset.cpp
+         matrix/best-meeting-point.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
