@@ -94,7 +94,9 @@
          numbers-at-most-n-given-digit-set.cpp
          stone-game-iii.cpp
          stone-game-ii.cpp
-         minimum-distance-to-type-a-word-using-two-fingers.cpp delete-operation-for-two-strings.cpp odd-even-jump.cpp)
+         minimum-distance-to-type-a-word-using-two-fingers.cpp
+         delete-operation-for-two-strings.cpp
+         odd-even-jump.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

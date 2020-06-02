@@ -3,8 +3,12 @@
 #include <vector>
 #include <queue>
 
+using std::vector;
+using std::queue;
+
 #include "nodes.h"
 
-std::vector<std::vector<int>> levelOrder(TreeNode* root);
-std::vector<std::vector<int>> levelOrderII(TreeNode* root);
-std::vector<std::vector<int>> zigzagLevelOrder(TreeNode* root);
+vector<vector<int>> levelOrder(TreeNode* root);
+vector<vector<int>> levelOrderII(TreeNode* root);
+vector<vector<int>> zigzagLevelOrder(TreeNode* root);
+vector<vector<int>> levelOrder(Node* root);

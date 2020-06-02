@@ -5,9 +5,15 @@
 #include <list>
 #include <unordered_map>
 
+using std::list;
+using std::pair;
+using std::vector;
+using std::string;
+using std::unordered_map;
+
 class LRUCache {
-    std::unordered_map<int, std::pair<int, std::list<int>::iterator>> map;
-    std::list<int> q;
+    unordered_map<int, pair<int, list<int>::iterator>> map;
+    list<int> q;
     int cap_;
 public:
     explicit LRUCache(int capacity);
@@ -95,13 +101,13 @@ public:
     Trie();
 
     /** Inserts a word into the trie. */
-    void insert(std::string word);
+    void insert(string word);
 
     /** Returns if the word is in the trie. */
-    bool search(std::string word);
+    bool search(string word);
 
     /** Returns if there is any word in the trie that starts with the given prefix. */
-    bool startsWith(std::string prefix);
+    bool startsWith(string prefix);
 };
 
 class SnapshotArray {
@@ -115,10 +121,10 @@ public:
 class TinyURL {
 public:
     // Encodes a URL to a shortened URL.
-    std::string encode(std::string longUrl);
+    string encode(string longUrl);
 
     // Decodes a shortened URL to its original URL.
-    std::string decode(std::string shortUrl);
+    string decode(string shortUrl);
 };
 
 class MyCircularQueue {
@@ -143,4 +149,45 @@ public:
 
     /** Checks whether the circular queue is full or not. */
     bool isFull();
+};
+
+class MyHashSet {
+public:
+    /** Initialize your data structure here. */
+    MyHashSet();
+
+    void add(int key);
+
+    void remove(int key);
+
+    /** Returns true if this set contains the specified element */
+    bool contains(int key);
+};
+
+class MaxStack {
+public:
+    MaxStack();
+    void push(int x);
+    int pop();
+    int top();
+    int peekMax();
+    int popMax();
+};
+
+class Twitter {
+public:
+    /** Initialize your data structure here. */
+    Twitter();
+
+    /** Compose a new tweet. */
+    void postTweet(int userId, int tweetId);
+
+    /** Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent. */
+    vector<int> getNewsFeed(int userId);
+
+    /** Follower follows a followee. If the operation is invalid, it should be a no-op. */
+    void follow(int followerId, int followeeId);
+
+    /** Follower unfollows a followee. If the operation is invalid, it should be a no-op. */
+    void unfollow(int followerId, int followeeId);
 };

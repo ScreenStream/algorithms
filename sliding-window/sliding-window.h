@@ -4,29 +4,34 @@
 #include <vector>
 #include <unordered_set>
 
+using std::vector;
+using std::string;
+using std::unordered_set;
+
 #pragma GCC diagnostic ignored "-Wsign-compare"
 #pragma GCC diagnostic ignored "-Wsign-conversion"
 // #pragma GCC diagnostic ignored "-Wshorten-64-to-32"
 
-bool checkInclusion(const std::string& s1, const std::string& s2);
-std::vector<int> findAnagrams(const std::string& s, const std::string& p);
-int longestSubarray(std::vector<int>& nums, int limit);
-int numberOfSubstrings(std::string s);
-int numberOfSubarrays(std::vector<int>& nums, int k);
-int balancedString(std::string s);
-int longestOnes(std::vector<int>& A, int K);
-int numSubarraysWithSum(std::vector<int>& A, int S);
-int subarraysWithKDistinct(std::vector<int>& A, int K);
-int totalFruit(std::vector<int>& tree);
-int shortestSubarray(std::vector<int>& A, int K);
-int minSubArrayLen(int s, std::vector<int>& nums);
-int equalSubstring(std::string s, std::string t, int maxCost);
-int characterReplacement(std::string s, int k);
-std::vector<int> maxSlidingWindow(std::vector<int>& nums, int k);
-int lengthOfLongestSubstring(const std::string& s);
-std::string minWindow(std::string s, std::string t);
-int lengthOfLongestSubstringTwoDistinct(std::string s);
-std::vector<int> findSubstring(std::string s, std::vector<std::string>& words);
-int maxFreq(std::string s, int maxLetters, int minSize, int maxSize); /// Maximum Number of Occurrences of a Substring
-bool hasAllCodes(std::string s, int k);
-int lengthOfLongestSubstringKDistinct(std::string s, int k);
+bool checkInclusion(const string& s1, const string& s2);
+vector<int> findAnagrams(const string& s, const string& p);
+int longestSubarray(vector<int>& nums, int limit);
+int numberOfSubstrings(string s);
+int numberOfSubarrays(vector<int>& nums, int k);
+int balancedString(string s);
+int longestOnes(vector<int>& A, int K);
+int numSubarraysWithSum(vector<int>& A, int S);
+int subarraysWithKDistinct(vector<int>& A, int K);
+int totalFruit(vector<int>& tree);
+int shortestSubarray(vector<int>& A, int K);
+int minSubArrayLen(int s, vector<int>& nums);
+int equalSubstring(string s, string t, int maxCost);
+int characterReplacement(string s, int k);
+vector<int> maxSlidingWindow(vector<int>& nums, int k);
+int lengthOfLongestSubstring(const string& s);
+string minWindow(string s, string t);
+int lengthOfLongestSubstringTwoDistinct(string s);
+vector<int> findSubstring(string s, vector<string>& words);
+int maxFreq(string s, int maxLetters, int minSize, int maxSize); /// Maximum Number of Occurrences of a Substring
+bool hasAllCodes(string s, int k);
+int lengthOfLongestSubstringKDistinct(string s, int k);
+int findMaxConsecutiveOnes(vector<int>& nums);

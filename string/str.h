@@ -44,6 +44,7 @@ string licenseKeyFormatting(string S, int K);
 string reverseWords(string s);
 string reverseStr(string s, int k); /// Reverse String II
 string reverseWordsIII(string s);
+int countCharacters(vector<string>& words, string chars);
 
 inline vector<string> split(const string& s, char delimiter)
 {

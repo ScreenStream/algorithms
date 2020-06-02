@@ -5,7 +5,7 @@
          STATIC
          binary-tree-level-order-traversal.cpp
          binary-tree-level-order-traversal-II.cpp
-         binary-tree-zigzag-level-order-traversal.cpp)
+         binary-tree-zigzag-level-order-traversal.cpp n-ary-tree-level-order-traversal.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

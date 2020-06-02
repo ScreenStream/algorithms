@@ -28,7 +28,12 @@
          unique-email-addresses.cpp
          group-shifted-strings.cpp
          compare-version-numbers.cpp
-         KMP/repeated-substring-pattern.cpp license-key-formatting.cpp reverse-words-in-a-string.cpp reverse-string-ii.cpp reverse-words-in-a-string-iii.cpp)
+         KMP/repeated-substring-pattern.cpp
+         license-key-formatting.cpp
+         reverse-words-in-a-string.cpp
+         reverse-string-ii.cpp
+         reverse-words-in-a-string-iii.cpp
+         find-words-that-can-be-formed-by-characters.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

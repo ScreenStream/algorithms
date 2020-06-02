@@ -40,3 +40,4 @@ vector<int> prisonAfterNDays(vector<int>& cells, int N);
 vector<int> findDisappearedNumbers(vector<int>& nums);
 int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target);
 int numTimesAllBlue(vector<int>& light);
+void sortColors(vector<int>& nums);

@@ -3,17 +3,23 @@
 #include <vector>
 #include <stack>
 
+using std::vector;
+
 #include "nodes.h"
 
-std::vector<int> inorderTraversalRecursive(TreeNode* root);
-std::vector<int> inorderTraversalIterative(TreeNode* root);
+vector<int> inorderTraversalRecursive(TreeNode* root);
+vector<int> inorderTraversalIterative(TreeNode* root);
 
-std::vector<int> preorderTraversalRecursive(TreeNode* root);
-std::vector<int> preorderTraversalIterative(TreeNode* root);
+vector<int> preorderTraversalRecursive(TreeNode* root);
+vector<int> preorderTraversalIterative(TreeNode* root);
 
-std::vector<int> postorderTraversalRecursive(TreeNode* root);
-std::vector<int> postorderTraversalIterative(TreeNode* root);
+vector<int> postorderTraversalRecursive(TreeNode* root);
+vector<int> postorderTraversalIterative(TreeNode* root);
 
-TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder);
-TreeNode* bstFromPreorder(std::vector<int>& preorder);
+TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder);
+TreeNode* bstFromPreorder(vector<int>& preorder);
 int minDiffInBST(TreeNode* root);
+vector<int> preorder(Node* root);
+
+TreeNode* buildTreeII(vector<int>& inorder, vector<int>& postorder); /// construct-binary-tree-from-inorder-and-postorder-traversal
+vector<int> findMode(TreeNode* root);

@@ -8,9 +8,18 @@
 #include <unordered_map>
 #include <unordered_set>
 
+using std::vector;
+using std::string;
+using std::unordered_set;
+using std::unordered_map;
+using std::reverse;
+using std::sort;
+using std::stack;
+using std::queue;
+
 #include "nodes.h"
 
-TreeNode* createBinaryTree(const std::string& input);
+TreeNode* createBinaryTree(const string& input);
 bool isSameTree(TreeNode* p, TreeNode* q);
 bool isSubtree(TreeNode* s, TreeNode* t);
 bool isSymmetric(TreeNode* root);
@@ -20,39 +29,41 @@ bool isValidBSTRecursive(TreeNode* root);
 int diameterOfBinaryTree(TreeNode* root);
 TreeNode* lowestCommonAncestorBST(TreeNode* root, TreeNode* p, TreeNode* q);
 TreeNode* lowestCommonAncestorBinaryTree(TreeNode* root, TreeNode* p, TreeNode* q);
-std::vector<int> distanceK(TreeNode* root, TreeNode* target, int K);
+vector<int> distanceK(TreeNode* root, TreeNode* target, int K);
 int maxPathSum(TreeNode* root);
-std::vector<std::string> binaryTreePaths(TreeNode* root);
-bool isValidSequence(TreeNode* root, const std::vector<int>& arr);
+vector<string> binaryTreePaths(TreeNode* root);
+bool isValidSequence(TreeNode* root, const vector<int>& arr);
 bool hasPathSum(TreeNode* root, int sum);
 int deepestLeavesSum(TreeNode* root);
 int sumOfLeftLeaves(TreeNode* root);
 int pathSum(TreeNode* root, int sum);
-std::vector<int> rightSideView(TreeNode* root);
+vector<int> rightSideView(TreeNode* root);
 int rangeSumBST(TreeNode* root, int L, int R);
 int maxDepth(Node* root);
 bool isCompleteTree(TreeNode* root);
-TreeNode* sortedArrayToBST(std::vector<int>& nums);
-std::vector<TreeNode*> delNodes(TreeNode* root, std::vector<int>& to_delete);
+TreeNode* sortedArrayToBST(vector<int>& nums);
+vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete);
 int kthSmallest(TreeNode* root, int k);
 int findTilt(TreeNode* root);
 void flatten(TreeNode* root);
 void recoverTree(TreeNode* root);
 int sumNumbers(TreeNode* root);
-std::vector<std::vector<int>> verticalTraversal(TreeNode* root);
+vector<vector<int>> verticalTraversal(TreeNode* root);
 bool findTarget(TreeNode* root, int k);
 int distributeCoins(TreeNode* root);
-std::vector<int> sumOfDistancesInTree(int N, std::vector<std::vector<int>>& edges);
+vector<int> sumOfDistancesInTree(int N, vector<vector<int>>& edges);
 int minCameraCover(TreeNode* root);
 Node* connect(Node* root); /// Populating Next Right Pointers in Each Node
 TreeNode* removeEdge(TreeNode* node);
-int pathSumIV(std::vector<int>& nums);
-std::vector<TreeNode*> findDuplicateSubtrees(TreeNode* root);
+int pathSumIV(vector<int>& nums);
+vector<TreeNode*> findDuplicateSubtrees(TreeNode* root);
 int maxDepth(TreeNode* root);
 TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2);
 int countNodes(TreeNode* root);
-std::vector<TreeNode*> allPossibleFBT(int N);
+vector<TreeNode*> allPossibleFBT(int N);
 TreeNode* trimBST(TreeNode* root, int L, int R);
+TreeNode* deleteNode(TreeNode* root, int key);
+TreeNode* insertIntoBST(TreeNode* root, int val);
 
 // https://leetcode.com/discuss/interview-question/546703/Microsoft-or-OA-2020-or-Count-Visible-Nodes-in-Binary-Tree
 int countVisibleNodes(TreeNode* root);
@@ -60,10 +71,10 @@ int countVisibleNodes(TreeNode* root);
 class Codec {
 public:
     /// Encodes a tree to a single string.
-    std::string serialize(TreeNode* root);
+    string serialize(TreeNode* root);
 
     /// Decodes your encoded data to tree.
-    TreeNode* deserialize(std::string data);
+    TreeNode* deserialize(string data);
 };
 
 class BSTIterator {
