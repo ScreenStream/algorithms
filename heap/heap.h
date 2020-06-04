@@ -28,6 +28,8 @@ vector<int> rearrangeBarcodes(vector<int>& barcodes);
 vector<int> smallestRange(vector<vector<int>>& nums);
 vector<vector<int>> part(vector<int>& T, int n);
 vector<int> assignBikes(vector<vector<int>>& workers, vector<vector<int>>& bikes);
+string frequencySort(string s);
+string reorganizeString(string S);
 
 class KthLargest {
 public:

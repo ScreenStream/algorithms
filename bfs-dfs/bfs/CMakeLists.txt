@@ -23,7 +23,8 @@
          open-the-lock.cpp
          maximum-level-sum-of-a-binary-tree.cpp
          jump-game-iii.cpp
-         populating-next-right-pointers-in-each-node-ii.cpp treasure-island-ii.cpp)
+         populating-next-right-pointers-in-each-node-ii.cpp
+         treasure-island-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

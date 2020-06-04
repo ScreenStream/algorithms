@@ -26,6 +26,9 @@ add_library(${TARGET_NAME}
     check-if-a-string-contains-all-binary-codes-of-size-k.cpp
     longest-substring-with-at-most-k-distinct-characters.cpp
     max-consecutive-ones-ii.cpp
-        longest-substring-without-2-contiguous-occurrences-of-letter.cpp longest-semi-alternating-substring.cpp minimum-swaps-needed-to-make-k-girls-sitting-together.cpp "substrings-of-size-k-with-k-distinct-chars .cpp")
+    longest-substring-without-2-contiguous-occurrences-of-letter.cpp
+    longest-semi-alternating-substring.cpp
+    minimum-swaps-needed-to-make-k-girls-sitting-together.cpp
+    substrings-of-size-k-with-k-distinct-chars.cpp count-unique-characters-of-all-substrings-of-a-given-string.cpp)
 
 target_include_directories(${TARGET_NAME} PUBLIC)

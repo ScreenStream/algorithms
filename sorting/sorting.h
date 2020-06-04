@@ -17,3 +17,5 @@ vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2);
 vector<vector<int>> diagonalSort(vector<vector<int>>& mat);
 void wiggleSort(vector<int> &nums);
 void wiggleSortII(vector<int>& nums);
+vector<vector<int>> reconstructQueue(vector<vector<int>>& people);
+int twoCitySchedCost(vector<vector<int>>& costs);

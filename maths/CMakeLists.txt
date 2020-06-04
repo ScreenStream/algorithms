@@ -27,7 +27,7 @@
          pascals-triangle.cpp
          arithmetic-slices.cpp
          point-of-lattice.cpp
-         geometry/check-if-it-is-a-straight-line.cpp geometry/circle-and-rectangle-overlapping.cpp geometry/minimum-time-visiting-all-points.cpp geometry/maximum-number-of-darts-inside-of-a-circular-dartboard.cpp geometry/surface-area-of-3d-shapes.cpp geometry/erect-the-fence.cpp geometry/minimum-area-rectangle-ii.cpp)
+         geometry/check-if-it-is-a-straight-line.cpp geometry/circle-and-rectangle-overlapping.cpp geometry/minimum-time-visiting-all-points.cpp geometry/maximum-number-of-darts-inside-of-a-circular-dartboard.cpp geometry/surface-area-of-3d-shapes.cpp geometry/erect-the-fence.cpp geometry/minimum-area-rectangle-ii.cpp number-of-burgers-with-no-waste-of-ingredients.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

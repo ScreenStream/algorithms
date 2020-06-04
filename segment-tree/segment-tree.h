@@ -13,3 +13,4 @@ public:
 
 vector<int> xorQueries(vector<int>& arr, vector<vector<int>>& queries);
 int largestRectangleArea(vector<int>& heights);
+int countRangeSum(vector<int>& nums, int lower, int upper);

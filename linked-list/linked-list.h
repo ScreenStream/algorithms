@@ -29,7 +29,6 @@ ListNode* swapPairs(ListNode* head);
 ListNode* reverseKGroup(ListNode* head, int k);
 ListNode* deleteDuplicates(ListNode* head);
 ListNode* deleteDuplicatesII(ListNode* head);
-void reorderList(ListNode* head);
 ListNode* removeElements(ListNode* head, int val);
 bool isPalindrome(ListNode* head);
 ListNode* plusOne(ListNode* head);

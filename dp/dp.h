@@ -262,4 +262,6 @@ int racecar(int target);
 vector<TreeNode*> generateTrees(int n); /// unique-binary-search-trees-ii
 int robIII(TreeNode* root);
 int numWays(int n, int k);
+vector<int> countBits(int num);
+int wiggleMaxLength(vector<int>& nums);
 

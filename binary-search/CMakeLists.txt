@@ -12,7 +12,8 @@
          single-element-in-a-sorted-array.cpp
          find-k-closest-elements.cpp
          median-of-two-sorted-arrays.cpp
-         "sqrt(x).cpp"
+         sqrtx.cpp
+         peak-index-in-a-mountain-array.cpp
          find-peak-element.cpp
          random-pick-with-weight.cpp
          search-insert-position.cpp
@@ -23,7 +24,7 @@
          heaters.cpp
          number-of-matching-subsequences.cpp
          max-sum-of-rectangle-no-larger-than-k.cpp
-         divide-chocolate.cpp the-k-weakest-rows-in-a-matrix.cpp)
+         divide-chocolate.cpp the-k-weakest-rows-in-a-matrix.cpp search-in-rotated-sorted-array-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

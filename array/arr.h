@@ -13,6 +13,9 @@ using std::set;
 using std::max;
 using std::min;
 
+enum class InitialPosition;
+enum class MovingDirection;
+
 int findMaxLength(vector<int>& nums);
 int removeDuplicates(vector<int>& nums);
 vector<int> productExceptSelf(vector<int>& nums);
@@ -34,7 +37,6 @@ bool checkPossibility(vector<int>& nums);
 bool containsDuplicate(vector<int>& nums);
 bool containsNearbyDuplicate(vector<int>& nums, int k);
 void gameOfLife(vector<vector<int>>& board);
-int peakIndexInMountainArray(vector<int>& A);
 void moveZeroes(vector<int>& nums);
 vector<int> spiralOrder(vector<vector<int>>& matrix);
 vector<vector<int>> generateMatrix(int n); /// Spiral Matrix II
@@ -48,6 +50,10 @@ bool isToeplitzMatrix(vector<vector<int>>& matrix);
 vector<vector<int>> matrixReshape(vector<vector<int>>& nums, int r, int c);
 int findNumbers(vector<int>& nums);
 int minTotalDistance(vector<vector<int>>& grid);
+int firstMissingPositive(vector<int>& nums);
+vector<int> findDuplicates(vector<int>& nums);
+int findUnsortedSubarray(vector<int>& nums);
+vector<vector<int>> constructMatrix(int n, int m, InitialPosition start, MovingDirection direction); /// Google Phone Screen
 
 /// MICROSOFT OA
 int minSteps(vector<int>& piles);

@@ -1,4 +1,4 @@
-#include "linked-list.h"
+#include "linked-list/linked-list.h"
 
 /*
  * Reverse a linked list from position m to n. Do it in one-pass.

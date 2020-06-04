@@ -26,6 +26,7 @@ TreeNode* createBinaryTree(const string& input);
 bool isSameTree(TreeNode* p, TreeNode* q);
 bool isSubtree(TreeNode* s, TreeNode* t);
 bool isSymmetric(TreeNode* root);
+int widthOfBinaryTree(TreeNode* root);
 TreeNode* invertTree(TreeNode* root);
 bool isValidBSTIterative(TreeNode* root);
 bool isValidBSTRecursive(TreeNode* root);

@@ -14,7 +14,7 @@
          average-of-levels-in-binary-tree.cpp
          bst/lowest-common-ancestor-of-bst.cpp
          lowest-common-ancestor-of-binary-tree.cpp
-         all-nodes-distance-k-in-binary-tree.cpp
+         bfs-dfs/all-nodes-distance-k-in-binary-tree.cpp
          binary-tree-maximum-path-sum.cpp
          binary-tree-paths.cpp
          check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp
@@ -49,7 +49,7 @@
          all-possible-full-binary-trees.cpp
          bst/trim-a-binary-search-tree.cpp
          bst/delete-node-in-a-bst.cpp
-         bst/insert-into-a-binary-search-tree.cpp balanced-binary-tree.cpp maximum-average-subtree.cpp binary-tree-upside-down.cpp)
+         bst/insert-into-a-binary-search-tree.cpp balanced-binary-tree.cpp maximum-average-subtree.cpp binary-tree-upside-down.cpp bfs-dfs/maximum-width-of-binary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

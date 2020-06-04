@@ -7,14 +7,14 @@
          min-stack.cpp
          implement-queue-using-stacks.cpp
          implement-stack-using-queues.cpp
-         "insert-delete-getrandom-O(1).cpp"
-         "implement-trie(prefix-tree).cpp"
+         insert-delete-getrandom-o1.cpp
+         implement-trie-prefix-tree.cpp
          snapshot-array.cpp
          encode-and-decode-tinyurl.cpp
          design-circular-queue.cpp
          design-hashset.cpp
          max-stack.cpp
          design-twitter.cpp
-         lfu-cache.cpp maximum-frequency-stack.cpp)
+         lfu-cache.cpp maximum-frequency-stack.cpp my-calendar-i.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

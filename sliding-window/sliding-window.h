@@ -37,6 +37,7 @@ int maxFreq(string s, int maxLetters, int minSize, int maxSize); /// Maximum Num
 bool hasAllCodes(string s, int k);
 int lengthOfLongestSubstringKDistinct(string s, int k);
 int findMaxConsecutiveOnes(vector<int>& nums);
+int uniqueLetterString(string s);
 
 /// MICROSOFT OA
 string maxSemiAlternatingString(string S);

@@ -15,6 +15,7 @@ int firstBadVersion(int n);
 bool isSubsequence(string s, string t);
 vector<int> searchRange(vector<int>& nums, int target);
 int search(vector<int>& nums, int target);
+bool searchII(vector<int>& nums, int target);
 int searchInRotatedSortedArray(vector<int>& nums, int target);
 char nextGreatestLetter(vector<char>& letters, char target);
 int singleNonDuplicate(vector<int>& nums);

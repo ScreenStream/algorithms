@@ -7,6 +7,8 @@
          interval-list-intersections.cpp
          insert-interval.cpp
          meeting-rooms-i.cpp
-         meeting-rooms-ii.cpp non-overlapping-intervals.cpp minimum-number-of-arrows-to-burst-balloons.cpp)
+         meeting-rooms-ii.cpp
+         non-overlapping-intervals.cpp
+         minimum-number-of-arrows-to-burst-balloons.cpp find-the-most-frequent-element-in-all-intervals.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

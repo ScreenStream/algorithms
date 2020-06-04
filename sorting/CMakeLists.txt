@@ -12,7 +12,7 @@
          relative-sort-array.cpp
          sort-the-matrix-diagonally.cpp
          wiggle-sort.cpp
-         wiggle-sort-ii.cpp)
+         wiggle-sort-ii.cpp queue-reconstruction-by-height.cpp two-city-scheduling.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

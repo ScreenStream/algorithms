@@ -5,7 +5,7 @@
          STATIC
          range-sum-query-mutable.cpp
          xor-queries-of-a-subarray.cpp
-         largest-rectangle-in-histogram.cpp)
+         largest-rectangle-in-histogram.cpp count-of-range-sum.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC)

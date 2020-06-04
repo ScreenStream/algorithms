@@ -1,5 +1,7 @@
 #include "slow-fast-pointer.h"
 
+#include "nodes.h"
+
 /*
  * Given a non-empty, singly linked list with head node head, return a middle node of linked list.
 

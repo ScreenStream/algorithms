@@ -3,7 +3,7 @@
 
  add_library(${TARGET_NAME}
          STATIC
-         reverse-linked-list.cpp
+         reversing/reverse-linked-list.cpp
          intersection-of-two-linked-lists.cpp
          add-two-numbers.cpp
          odd-even-linked-list.cpp
@@ -12,13 +12,12 @@
          copy-list-with-random-pointer.cpp
          remove-nth-node-from-end-of-list.cpp
          partition-list.cpp
-         reverse-linked-list-ii.cpp
+         reversing/reverse-linked-list-ii.cpp
          rotate-list.cpp
-         swap-nodes-in-pairs.cpp
-         reverse-nodes-in-k-group.cpp
+         reversing/swap-nodes-in-pairs.cpp
+         reversing/reverse-nodes-in-k-group.cpp
          remove-duplicates-from-sorted-list.cpp
          remove-duplicates-from-sorted-list-ii.cpp
-         reorder-list.cpp
          remove-linked-list-elements.cpp
          palindrome-linked-list.cpp
          add-two-numbers-ii.cpp

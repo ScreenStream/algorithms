@@ -23,7 +23,6 @@
          contains-duplicate.cpp
          contains-duplicate-ii.cpp
          matrix/game-of-life.cpp
-         peak-index-in-a-mountain-array.cpp
          move-zeroes.cpp
          matrix/spiral-matrix.cpp
          matrix/spiral-matrix-ii.cpp
@@ -40,7 +39,7 @@
          min-steps-to-make-piles-equal-height.cpp
          fair-indexes.cpp
          largest-m-aligned-subset.cpp
-         matrix/best-meeting-point.cpp)
+         matrix/best-meeting-point.cpp first-missing-positive.cpp find-all-duplicates-in-an-array.cpp shortest-unsorted-continuous-subarray.cpp "matrix/construct-matrix .cpp")
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

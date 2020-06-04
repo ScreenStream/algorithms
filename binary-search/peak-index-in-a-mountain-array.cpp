@@ -1,6 +1,4 @@
-#include "arr.h"
-
-
+#include "binary-search.h"
 
 /*
  * Let's call an array A a mountain if the following properties hold:
