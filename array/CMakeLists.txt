@@ -45,7 +45,8 @@
          shortest-unsorted-continuous-subarray.cpp
          matrix/construct-matrix.cpp
          n-repeated-element-in-size-2n-array.cpp
-         matrix/image-overlap.cpp)
+         matrix/image-overlap.cpp
+         matrix/valid-tic-tac-toe-state.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

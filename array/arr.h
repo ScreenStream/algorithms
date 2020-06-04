@@ -1,11 +1,13 @@
 #pragma once
 
 #include <vector>
+#include <string>
 #include <stack>
 #include <unordered_map>
 #include <set>
 
 using std::vector;
+using std::string;
 using std::stack;
 using std::unordered_map;
 using std::pair;
@@ -56,6 +58,7 @@ vector<int> findDuplicates(vector<int>& nums);
 int findUnsortedSubarray(vector<int>& nums);
 vector<vector<int>> constructMatrix(int n, int m, InitialPosition start, MovingDirection direction); /// Google Phone Screen
 int largestOverlap(vector<vector<int>>& A, vector<vector<int>>& B);
+bool validTicTacToe(vector<string>& board);
 
 /// MICROSOFT OA
 int minSteps(vector<int>& piles);

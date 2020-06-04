@@ -15,6 +15,9 @@
          design-hashset.cpp
          max-stack.cpp
          design-twitter.cpp
-         lfu-cache.cpp maximum-frequency-stack.cpp my-calendar-i.cpp)
+         lfu-cache.cpp
+         maximum-frequency-stack.cpp
+         my-calendar-i.cpp
+         design-tic-tac-toe.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

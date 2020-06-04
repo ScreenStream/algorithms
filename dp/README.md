@@ -1,3 +1,8 @@
+https://atcoder.jp/contests/dp
+https://www.youtube.com/playlist?list=PLl0KD3g-oDOGJUdmhFk19LaPgrfmAGQfo
+
+
+
 Q) Does anyone know in which situation 2 dimensional DP can be dropped to 1 dimension? Is there any principle or regular pattern?
 
 A) Yes, the magic is observation from the induction rule/recurrence relation!
