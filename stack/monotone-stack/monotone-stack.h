@@ -2,14 +2,21 @@
 
 #include <stack>
 #include <vector>
+#include <string>
+
+using std::vector;
+using std::string,
+using std::stack;
+using std::pair;
 
 struct ListNode;
 struct TreeNode;
 
-std::vector<int> nextLargerNodes(ListNode* head);
-std::vector<int> dailyTemperatures(std::vector<int>& T);
-int sumSubarrayMins(std::vector<int>& A);
-TreeNode* constructMaximumBinaryTree(std::vector<int>& nums);
+vector<int> nextLargerNodes(ListNode* head);
+vector<int> dailyTemperatures(vector<int>& T);
+int sumSubarrayMins(vector<int>& A);
+TreeNode* constructMaximumBinaryTree(vector<int>& nums);
+string smallestSubsequence(string text);
 
 class StockSpanner {
 public:
@@ -17,5 +24,5 @@ public:
     int next(int price);
 
 private:
-    std::stack<std::pair<int, int>> st;
+    stack<pair<int, int>> st;
 };

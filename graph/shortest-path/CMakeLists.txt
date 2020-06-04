@@ -4,7 +4,9 @@
  add_library(${TARGET_NAME}
          STATIC
          network-delay-time.cpp
-         cheapest-flights-within-k-stops.cpp minimum-cost-to-make-at-least-one-valid-path-in-a-grid.cpp find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.cpp)
+         cheapest-flights-within-k-stops.cpp
+         minimum-cost-to-make-at-least-one-valid-path-in-a-grid.cpp
+         find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC)

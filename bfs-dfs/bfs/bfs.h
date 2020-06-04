@@ -17,8 +17,6 @@ using std::min;
 struct Employee;
 
 int orangesRotting(vector<vector<int>>& grid);
-int islandPerimeterBFS(vector<vector<int>>& grid);
-int islandPerimeterMath(vector<vector<int>>& grid);
 int ladderLength(const string& beginWord, const string& endWord, vector<string>& wordList);
 vector<vector<int>> updateMatrix(vector<vector<int>>& matrix);
 int maxDistance(vector<vector<int>>& grid);

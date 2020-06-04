@@ -4,7 +4,6 @@
  add_library(${TARGET_NAME}
          STATIC
          rotting-oranges.cpp
-         island-perimeter.cpp
          word-ladder.cpp
          01-matrix.cpp
          as-far-from-land-as-possible.cpp

@@ -12,6 +12,9 @@
          min-deletions-to-make-frequency-of-each-letter-unique.cpp
          largest-number-x-which-occurs-x-times.cpp
          favorite-genres.cpp
-         strobogrammatic-number.cpp)
+         strobogrammatic-number.cpp
+         subdomain-visit-count.cpp
+         uncommon-words-from-two-sentences.cpp
+         distribute-candies.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

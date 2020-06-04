@@ -19,3 +19,4 @@ void wiggleSort(vector<int> &nums);
 void wiggleSortII(vector<int>& nums);
 vector<vector<int>> reconstructQueue(vector<vector<int>>& people);
 int twoCitySchedCost(vector<vector<int>>& costs);
+vector<vector<int>> intervalIntersection(vector<vector<int>>& A, vector<vector<int>>& B);

@@ -24,7 +24,13 @@
          heaters.cpp
          number-of-matching-subsequences.cpp
          max-sum-of-rectangle-no-larger-than-k.cpp
-         divide-chocolate.cpp the-k-weakest-rows-in-a-matrix.cpp search-in-rotated-sorted-array-ii.cpp)
+         divide-chocolate.cpp
+         the-k-weakest-rows-in-a-matrix.cpp
+         search-in-rotated-sorted-array-ii.cpp
+         guess-number-higher-or-lower.cpp
+         intersection-of-two-arrays.cpp
+         arranging-coins.cpp
+         online-election.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -264,4 +264,8 @@ int robIII(TreeNode* root);
 int numWays(int n, int k);
 vector<int> countBits(int num);
 int wiggleMaxLength(vector<int>& nums);
-
+int minCost(vector<vector<int>>& costs);
+bool canIWin(int maxChoosableInteger, int desiredTotal);
+int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int K);
+int minHeightShelves(vector<vector<int>>& books, int shelf_width);
+int minDifficulty(vector<int>& jobDifficulty, int d);

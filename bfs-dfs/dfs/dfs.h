@@ -15,6 +15,7 @@ struct TreeNode;
 
 int numIslands(vector<vector<char>>& grid);
 bool exist(vector<vector<char>>& board, string word);
+int islandPerimeter(vector<vector<int>>& grid);
 bool hasPathSum(TreeNode* root, int sum);
 bool isValidBST(TreeNode* root);
 string smallestFromLeaf(TreeNode* root);

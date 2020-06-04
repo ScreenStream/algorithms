@@ -13,6 +13,9 @@ int minAreaRect(vector<vector<int>>& points);
 int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats);
 vector<string> spellchecker(vector<string>& wordlist, vector<string>& queries);
 bool isStrobogrammatic(string num);
+vector<string> subdomainVisits(vector<string>& cpdomains);
+vector<string> uncommonFromSentences(string A, string B);
+int distributeCandies(vector<int>& candies);
 
 /// MICROSOFT OA
 int maxSum(vector<int>& A);

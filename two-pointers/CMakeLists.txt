@@ -16,6 +16,11 @@
          intersection-of-two-arrays.cpp
          trapping-rain-water.cpp
          two-sum-ii-input-array-is-sorted.cpp
-         long-pressed-name.cpp largest-k-such-that-both-k-and--k-exist-in-array.cpp optimal-utilization.cpp)
+         long-pressed-name.cpp
+         largest-k-such-that-both-k-and--k-exist-in-array.cpp
+         optimal-utilization.cpp
+         remove-duplicates-from-sorted-array-ii.cpp
+         longest-mountain-in-array.cpp
+         interval-list-intersections.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

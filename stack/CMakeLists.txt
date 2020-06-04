@@ -13,7 +13,7 @@
          exclusive-time-of-functions.cpp
          asteroid-collision.cpp
          remove-all-adjacent-duplicates-in-string.cpp
-         recover-a-tree-from-preorder-traversal.cpp basic-calculator.cpp simplify-path.cpp)
+         recover-a-tree-from-preorder-traversal.cpp basic-calculator.cpp simplify-path.cpp minimum-add-to-make-parentheses-valid.cpp next-greater-element-i.cpp baseball-game.cpp reverse-substrings-between-each-pair-of-parentheses.cpp remove-all-adjacent-duplicates-in-string-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

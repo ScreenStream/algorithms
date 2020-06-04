@@ -34,6 +34,7 @@ bool isValidSudoku(vector<vector<char>>& board);
 int maxChunksToSorted(vector<int>& arr);
 int maxChunksToSortedII(vector<int>& arr);
 bool checkPossibility(vector<int>& nums);
+int repeatedNTimes(vector<int>& A);
 bool containsDuplicate(vector<int>& nums);
 bool containsNearbyDuplicate(vector<int>& nums, int k);
 void gameOfLife(vector<vector<int>>& board);
@@ -54,6 +55,7 @@ int firstMissingPositive(vector<int>& nums);
 vector<int> findDuplicates(vector<int>& nums);
 int findUnsortedSubarray(vector<int>& nums);
 vector<vector<int>> constructMatrix(int n, int m, InitialPosition start, MovingDirection direction); /// Google Phone Screen
+int largestOverlap(vector<vector<int>>& A, vector<vector<int>>& B);
 
 /// MICROSOFT OA
 int minSteps(vector<int>& piles);

@@ -103,7 +103,14 @@
          race-car.cpp
          unique-binary-search-trees-ii.cpp
          house-robber-iii.cpp
-         paint-fence.cpp counting-bits.cpp wiggle-subsequence.cpp)
+         paint-fence.cpp
+         counting-bits.cpp
+         wiggle-subsequence.cpp
+         paint-house.cpp
+         can-i-win.cpp
+         cheapest-flights-within-k-stops.cpp
+         filling-bookcase-shelves.cpp
+         minimum-difficulty-of-a-job-schedule.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

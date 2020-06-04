@@ -48,3 +48,6 @@ int surfaceArea(vector<vector<int>>& grid);
 vector<vector<int>> outerTrees(vector<vector<int>>& points); /// Convex Hull
 double minAreaFreeRect(vector<vector<int>>& points);
 vector<int> numOfBurgers(int tomatoSlices, int cheeseSlices);
+int minCostToMoveChips(vector<int>& chips);
+int arrangeCoins(int n);
+vector<int> numMovesStones(int a, int b, int c);

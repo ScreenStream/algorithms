@@ -33,9 +33,19 @@ int numMatchingSubseq(string S, vector<string>& words);
 int maxSumSubmatrix(vector<vector<int>>& matrix, int k);
 int maximizeSweetness(vector<int>& nums, int m);
 vector<int> kWeakestRows(vector<vector<int>>& mat, int k);
+int guessNumber(int n);
+vector<int> intersection(vector<int>& nums1, vector<int>& nums2);
+int arrangeCoins(int n);
 
 class RandomPickWeightIndex {
 public:
-    RandomPickWeightIndex(vector<int>& w);
+    explicit RandomPickWeightIndex(vector<int>& w);
     int pickIndex();
+};
+
+class TopVotedCandidate {
+public:
+    explicit TopVotedCandidate(vector<int>& persons, vector<int>& times);
+
+    int q(int t);
 };

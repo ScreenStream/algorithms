@@ -50,6 +50,18 @@ string shortestPalindrome(string s);
 string countAndSay(int n);
 bool canPermutePalindrome(string s);
 bool isOneEditDistance(string s, string t);
+bool canConstruct(string s, int k);
+bool checkIfCanBreak(string s1, string s2);
+int getMaxRepetitions(string s1, int n1, string s2, int n2);
+vector<string> findOcurrences(string text, string first, string second);
+string shortestCompletingWord(string licensePlate, vector<string>& words);
+string validIPAddress(string IP);
+int findLUSlength(vector<string>& strs);
+int findMinDifference(vector<string>& timePoints);
+string optimalDivision(vector<int>& nums);
+string customSortString(string S, string T);
+string findReplaceString(string S, vector<int>& indexes, vector<string>& sources, vector<string>& targets);
+int numSpecialEquivGroups(vector<string>& A);
 
 class StringCodec {
 public:

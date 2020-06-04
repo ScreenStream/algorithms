@@ -29,6 +29,9 @@ add_library(${TARGET_NAME}
     longest-substring-without-2-contiguous-occurrences-of-letter.cpp
     longest-semi-alternating-substring.cpp
     minimum-swaps-needed-to-make-k-girls-sitting-together.cpp
-    substrings-of-size-k-with-k-distinct-chars.cpp count-unique-characters-of-all-substrings-of-a-given-string.cpp)
+    substrings-of-size-k-with-k-distinct-chars.cpp
+    count-unique-characters-of-all-substrings-of-a-given-string.cpp
+    swap-for-longest-repeated-character-substring.cpp
+    moving-stones-until-consecutive-ii.cpp)
 
 target_include_directories(${TARGET_NAME} PUBLIC)

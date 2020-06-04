@@ -12,8 +12,12 @@
          relative-sort-array.cpp
          sort-the-matrix-diagonally.cpp
          wiggle-sort.cpp
-         wiggle-sort-ii.cpp queue-reconstruction-by-height.cpp two-city-scheduling.cpp)
+         wiggle-sort-ii.cpp
+         queue-reconstruction-by-height.cpp
+         two-city-scheduling.cpp
+         merge/interval-list-intersections.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
-         ${CMAKE_SOURCE_DIR})
+         ${CMAKE_SOURCE_DIR}
+         ${CMAKE_CURRENT_SOURCE_DIR})

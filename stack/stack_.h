@@ -23,3 +23,8 @@ string removeDuplicates(string S);
 TreeNode* recoverFromPreorder(string S);
 int calculate(string s);
 string simplifyPath(string path);
+int minAddToMakeValid(string S);
+vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2);
+int calPoints(vector<string>& ops);
+string reverseParentheses(string s);
+string removeDuplicates(string s, int k);

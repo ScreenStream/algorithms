@@ -49,7 +49,14 @@
          all-possible-full-binary-trees.cpp
          bst/trim-a-binary-search-tree.cpp
          bst/delete-node-in-a-bst.cpp
-         bst/insert-into-a-binary-search-tree.cpp balanced-binary-tree.cpp maximum-average-subtree.cpp binary-tree-upside-down.cpp bfs-dfs/maximum-width-of-binary-tree.cpp)
+         bst/insert-into-a-binary-search-tree.cpp
+         balanced-binary-tree.cpp
+         maximum-average-subtree.cpp
+         binary-tree-upside-down.cpp
+         bfs-dfs/maximum-width-of-binary-tree.cpp
+         bst/convert-bst-to-greater-tree.cpp
+         bfs-dfs/dfs/sum-of-root-to-leaf-binary-numbers.cpp
+         path-in-zigzag-labelled-binary-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

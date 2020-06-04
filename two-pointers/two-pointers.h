@@ -26,6 +26,9 @@ int trap(vector<int>& height);
 vector<int> twoSum(vector<int>& numbers, int target);
 bool isLongPressedName(string name, string typed);
 int largestNum(vector<int>& nums);
+int removeDuplicatesII(vector<int>& nums);
+int longestMountain(vector<int>& A);
+vector<vector<int>> intervalIntersection(vector<vector<int>>& A, vector<vector<int>>& B);
 
 /// AMAZON OA
 vector<int> getPairs(vector<int>& a, vector<int>& b, int target);

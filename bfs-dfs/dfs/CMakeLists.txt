@@ -18,6 +18,7 @@
          max-area-of-island.cpp
          minesweeper.cpp
          keys-and-rooms.cpp
+         island-perimeter.cpp
          pacific-atlantic-water-flow.cpp
          evaluate-division.cpp
          find-eventual-safe-states.cpp

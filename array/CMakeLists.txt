@@ -39,7 +39,13 @@
          min-steps-to-make-piles-equal-height.cpp
          fair-indexes.cpp
          largest-m-aligned-subset.cpp
-         matrix/best-meeting-point.cpp first-missing-positive.cpp find-all-duplicates-in-an-array.cpp shortest-unsorted-continuous-subarray.cpp "matrix/construct-matrix .cpp")
+         matrix/best-meeting-point.cpp
+         first-missing-positive.cpp
+         find-all-duplicates-in-an-array.cpp
+         shortest-unsorted-continuous-subarray.cpp
+         matrix/construct-matrix.cpp
+         n-repeated-element-in-size-2n-array.cpp
+         matrix/image-overlap.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

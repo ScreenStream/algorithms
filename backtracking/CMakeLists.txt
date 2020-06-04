@@ -25,7 +25,11 @@
          maximum-length-of-a-concatenated-string-with-unique-characters.cpp
          unique-paths-iii.cpp
          restore-ip-addresses.cpp
-         palindrome-permutation-ii.cpp combinations.cpp combination-sum-ii.cpp combination-sum-iii.cpp)
+         palindrome-permutation-ii.cpp
+         combinations.cpp
+         combination-sum-ii.cpp
+         combination-sum-iii.cpp
+         permutation-sequence.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

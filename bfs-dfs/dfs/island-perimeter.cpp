@@ -1,4 +1,4 @@
-#include "bfs.h"
+#include "bfs-dfs/dfs/dfs.h"
 
 /*
  * You are given a map in form of a two-dimensional integer grid where 1 represents land and 0 represents water.
@@ -20,7 +20,7 @@ Input:
 Output: 16
  */
 
-int islandPerimeterBFS(std::vector<std::vector<int>>& grid) {
+int islandPerimeter(std::vector<std::vector<int>>& grid) {
     int res = 0;
 
     for(int i = 0; i < grid.size(); ++i) {

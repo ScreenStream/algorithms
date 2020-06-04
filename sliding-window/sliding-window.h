@@ -38,6 +38,8 @@ bool hasAllCodes(string s, int k);
 int lengthOfLongestSubstringKDistinct(string s, int k);
 int findMaxConsecutiveOnes(vector<int>& nums);
 int uniqueLetterString(string s);
+int maxRepOpt1(string text);
+vector<int> numMovesStonesII(vector<int>& stones);
 
 /// MICROSOFT OA
 string maxSemiAlternatingString(string S);
