@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "methods.h"
+#include "utility.h"
 
 using std::cout;
 using std::endl;

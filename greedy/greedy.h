@@ -39,3 +39,5 @@ string reorganizeString(string S);
 string removeDuplicateLetters(string s);
 string smallestSubsequence(string text);
 int minSetSize(vector<int>& arr);
+bool checkPossibility(vector<int>& nums);
+vector<int> maxDepthAfterSplit(string seq);

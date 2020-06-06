@@ -5,6 +5,7 @@
 #include <stack>
 #include <unordered_map>
 #include <set>
+#include <iostream>
 
 using std::vector;
 using std::string;
@@ -14,6 +15,8 @@ using std::pair;
 using std::set;
 using std::max;
 using std::min;
+using std::cout;
+using std::endl;
 
 enum class InitialPosition;
 enum class MovingDirection;
@@ -35,7 +38,6 @@ int minDominoRotations(vector<int>& A, vector<int>& B);
 bool isValidSudoku(vector<vector<char>>& board);
 int maxChunksToSorted(vector<int>& arr);
 int maxChunksToSortedII(vector<int>& arr);
-bool checkPossibility(vector<int>& nums);
 int repeatedNTimes(vector<int>& A);
 bool containsDuplicate(vector<int>& nums);
 bool containsNearbyDuplicate(vector<int>& nums, int k);
@@ -59,6 +61,12 @@ int findUnsortedSubarray(vector<int>& nums);
 vector<vector<int>> constructMatrix(int n, int m, InitialPosition start, MovingDirection direction); /// Google Phone Screen
 int largestOverlap(vector<vector<int>>& A, vector<vector<int>>& B);
 bool validTicTacToe(vector<string>& board);
+vector<vector<int>> generate(int numRows);
+vector<int> getRow(int rowIndex);
+
+/// Hackerrank
+int diagonalDifference(vector<vector<int>> arr);
+void staircase(int n);
 
 /// MICROSOFT OA
 int minSteps(vector<int>& piles);

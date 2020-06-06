@@ -19,7 +19,6 @@
          matrix/valid-sudoku.cpp
          max-chunks-to-make-sorted.cpp
          max-chunks-to-make-sorted-ii.cpp
-         non-decreasing-array.cpp
          contains-duplicate.cpp
          contains-duplicate-ii.cpp
          matrix/game-of-life.cpp
@@ -46,7 +45,12 @@
          matrix/construct-matrix.cpp
          n-repeated-element-in-size-2n-array.cpp
          matrix/image-overlap.cpp
-         matrix/valid-tic-tac-toe-state.cpp)
+         matrix/valid-tic-tac-toe-state.cpp
+         matrix/diagonal-difference.cpp
+         matrix/staircase.cpp
+         mini-max-sum.cpp
+         matrix/pascals-triangle.cpp
+         matrix/pascals-triangle-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

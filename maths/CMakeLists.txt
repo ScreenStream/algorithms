@@ -24,7 +24,6 @@
          self-dividing-numbers.cpp
          powx-n.cpp
          fraction-to-recurring-decimal.cpp
-         pascals-triangle.cpp
          arithmetic-slices.cpp
          point-of-lattice.cpp
          geometry/check-if-it-is-a-straight-line.cpp
@@ -37,7 +36,7 @@
          number-of-burgers-with-no-waste-of-ingredients.cpp
          play-with-chips.cpp
          arranging-coins.cpp
-         moving-stones-until-consecutive.cpp)
+         moving-stones-until-consecutive.cpp geometry/max-points-on-a-line.cpp factorial-trailing-zeroes.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

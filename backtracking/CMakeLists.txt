@@ -29,7 +29,7 @@
          combinations.cpp
          combination-sum-ii.cpp
          combination-sum-iii.cpp
-         permutation-sequence.cpp)
+         permutation-sequence.cpp confusing-number-ii.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

@@ -40,3 +40,4 @@ vector<string> restoreIpAddresses(string s);
 vector<string> generatePalindromes(string s);
 vector<vector<int>> combine(int n, int k);
 string getPermutation(int n, int k);
+int confusingNumberII(int N);

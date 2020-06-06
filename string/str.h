@@ -62,6 +62,8 @@ string optimalDivision(vector<int>& nums);
 string customSortString(string S, string T);
 string findReplaceString(string S, vector<int>& indexes, vector<string>& sources, vector<string>& targets);
 int numSpecialEquivGroups(vector<string>& A);
+int titleToNumber(string s);
+string convertToTitle(int n);
 
 class StringCodec {
 public:

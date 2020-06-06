@@ -16,7 +16,7 @@
          evaluate-division.cpp
          regions-cut-by-slashes.cpp
          max-network-rank.cpp
-         min-cost-to-connect-all-nodes.cpp min-cost-to-repair-edges.cpp)
+         min-cost-to-connect-all-nodes.cpp min-cost-to-repair-edges.cpp connecting-cities-with-minimum-cost.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC)

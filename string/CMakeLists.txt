@@ -63,7 +63,7 @@
          optimal-division.cpp
          custom-sort-string.cpp
          find-and-replace-in-string.cpp
-         groups-of-special-equivalent-strings.cpp)
+         groups-of-special-equivalent-strings.cpp excel-sheet-column-number.cpp excel-sheet-column-title.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

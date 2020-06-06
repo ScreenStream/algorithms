@@ -16,6 +16,7 @@
          course-schedule-iii.cpp
          gas-station.cpp
          candy.cpp
+         non-decreasing-array.cpp
          wiggle-subsequence.cpp
          assign-cookies.cpp
          boats-to-save-people.cpp
@@ -31,6 +32,6 @@
          string-without-aaa-or-bbb.cpp
          remove-duplicate-letters.cpp
          smallest-subsequence-of-distinct-characters.cpp
-         reduce-array-size-to-the-half.cpp)
+         reduce-array-size-to-the-half.cpp maximum-nesting-depth-of-two-valid-parentheses-strings.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)
