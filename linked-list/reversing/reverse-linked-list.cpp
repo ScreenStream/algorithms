@@ -21,8 +21,8 @@ ListNode* reverseList(ListNode* head) {
 
     while(head) {
         ListNode* tempNext = head->next;
-
         head->next = prevHead;
+
         prevHead = head;
 
         head = tempNext;

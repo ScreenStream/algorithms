@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <queue>
+#include <stack>
 #include <iostream>
 
 using std::vector;
@@ -10,6 +11,9 @@ using std::string;
 using std::queue;
 using std::priority_queue;
 using std::greater;
+using std::cout;
+using std::endl;
+using std::stack;
 
 #include "nodes.h"
 
@@ -36,3 +40,8 @@ std::vector<ListNode*> splitListToParts(ListNode* root, int k);
 MultilevelDoublyListNode* flatten(MultilevelDoublyListNode* head);
 int numComponents(ListNode* head, std::vector<int>& G);
 ListNode* removeZeroSumSublists(ListNode* head);
+ListNode* insertNodeAtTail(ListNode* head, int data);
+ListNode* insertNodeAtPosition(ListNode* head, int data, int position);
+ListNode* deleteNode(ListNode* head, int position);
+void reversePrint(ListNode* head);
+bool compareLists(ListNode* head1, ListNode* head2);
