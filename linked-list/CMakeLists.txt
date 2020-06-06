@@ -27,7 +27,7 @@
          linked-list-components.cpp
          insert-into-a-sorted-circular-linked-list.cpp
          remove-zero-sum-consecutive-nodes-from-linked-list.cpp
-         convert-binary-search-tree-to-sorted-doubly-linked-list.cpp insert-a-node-at-the-tail-of-a-linked-list.cpp insert-a-node-at-a-specific-position-in-a-linked-list.cpp delete-a-node-from-a-linked-list.cpp print-the-elements-of-a-linked-list-in-reverse.cpp compare-two-linked-lists.cpp)
+         convert-binary-search-tree-to-sorted-doubly-linked-list.cpp insert-a-node-at-the-tail-of-a-linked-list.cpp insert-a-node-at-a-specific-position-in-a-linked-list.cpp delete-a-node-from-a-linked-list.cpp print-the-elements-of-a-linked-list-in-reverse.cpp compare-two-linked-lists.cpp get-the-value-of-the-node-at-a-specific-position-from-the-tail.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

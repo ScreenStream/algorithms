@@ -45,3 +45,4 @@ ListNode* insertNodeAtPosition(ListNode* head, int data, int position);
 ListNode* deleteNode(ListNode* head, int position);
 void reversePrint(ListNode* head);
 bool compareLists(ListNode* head1, ListNode* head2);
+int getNode(ListNode* head, int positionFromTail);
