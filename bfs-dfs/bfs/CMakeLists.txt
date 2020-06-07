@@ -23,7 +23,7 @@
          maximum-level-sum-of-a-binary-tree.cpp
          jump-game-iii.cpp
          populating-next-right-pointers-in-each-node-ii.cpp
-         treasure-island-ii.cpp)
+         treasure-island-ii.cpp tallest-possible-building.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

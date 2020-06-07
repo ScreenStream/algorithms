@@ -38,3 +38,4 @@ int maxLevelSum(TreeNode* root);
 Node* connect(Node* root); /// Populating Next Right Pointers in Each Node
 Node* connectII(Node* root);
 int shortestPath(vector<vector<char>>& islands);
+int tallestBuilding(vector<vector<char>>& grid);

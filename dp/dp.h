@@ -269,3 +269,4 @@ bool canIWin(int maxChoosableInteger, int desiredTotal);
 int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int K);
 int minHeightShelves(vector<vector<int>>& books, int shelf_width);
 int minDifficulty(vector<int>& jobDifficulty, int d);
+int numOfWays(int n);

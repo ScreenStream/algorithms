@@ -93,6 +93,9 @@ int minAmplitude(vector<int>& nums);
 int numOfSplit(string s);
 
 ///
+int split3Parts(string s);
+
+///
 inline vector<string> split(const string& s, char delimiter)
 {
     vector<string> tokens;

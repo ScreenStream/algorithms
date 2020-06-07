@@ -110,7 +110,7 @@
          can-i-win.cpp
          cheapest-flights-within-k-stops.cpp
          filling-bookcase-shelves.cpp
-         minimum-difficulty-of-a-job-schedule.cpp)
+         minimum-difficulty-of-a-job-schedule.cpp number-of-ways-to-paint-n-3-grid.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
