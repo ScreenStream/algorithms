@@ -21,6 +21,6 @@
          optimal-utilization.cpp
          remove-duplicates-from-sorted-array-ii.cpp
          longest-mountain-in-array.cpp
-         interval-list-intersections.cpp)
+         interval-list-intersections.cpp determine-if-word-is-typo-because-of-stuck-key.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

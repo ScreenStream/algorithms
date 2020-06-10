@@ -29,6 +29,7 @@ int largestNum(vector<int>& nums);
 int removeDuplicatesII(vector<int>& nums);
 int longestMountain(vector<int>& A);
 vector<vector<int>> intervalIntersection(vector<vector<int>>& A, vector<vector<int>>& B);
+bool isTypoBecauseStuckKey(vector<std::string>& dict, const std::string& key);
 
 /// AMAZON OA
 vector<int> getPairs(vector<int>& a, vector<int>& b, int target);
