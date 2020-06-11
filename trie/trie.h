@@ -39,3 +39,30 @@ public:
     StreamChecker(vector<string>& words);
     bool query(char letter);
 };
+
+class WordFilter {
+public:
+    WordFilter(vector<string>& words);
+
+    int f(string prefix, string suffix);
+};
+
+class Trie {
+public:
+    /** Initialize your data structure here. */
+    Trie();
+
+    /** Inserts a word into the trie. */
+    void insert(string word);
+
+    /** Returns if the word is in the trie. */
+    bool search(string word);
+
+    /** Returns if there is any word in the trie that starts with the given prefix. */
+    bool startsWith(string prefix);
+};
+
+vector<bool> camelMatch(vector<string>& queries, string pattern);
+string replaceWords(vector<string>& dict, string sentence);
+int findMaximumXOR(vector<int>& nums);
+vector<string> findWords(vector<vector<char>>& board, vector<string>& words);

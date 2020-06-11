@@ -1,4 +1,4 @@
-#include "design.h"
+#include "trie.h"
 
 /*
  * Implement a trie with insert, search, and startsWith methods.
@@ -39,3 +39,5 @@ bool Trie::search(string word) {
 bool Trie::startsWith(string prefix) {
     return false;
 }
+
+
