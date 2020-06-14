@@ -5,7 +5,7 @@ add_library(${TARGET_NAME}
     STATIC
     find-all-anagrams-in-a-string.cpp
     longest-substring-without-repeating-characters.cpp
-        permutation-in-string.cpp
+    permutation-in-string.cpp
     longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.cpp
     number-of-substrings-containing-all-three-characters.cpp
     count-number-of-nice-subarrays.cpp

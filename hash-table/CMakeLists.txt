@@ -15,6 +15,7 @@
          strobogrammatic-number.cpp
          subdomain-visit-count.cpp
          uncommon-words-from-two-sentences.cpp
-         distribute-candies.cpp)
+         distribute-candies.cpp
+         continuous-subarray-sum.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)

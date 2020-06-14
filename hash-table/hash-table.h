@@ -34,3 +34,5 @@ public:
 
     string get(string key, int timestamp);
 };
+
+bool checkSubarraySum(vector<int>& nums, int k);

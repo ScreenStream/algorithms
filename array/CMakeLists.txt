@@ -50,7 +50,8 @@
          matrix/staircase.cpp
          mini-max-sum.cpp
          matrix/pascals-triangle.cpp
-         matrix/pascals-triangle-ii.cpp)
+         matrix/pascals-triangle-ii.cpp
+         matrix/sparse-matrix-multiplication.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC

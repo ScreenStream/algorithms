@@ -270,3 +270,4 @@ int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int
 int minHeightShelves(vector<vector<int>>& books, int shelf_width);
 int minDifficulty(vector<int>& jobDifficulty, int d);
 int numOfWays(int n);
+vector<int> maxSumOfThreeSubarrays(vector<int>& nums, int k);

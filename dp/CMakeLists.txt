@@ -110,7 +110,9 @@
          can-i-win.cpp
          cheapest-flights-within-k-stops.cpp
          filling-bookcase-shelves.cpp
-         minimum-difficulty-of-a-job-schedule.cpp number-of-ways-to-paint-n-3-grid.cpp)
+         minimum-difficulty-of-a-job-schedule.cpp
+         number-of-ways-to-paint-n-3-grid.cpp
+         maximum-sum-of-3-non-overlapping-subarrays.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
