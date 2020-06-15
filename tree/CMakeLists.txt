@@ -56,7 +56,8 @@
          bfs-dfs/maximum-width-of-binary-tree.cpp
          bst/convert-bst-to-greater-tree.cpp
          bfs-dfs/dfs/sum-of-root-to-leaf-binary-numbers.cpp
-         path-in-zigzag-labelled-binary-tree.cpp)
+         path-in-zigzag-labelled-binary-tree.cpp
+         search-in-a-binary-search-tree.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
