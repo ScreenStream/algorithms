@@ -53,7 +53,7 @@ A) Yes, the magic is observation from the induction rule/recurrence relation!
    https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
    
    
-   
+   https://leetcode.com/discuss/general-discussion/662866/dp-for-beginners-problems-patterns-sample-solutions
    
 I used to solve DP problems after DP problems without really it clicking in my head. I would see a solution and wonder "how the heck did they come with that solution..."
 

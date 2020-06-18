@@ -30,7 +30,8 @@
          guess-number-higher-or-lower.cpp
          intersection-of-two-arrays.cpp
          arranging-coins.cpp
-         online-election.cpp)
+         online-election.cpp
+         h-index-ii.cpp minimum-number-of-days-to-make-m-bouquets.cpp sum-of-mutated-array-closest-to-target.cpp find-the-smallest-divisor-given-a-threshold.cpp koko-eating-bananas.cpp missing-element-in-sorted-array.cpp find-right-interval.cpp time-based-key-value-store.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
