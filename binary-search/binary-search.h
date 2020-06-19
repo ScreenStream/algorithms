@@ -42,6 +42,7 @@ int findBestValue(vector<int>& arr, int target);
 int smallestDivisor(vector<int>& nums, int threshold);
 int minEatingSpeed(vector<int>& piles, int H);
 vector<int> findRightInterval(vector<vector<int>>& intervals);
+string longestDupSubstring(string S);
 
 class RandomPickWeightIndex {
 public:
