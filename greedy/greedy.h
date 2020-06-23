@@ -41,3 +41,4 @@ string smallestSubsequence(string text);
 int minSetSize(vector<int>& arr);
 bool checkPossibility(vector<int>& nums);
 vector<int> maxDepthAfterSplit(string seq);
+string longestDiverseString(int a, int b, int c);
