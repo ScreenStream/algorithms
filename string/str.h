@@ -64,6 +64,7 @@ string findReplaceString(string S, vector<int>& indexes, vector<string>& sources
 int numSpecialEquivGroups(vector<string>& A);
 int titleToNumber(string s);
 string convertToTitle(int n);
+vector<string> removeComments(vector<string>& source);
 
 class StringCodec {
 public:
