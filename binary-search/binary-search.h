@@ -36,6 +36,13 @@ vector<int> kWeakestRows(vector<vector<int>>& mat, int k);
 int guessNumber(int n);
 vector<int> intersection(vector<int>& nums1, vector<int>& nums2);
 int arrangeCoins(int n);
+int hIndex(vector<int>& citations);
+int minDays(vector<int>& bloomDay, int m, int k);
+int findBestValue(vector<int>& arr, int target);
+int smallestDivisor(vector<int>& nums, int threshold);
+int minEatingSpeed(vector<int>& piles, int H);
+vector<int> findRightInterval(vector<vector<int>>& intervals);
+string longestDupSubstring(string S);
 
 class RandomPickWeightIndex {
 public:
@@ -48,4 +55,13 @@ public:
     explicit TopVotedCandidate(vector<int>& persons, vector<int>& times);
 
     int q(int t);
+};
+
+class TimeMap {
+public:
+    TimeMap();
+
+    void set(string key, string value, int timestamp);
+
+    string get(string key, int timestamp);
 };

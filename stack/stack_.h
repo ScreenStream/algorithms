@@ -28,3 +28,4 @@ vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2);
 int calPoints(vector<string>& ops);
 string reverseParentheses(string s);
 string removeDuplicates(string s, int k);
+string candyCrush1D(string s);

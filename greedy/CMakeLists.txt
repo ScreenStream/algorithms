@@ -32,6 +32,8 @@
          string-without-aaa-or-bbb.cpp
          remove-duplicate-letters.cpp
          smallest-subsequence-of-distinct-characters.cpp
-         reduce-array-size-to-the-half.cpp maximum-nesting-depth-of-two-valid-parentheses-strings.cpp)
+         reduce-array-size-to-the-half.cpp
+         maximum-nesting-depth-of-two-valid-parentheses-strings.cpp
+         longest-happy-string.cpp)
 
  target_include_directories(${TARGET_NAME} PUBLIC)
