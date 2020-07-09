@@ -13,7 +13,7 @@ add_library(${TARGET_NAME}
         find-the-town-judge.cpp
         find-the-celebrity.cpp
         clone-graph.cpp
-        graph-valid-tree.cpp)
+        graph-valid-tree.cpp reciprocal-edges.cpp)
 
 target_include_directories(${TARGET_NAME}
         PUBLIC

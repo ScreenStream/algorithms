@@ -43,6 +43,7 @@ int smallestDivisor(vector<int>& nums, int threshold);
 int minEatingSpeed(vector<int>& piles, int H);
 vector<int> findRightInterval(vector<vector<int>>& intervals);
 string longestDupSubstring(string S);
+int swimInWater(vector<vector<int>>& grid);
 
 class RandomPickWeightIndex {
 public:

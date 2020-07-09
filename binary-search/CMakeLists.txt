@@ -39,7 +39,7 @@
          missing-element-in-sorted-array.cpp
          find-right-interval.cpp
          time-based-key-value-store.cpp
-         longest-duplicate-substring.cpp)
+         longest-duplicate-substring.cpp swim-in-rising-water.cpp)
 
  target_include_directories(${TARGET_NAME}
          PUBLIC
